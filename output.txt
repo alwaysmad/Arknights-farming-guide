@@ -1,0 +1,76 @@
+Calculated material sanity values:
+Sanity 1.000000
+LMD 0.004000
+Drill Battle Record 0.761600
+Frontline Battle Record 1.523200
+Tactical Battle Record 3.808000
+Strategic Battle Record 7.616000
+Pure Gold 2.000000
+Orirock 1.034179
+Orirock Cube 3.155982
+Orirock Cluster 15.530630
+Orirock Concentration 58.495294
+Damaged Device 3.226398
+Device 9.732640
+Integrated Device 38.681279
+Optimized Device 96.015515
+Ester 1.878887
+Polyester 5.690106
+Polyester Pack 22.511143
+Polyester Lump 93.140023
+Sugar Substitute 1.848458
+Sugar 5.598820
+Sugar Pack 22.145998
+Sugar Lump 96.611699
+Oriron Shard 2.297745
+Oriron 6.946680
+Oriron Cluster 27.537437
+Oriron Block 112.640071
+Diketon 2.401947
+Polyketon 7.259287
+Aketon 28.787867
+Keton Colloid 104.503998
+Loxic Kohl 22.957095
+White Horse Kohl 79.510209
+Manganese Ore 28.409490
+Manganese Trihydrate 98.659993
+Grindstone 29.900202
+Grindstone Pentahydrate 92.491692
+RMA70-12 38.034341
+RMA70-24 94.256243
+Polymerization Preparation 260.951509
+Bipolar Nanoflake 240.348080
+D32 Steel 270.720076
+Coagulating Gel 35.538993
+Polymerized Gel 86.550934
+Incandescent Alloy 27.101730
+Incandescent Alloy Block 92.055985
+Calculated best farming stages:
+1-7   1.00 (Orirock Cube, Drill Battle Record, LMD)
+S3-6   1.00 (Incandescent Alloy, Polyester, LMD)
+3-4   1.00 (Integrated Device, Device, Polyester)
+4-4   1.00 (Loxic Kohl, White Horse Kohl, Device)
+4-7   1.00 (Manganese Ore, Manganese Trihydrate, Device)
+4-8   1.00 (Grindstone, Grindstone Pentahydrate, LMD)
+S4-1   1.00 (Oriron Cluster, Oriron Block, Oriron)
+S5-7   1.00 (Coagulating Gel, Polymerized Gel, RMA70-12)
+2-5   1.00 (Sugar Pack, Drill Battle Record, LMD)
+2-6   1.00 (Polyester Pack, Drill Battle Record, LMD)
+2-10   1.00 (RMA70-12, Oriron, Polyketon)
+5-8   1.00 (Aketon, Keton Colloid, LMD)
+3-1   0.99 (Aketon, Polyketon, Oriron)
+3-2   0.99 (Manganese Ore, Polyester, Device)
+5-2   0.99 (Sugar Pack, Sugar Lump, Device)
+4-9   0.99 (RMA70-12, RMA70-24, LMD)
+4-5   0.99 (Aketon, Keton Colloid, LMD)
+6-2   0.99 (Manganese Ore, Manganese Trihydrate, Diketon)
+4-2   0.98 (Sugar Pack, Sugar Lump, Oriron)
+6-16   0.98 (Integrated Device, Polyketon, LMD)
+4-10   0.97 (Integrated Device, Optimized Device, Device)
+5-5   0.96 (Oriron Cluster, Oriron Block, Device)
+6-11   0.94 (Loxic Kohl, Device, LMD)
+5-3   0.93 (Polyester Pack, Sugar, LMD)
+3-8   0.92 (Polyester Pack, Polyester Lump, LMD)
+3-3   0.91 (Grindstone, Device, Polyester)
+Notable event farming stages:
+SV-7   1.09 (Coagulating Gel, Sugar, Polyester)
