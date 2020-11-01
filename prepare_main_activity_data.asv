@@ -34,7 +34,7 @@ for i = 1 : numel(field_names)
     craft_name = "Craft: " + craft_item_name;
     activity_names{craft_index} = craft_name;
 end
-% fix names for furniture part crafts
+
 activity_names{activity_indices('x6')} = "Craft: Furniture Part(s) from Carbon Stick(s)";
 activity_names{activity_indices('x7')} = "Craft: Furniture Part(s) from Carbon Brick(s)";
 activity_names{activity_indices('x8')} = "Craft: Furniture Part(s) from Carbon Pack(s)";

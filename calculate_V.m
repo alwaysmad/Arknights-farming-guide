@@ -24,10 +24,17 @@ A_eq(T3_exp_card_item_index, T3_exp_card_item_index) = 1;
 % set sanity value of T4 EXP card
 V_preset(T4_exp_card_item_index) = exp_sanity_value * 2000;
 A_eq(T4_exp_card_item_index, T4_exp_card_item_index) = 1;
+% 
+A_eq(item_indices('3131'),:) = D(activity_indices('x1'),:);
+A_eq(item_indices('3132'),:) = D(activity_indices('x2'),:);
+A_eq(item_indices('3133'),:) = D(activity_indices('x3'),:);
 %% the moment of truth
 % we use linprog for Pareto optimality
 % construct f
 tmp = ones(numel(activity_names), 1);
+tmp(activity_indices('x1')) = 0;
+tmp(activity_indices('x2')) = 0;
+tmp(activity_indices('x3')) = 0;
 f = - D' * tmp;
 LB = zeros(numel(item_names), 1);
 UB = Inf*ones(numel(item_names), 1);

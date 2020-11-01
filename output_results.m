@@ -42,7 +42,7 @@ for i = 1 : numel(sorted_stage_indices)
     notable_drops = notable_drops + item_names{stage_drops_sanity_distribution_indices(j)};
     fprintf(fileID, "%s %6.3f (%s)\n", stage_name, stage_efficiency, notable_drops);
 end
-fprintf(fileID, "------------------------------\n");
+fprintf(fileID, "------------------------------------------------------------\n");
 %% calculate efficiencies of event stages
 event_R = event_D*V;
 event_S = -event_D(:,sanity_item_index);
@@ -83,7 +83,7 @@ for i = 1 : numel(event_activity_names)
     notable_drops = notable_drops + item_names{event_stage_drops_sanity_distribution_indices(j)};
     fprintf(fileID, "%s %6.3f (%s)\n", event_stage_name, event_stage_efficiency, notable_drops);
 end
-fprintf(fileID, "------------------------------\n");
+fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
 fprintf(fileID, "Grani and the Knights' Treasure: GT-*\n");
@@ -98,10 +98,10 @@ fprintf(fileID, "Twilight of Wolumonde: TW-*\n");
 fprintf(fileID, "Gavial The Great Chief Returns: RI-*\n");
 fprintf(fileID, "Rewinding Breeze: FA-*\n");
 fprintf(fileID, "Maria Nearl: MN-*\n");
-fprintf(fileID, "------------------------------\n");
+fprintf(fileID, "------------------------------------------------------------\n");
 %% credit shop efficiency
 % I failed to find any data so I had to do this by hand...
-% every item may appear with 99%, 75%, 50% or 0% discount
+% items appear with 99%, 95%, 75%, 50% or 0% discount
 credit_shop_data{1}.item_id = '30062'; % device
 credit_shop_data{1}.item_count = 1;
 credit_shop_data{1}.credit_cost = 160;
@@ -159,6 +159,18 @@ credit_shop_data{18}.credit_cost = 100;
 credit_shop_data{19}.item_id = '30011'; % orirock
 credit_shop_data{19}.item_count = 2;
 credit_shop_data{19}.credit_cost = 80;
+credit_shop_data{20}.item_id = '3113'; % carbon brick
+credit_shop_data{20}.item_count = 3;
+credit_shop_data{20}.credit_cost = 200;
+credit_shop_data{21}.item_id = '3112'; % carbon stick
+credit_shop_data{21}.item_count = 5;
+credit_shop_data{21}.credit_cost = 160;
+credit_shop_data{22}.item_id = '3401'; % Furniture Part
+credit_shop_data{22}.item_count = 20;
+credit_shop_data{22}.credit_cost = 160;
+credit_shop_data{23}.item_id = '3401'; % Furniture Part
+credit_shop_data{23}.item_count = 25;
+credit_shop_data{23}.credit_cost = 200;
 % make shop entries
 credit_shop_entry_names = {};
 credit_shop_entry_credit_efficiencies = [];
@@ -186,6 +198,7 @@ for i = 1 : numel(credit_shop_data)
     credit_shop_entry_credit_efficiencies((i-1)*3 + 3) = entry_efficiency;
     % not even considering 99% discount, these are basically free
 end
+% sort and output
 fprintf(fileID, "Calculated best credit shop buys:\n");
 [tmp, sorted_credit_shop_entry_credit_efficiencies_indices] = sort(credit_shop_entry_credit_efficiencies, 'descend');
 for i = 1 : numel(credit_shop_entry_credit_efficiencies)
@@ -194,17 +207,66 @@ for i = 1 : numel(credit_shop_entry_credit_efficiencies)
     entry_efficiency = credit_shop_entry_credit_efficiencies(entry_index);
     fprintf(fileID, "%s (%g sanity per credit)\n", entry_name, entry_efficiency);
 end
-fprintf(fileID, "------------------------------\n");
-%% output technical more tyechnical information
-fprintf(fileID, "Calculated sanity values:\n");
+fprintf(fileID, "------------------------------------------------------------\n");
+%% Commendations Certificate Store efficiency (green certs second tier)
+green_cert_shop_data{1}.item_id = '30013'; % orirock cluster
+green_cert_shop_data{1}.cc_cost = 25;
+green_cert_shop_data{2}.item_id = '30023'; % sugar pack
+green_cert_shop_data{2}.cc_cost = 30;
+green_cert_shop_data{3}.item_id = '30033'; % polyester pack
+green_cert_shop_data{3}.cc_cost = 30;
+green_cert_shop_data{4}.item_id = '30043'; % oriron cluster
+green_cert_shop_data{4}.cc_cost = 35;
+green_cert_shop_data{5}.item_id = '30053'; % aketon
+green_cert_shop_data{5}.cc_cost = 35;
+green_cert_shop_data{6}.item_id = '30063'; % integrated device
+green_cert_shop_data{6}.cc_cost = 45;
+green_cert_shop_data{7}.item_id = '30073'; % loxic kohl
+green_cert_shop_data{7}.cc_cost = 30;
+green_cert_shop_data{8}.item_id = '30083'; % manganese ore
+green_cert_shop_data{8}.cc_cost = 35;
+green_cert_shop_data{9}.item_id = '30093'; % grindstone
+green_cert_shop_data{9}.cc_cost = 40;
+green_cert_shop_data{10}.item_id = '30103'; % rma70-12
+green_cert_shop_data{10}.cc_cost = 45;
+green_cert_shop_data{11}.item_id = '31013'; % coagulating gel
+green_cert_shop_data{11}.cc_cost = 40;
+green_cert_shop_data{12}.item_id = '31023'; % incandescent alloy
+green_cert_shop_data{12}.cc_cost = 35;
+% make shop entries
+green_cert_shop_efficiencies = [];
+for i = 1 : numel(green_cert_shop_data)
+    item_id = green_cert_shop_data{i}.item_id;
+    item_cc_cost = green_cert_shop_data{i}.cc_cost;
+    item_index = item_indices(item_id);
+    item_sanity_value = V(item_index);
+    green_cert_shop_efficiencies(i) = item_sanity_value / item_cc_cost;
+end
+[tmp, sorted_green_cert_shop_efficiencies_indices] = sort(green_cert_shop_efficiencies, 'descend');
+for j = 1 : numel(sorted_green_cert_shop_efficiencies_indices)
+    i = sorted_green_cert_shop_efficiencies_indices(j);
+    item_id = green_cert_shop_data{i}.item_id;
+    item_cc_cost = green_cert_shop_data{i}.cc_cost;
+    item_index = item_indices(item_id);
+    item_name = item_names{item_index};
+    item_sanity_value = V(item_index);
+    entry_name = "" + item_name + " for " + item_cc_cost + " Commendation Certificates(green certs)";
+    entry_efficiency = green_cert_shop_efficiencies(i);
+    fprintf(fileID, "%s (%g sanity per CC)\n", entry_name, entry_efficiency);
+end
+fprintf(fileID, "------------------------------------------------------------\n");
+% I'm not gonna add yellow cert shop
+% even whales should not buy that staff
+%% output technical more technical information1
+fprintf(fileID, "Calculated sanity values of items:\n");
 for i = 1 : numel(V)
     item_index = i;
     item_name = item_names{item_index};
     item_sanity_value = V(item_index);
     fprintf(fileID, "%s %f\n", item_name, item_sanity_value);
 end
-fprintf(fileID, "------------------------------\n");
-fprintf(fileID, "Calculated revenue values:\n");
+fprintf(fileID, "------------------------------------------------------------\n");
+fprintf(fileID, "Calculated revenue values of activities:\n");
 for i = 1 : numel(R)
     activity_index = i;
     activity_name = activity_names{i};

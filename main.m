@@ -13,10 +13,11 @@ prepare_main_activity_data; % forms main stage and craft data into map and array
 prepare_event_activity_data; % forms event stage data into map and array
 %% 
 % we ignore stages that have less than this samples
-minimum_threshold = 100;
+minimum_threshold = 500;
 % feel free to change these but I don't think it will make much difference
 material_craft_operator_bonus = 80;
-skill_summary_craft_operator_bonus = 80;
+skill_summary_craft_operator_bonus = 70;
+building_material_operator_bonus = 70;
 fill_D; % forms and fills main activity drop matrix (EN statistics)
 %% 
 % we ignore event stages that have less than this samples
@@ -32,7 +33,7 @@ calculate_V;
 % output all info to file
 file_name = 'output.txt';
 % we just skip stages with small efficiency
-efficiency_threshold = 0.90;
+efficiency_threshold = 0.30;
 drops_to_display_num = 4;
-event_stages_efficiency_threshold = 0.95;
+event_stages_efficiency_threshold = 0.70;
 output_results;

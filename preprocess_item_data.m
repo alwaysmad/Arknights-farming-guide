@@ -6,6 +6,10 @@ for i = 1:numel(field_names)
     if raw_item_data.(field_names{i}).itemId == "AP_GAMEPLAY"
         continue
     end
+    % keep Light Building Material
+    if raw_item_data.(field_names{i}).itemId == "3131"
+        continue
+    end
     % only leave items with "obtainApproach": null
     if isempty(raw_item_data.(field_names{i}).obtainApproach) == 0
         item_data = rmfield(item_data, field_names{i});
@@ -16,11 +20,12 @@ item_data = rmfield(item_data, 'x4003');
 % remove shop voucher
 item_data = rmfield(item_data, 'x4006');
 % remove building materials
-item_data = rmfield(item_data, 'x3112');
-item_data = rmfield(item_data, 'x3113');
-item_data = rmfield(item_data, 'x3114');
-item_data = rmfield(item_data, 'x3132');
-item_data = rmfield(item_data, 'x3133');
+% item_data = rmfield(item_data, 'x3112');
+% item_data = rmfield(item_data, 'x3113');
+% item_data = rmfield(item_data, 'x3114');
+% item_data = rmfield(item_data, 'x3131');
+% item_data = rmfield(item_data, 'x3132');
+% item_data = rmfield(item_data, 'x3133');
 % remove originium shard
 item_data = rmfield(item_data, 'x3141');
 % remove chips
@@ -49,7 +54,7 @@ item_data = rmfield(item_data, 'x3281'); % specialist
 item_data = rmfield(item_data, 'x3282');
 item_data = rmfield(item_data, 'x3283');
 % remove furniture part
-item_data = rmfield(item_data, 'x3401');
+% item_data = rmfield(item_data, 'x3401');
 % remove obsidian festival items (wut?)
 item_data = rmfield(item_data, 'et_ObsidianPass');
 item_data = rmfield(item_data, 'token_Obsidian');
