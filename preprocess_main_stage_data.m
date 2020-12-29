@@ -16,12 +16,3 @@ for i = 1:numel(field_names)
         main_stage_data = rmfield(main_stage_data, field_names{i});
     end
 end
-% remove H5-x and H6-x stages
-main_stage_data = rmfield(main_stage_data, 'hard_05_01');
-main_stage_data = rmfield(main_stage_data, 'hard_05_02');
-main_stage_data = rmfield(main_stage_data, 'hard_05_03');
-main_stage_data = rmfield(main_stage_data, 'hard_05_04');
-main_stage_data = rmfield(main_stage_data, 'hard_06_01');
-main_stage_data = rmfield(main_stage_data, 'hard_06_02');
-main_stage_data = rmfield(main_stage_data, 'hard_06_03');
-main_stage_data = rmfield(main_stage_data, 'hard_06_04');

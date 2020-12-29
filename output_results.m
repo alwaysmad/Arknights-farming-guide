@@ -86,18 +86,19 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
-fprintf(fileID, "Grani and the Knights' Treasure: GT-*\n");
+fprintf(fileID, "Mansfield Break: MB-*\n");
+fprintf(fileID, "Maria Nearl: MN-*\n");
+fprintf(fileID, "Rewinding Breeze: FA-*\n");
+fprintf(fileID, "Gavial The Great Chief Returns: RI-*\n");
+fprintf(fileID, "Twilight of Wolumonde: TW-*\n");
+fprintf(fileID, "Children of Ursus: SV-*\n");
+fprintf(fileID, "Darknights' Memoir: DM-*\n");
+fprintf(fileID, "Stories of Afternoon: SA-*\n");
+fprintf(fileID, "Ancient Forge: AF-*\n");
+fprintf(fileID, "Code of Brawl: CB-*\n");
 fprintf(fileID, "Heart of Surging Flame: OF-*\n");
 fprintf(fileID, "Operational Intelligence: SW-EV-*\n");
-fprintf(fileID, "Code of Brawl: CB-*\n");
-fprintf(fileID, "Ancient Forge: AF-*\n");
-fprintf(fileID, "Stories of Afternoon: SA-*\n");
-fprintf(fileID, "Darknights' Memoir: DM-*\n");
-fprintf(fileID, "Children of Ursus: SV-*\n");
-fprintf(fileID, "Twilight of Wolumonde: TW-*\n");
-fprintf(fileID, "Gavial The Great Chief Returns: RI-*\n");
-fprintf(fileID, "Rewinding Breeze: FA-*\n");
-fprintf(fileID, "Maria Nearl: MN-*\n");
+fprintf(fileID, "Grani and the Knights' Treasure: GT-*\n");
 fprintf(fileID, "------------------------------------------------------------\n");
 %% credit shop efficiency
 % I failed to find any data so I had to do this by hand...
@@ -196,10 +197,10 @@ for i = 1 : numel(credit_shop_data)
     entry_efficiency = item_sanity_value * item_count / (item_credit_cost/4);
     credit_shop_entry_names{(i-1)*3 + 3} = entry_name;
     credit_shop_entry_credit_efficiencies((i-1)*3 + 3) = entry_efficiency;
-    % not even considering 99% discount, these are basically free
+    % not even considering 99% and 95% discount, these are basically free
 end
 % sort and output
-fprintf(fileID, "Calculated best credit shop buys:\n");
+fprintf(fileID, "Calculated best Credit Store buys:\n");
 [tmp, sorted_credit_shop_entry_credit_efficiencies_indices] = sort(credit_shop_entry_credit_efficiencies, 'descend');
 for i = 1 : numel(credit_shop_entry_credit_efficiencies)
     entry_index = sorted_credit_shop_entry_credit_efficiencies_indices(i);
@@ -243,6 +244,7 @@ for i = 1 : numel(green_cert_shop_data)
     green_cert_shop_efficiencies(i) = item_sanity_value / item_cc_cost;
 end
 [tmp, sorted_green_cert_shop_efficiencies_indices] = sort(green_cert_shop_efficiencies, 'descend');
+fprintf(fileID, "Calculated best Commendations Certificate(green certs) Store buys:\n");
 for j = 1 : numel(sorted_green_cert_shop_efficiencies_indices)
     i = sorted_green_cert_shop_efficiencies_indices(j);
     item_id = green_cert_shop_data{i}.item_id;
@@ -257,6 +259,147 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 % I'm not gonna add yellow cert shop
 % even whales should not buy that staff
+%% Recruitment Data Models shop (Sparking system shop)
+% once again, gotta do it by hand :(
+% t1
+sparking_system_shop_data{1}.item_id = '30011'; % 8 orirocks for 15
+sparking_system_shop_data{1}.item_count = 8;
+sparking_system_shop_data{1}.cost = 15;
+sparking_system_shop_data{2}.item_id = '30021'; % 8 sugar substitute for 25
+sparking_system_shop_data{2}.item_count = 8;
+sparking_system_shop_data{2}.cost = 25;
+sparking_system_shop_data{3}.item_id = '30031'; % 8 esters for 25
+sparking_system_shop_data{3}.item_count = 8;
+sparking_system_shop_data{3}.cost = 25;
+sparking_system_shop_data{4}.item_id = '30041'; % 8 oriron shards for 30
+sparking_system_shop_data{4}.item_count = 8;
+sparking_system_shop_data{4}.cost = 30;
+sparking_system_shop_data{5}.item_id = '30051'; % 8 diketon for 30
+sparking_system_shop_data{5}.item_count = 8;
+sparking_system_shop_data{5}.cost = 30;
+sparking_system_shop_data{6}.item_id = '30061'; % 8 broken diveces for 40
+sparking_system_shop_data{6}.item_count = 8;
+sparking_system_shop_data{6}.cost = 40;
+% t2
+sparking_system_shop_data{7}.item_id = '30012'; % 4 orirock cubes for 15
+sparking_system_shop_data{7}.item_count = 4;
+sparking_system_shop_data{7}.cost = 15;
+sparking_system_shop_data{8}.item_id = '30022'; % 4 sugar for 25
+sparking_system_shop_data{8}.item_count = 4;
+sparking_system_shop_data{8}.cost = 25;
+sparking_system_shop_data{9}.item_id = '30032'; % 4 polyesters for 25
+sparking_system_shop_data{9}.item_count = 4;
+sparking_system_shop_data{9}.cost = 25;
+sparking_system_shop_data{10}.item_id = '30042'; % 4 orirons for 30
+sparking_system_shop_data{10}.item_count = 4;
+sparking_system_shop_data{10}.cost = 30;
+sparking_system_shop_data{11}.item_id = '30052'; % 4 polyketons for 30
+sparking_system_shop_data{11}.item_count = 4;
+sparking_system_shop_data{11}.cost = 30;
+sparking_system_shop_data{12}.item_id = '30062'; % 4 diveces for 40
+sparking_system_shop_data{12}.item_count = 4;
+sparking_system_shop_data{12}.cost = 40;
+% t3
+sparking_system_shop_data{13}.item_id = '30013'; % 2 orirock clusters for 30
+sparking_system_shop_data{13}.item_count = 2;
+sparking_system_shop_data{13}.cost = 30;
+sparking_system_shop_data{14}.item_id = '30023'; % 2 sugar packs for 35
+sparking_system_shop_data{14}.item_count = 2;
+sparking_system_shop_data{14}.cost = 35;
+sparking_system_shop_data{15}.item_id = '30033'; % 2 polyester packs for 35
+sparking_system_shop_data{15}.item_count = 2;
+sparking_system_shop_data{15}.cost = 35;
+sparking_system_shop_data{16}.item_id = '30043'; % 2 orirons clusters for 45
+sparking_system_shop_data{16}.item_count = 2;
+sparking_system_shop_data{16}.cost = 45;
+sparking_system_shop_data{17}.item_id = '30053'; % 2 aketons for 45
+sparking_system_shop_data{17}.item_count = 2;
+sparking_system_shop_data{17}.cost = 45;
+sparking_system_shop_data{18}.item_id = '30063'; % 2 integrated diveces for 60
+sparking_system_shop_data{18}.item_count = 2;
+sparking_system_shop_data{18}.cost = 60;
+% more t3
+sparking_system_shop_data{19}.item_id = '30073'; % 2 loxic kohls for 40
+sparking_system_shop_data{19}.item_count = 2;
+sparking_system_shop_data{19}.cost = 40;
+sparking_system_shop_data{20}.item_id = '30083'; % 2 Manganese Ores for 45
+sparking_system_shop_data{20}.item_count = 2;
+sparking_system_shop_data{20}.cost = 45;
+sparking_system_shop_data{21}.item_id = '30093'; % 2 grindstones for 50
+sparking_system_shop_data{21}.item_count = 2;
+sparking_system_shop_data{21}.cost = 50;
+sparking_system_shop_data{22}.item_id = '30103'; % 2 RMA70-12 for 60
+sparking_system_shop_data{22}.item_count = 2;
+sparking_system_shop_data{22}.cost = 60;
+sparking_system_shop_data{23}.item_id = '31013'; % 2 Coagulating Gel for 50
+sparking_system_shop_data{23}.item_count = 2;
+sparking_system_shop_data{23}.cost = 50;
+sparking_system_shop_data{24}.item_id = '31023'; % 2 Incandescent Alloy for 40
+sparking_system_shop_data{24}.item_count = 2;
+sparking_system_shop_data{24}.cost = 40;
+% t4
+sparking_system_shop_data{25}.item_id = '30014'; % 1 Orirock Concentration for 60
+sparking_system_shop_data{25}.item_count = 1;
+sparking_system_shop_data{25}.cost = 60;
+sparking_system_shop_data{26}.item_id = '30024'; % 1 Sugar Lump for 75
+sparking_system_shop_data{26}.item_count = 1;
+sparking_system_shop_data{26}.cost = 75;
+sparking_system_shop_data{27}.item_id = '30034'; % 1 Polyester Lump for 80
+sparking_system_shop_data{27}.item_count = 1;
+sparking_system_shop_data{27}.cost = 80;
+sparking_system_shop_data{28}.item_id = '30044'; % 1 Oriron Block for 90
+sparking_system_shop_data{28}.item_count = 1;
+sparking_system_shop_data{28}.cost = 90;
+sparking_system_shop_data{29}.item_id = '30054'; % 1 Keton Colloid for 85
+sparking_system_shop_data{29}.item_count = 1;
+sparking_system_shop_data{29}.cost = 85;
+sparking_system_shop_data{30}.item_id = '30064'; % 1 Optimized Device for 85
+sparking_system_shop_data{30}.item_count = 1;
+sparking_system_shop_data{30}.cost = 85;
+% more t4
+sparking_system_shop_data{31}.item_id = '30074'; % 1 White Horse Kohl for 65
+sparking_system_shop_data{31}.item_count = 1;
+sparking_system_shop_data{31}.cost = 65;
+sparking_system_shop_data{32}.item_id = '30084'; % 1 Manganese Trihydrate for 80
+sparking_system_shop_data{32}.item_count = 1;
+sparking_system_shop_data{32}.cost = 80;
+sparking_system_shop_data{33}.item_id = '30094'; % 1 Grindstone Pentahydrate for 75
+sparking_system_shop_data{33}.item_count = 1;
+sparking_system_shop_data{33}.cost = 50;
+sparking_system_shop_data{34}.item_id = '30104'; % 1 RMA70-24 for 80
+sparking_system_shop_data{34}.item_count = 1;
+sparking_system_shop_data{34}.cost = 80;
+sparking_system_shop_data{35}.item_id = '31014'; % 1 Polymerized Gel for 65
+sparking_system_shop_data{35}.item_count = 1;
+sparking_system_shop_data{35}.cost = 65;
+sparking_system_shop_data{36}.item_id = '31024'; % 1 Incandescent Alloy Block for 75
+sparking_system_shop_data{36}.item_count = 1;
+sparking_system_shop_data{36}.cost = 75;
+% calculate efficiency
+sparking_system_shop_efficiencies = [];
+for i = 1 : numel(sparking_system_shop_data)
+    item_id = sparking_system_shop_data{i}.item_id;
+    item_cost = sparking_system_shop_data{i}.cost;
+    item_count = sparking_system_shop_data{i}.item_count;
+    item_index = item_indices(item_id);
+    item_sanity_value = V(item_index) * item_count;
+    sparking_system_shop_efficiencies(i) = item_sanity_value / item_cost;
+end
+[tmp, sorted_sparking_system_shop_efficiencies_indices] = sort(sparking_system_shop_efficiencies, 'descend');
+fprintf(fileID, "Calculated best Sparking system shop buys:\n");
+for j = 1 : numel(sorted_sparking_system_shop_efficiencies_indices)
+    i = sorted_sparking_system_shop_efficiencies_indices(j);
+    item_id = sparking_system_shop_data{i}.item_id;
+    item_count = sparking_system_shop_data{i}.item_count;
+    item_cost = sparking_system_shop_data{i}.cost;
+    item_index = item_indices(item_id);
+    item_name = item_names{item_index};
+    item_sanity_value = V(item_index) * item_count;
+    entry_name = item_count + " " + item_name + "(s) for " + item_cost + " Recruitment Data Models";
+    entry_efficiency = sparking_system_shop_efficiencies(i);
+    fprintf(fileID, "%s (%g sanity per model)\n", entry_name, entry_efficiency);
+end
+fprintf(fileID, "------------------------------------------------------------\n");
 %% output technical more technical information1
 fprintf(fileID, "Calculated sanity values of items:\n");
 for i = 1 : numel(V)
