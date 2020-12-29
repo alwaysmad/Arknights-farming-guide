@@ -55,7 +55,7 @@ Notable event farming stages (based on CN statistics):
 MB-5  0.874 (Polyketon, Device, LMD)
 MB-6  1.097 (Sugar Pack, LMD)
 MB-7  1.109 (Aketon, LMD)
-MB-8  1.075 (Oriron Cluster, LMD)
+MB-8  1.074 (Oriron Cluster, LMD)
 MN-6  1.222 (Coagulating Gel, LMD)
 MN-7  1.087 (Polyester Pack, LMD)
 MN-8  1.104 (Manganese Ore, LMD)
@@ -190,7 +190,6 @@ Polyester Pack for 30 Commendation Certificates(green certs) (0.747942 sanity pe
 Orirock Cluster for 25 Commendation Certificates(green certs) (0.619242 sanity per CC)
 ------------------------------------------------------------
 Calculated best Sparking system shop buys:
-1 Grindstone Pentahydrate(s) for 50 Recruitment Data Models (1.8545 sanity per model)
 2 Coagulating Gel(s) for 50 Recruitment Data Models (1.42046 sanity per model)
 2 Incandescent Alloy(s) for 40 Recruitment Data Models (1.35762 sanity per model)
 1 Polymerized Gel(s) for 65 Recruitment Data Models (1.3323 sanity per model)
@@ -202,6 +201,7 @@ Calculated best Sparking system shop buys:
 2 RMA70-12(s) for 60 Recruitment Data Models (1.27584 sanity per model)
 2 Manganese Ore(s) for 45 Recruitment Data Models (1.25403 sanity per model)
 1 Oriron Block(s) for 90 Recruitment Data Models (1.2515 sanity per model)
+1 Grindstone Pentahydrate(s) for 75 Recruitment Data Models (1.23633 sanity per model)
 1 Keton Colloid(s) for 85 Recruitment Data Models (1.2331 sanity per model)
 1 Incandescent Alloy Block(s) for 75 Recruitment Data Models (1.23079 sanity per model)
 1 White Horse Kohl(s) for 65 Recruitment Data Models (1.2296 sanity per model)
