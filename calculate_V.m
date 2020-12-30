@@ -24,7 +24,7 @@ A_eq(T3_exp_card_item_index, T3_exp_card_item_index) = 1;
 % set sanity value of T4 EXP card
 V_preset(T4_exp_card_item_index) = exp_sanity_value * 2000;
 A_eq(T4_exp_card_item_index, T4_exp_card_item_index) = 1;
-% 
+% a trick to calculate building material cost correctly
 A_eq(item_indices('3131'),:) = D(activity_indices('x1'),:);
 A_eq(item_indices('3132'),:) = D(activity_indices('x2'),:);
 A_eq(item_indices('3133'),:) = D(activity_indices('x3'),:);

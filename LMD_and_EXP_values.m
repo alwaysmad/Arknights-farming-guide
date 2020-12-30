@@ -10,7 +10,7 @@ LMD_item_index = item_indices('4001');
 gold_sanity_value = LMD_sanity_value * 500;
 gold_item_index = item_indices('3003');
 % EXP cards
-% exp_sanity_value = 0.507 / 200;
+% exp_sanity_value = 0.605 / 200;
 exp_sanity_value = (30 - 30*12*LMD_sanity_value) / 7400;
 % T1 EXP card
 T1_exp_card_item_index = item_indices('2001');
