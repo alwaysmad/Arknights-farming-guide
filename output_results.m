@@ -10,7 +10,7 @@ Eff = Eff./S;
 Eff(isinf(Eff)) = 0;
 Eff(isnan(Eff)) = 0;
 %% sort stages by efficiency and write their drops
-fprintf(fileID, "Calculated best farming stages (based on EN statistics):\n");
+fprintf(fileID, "Calculated best farming stages (based on CN statistics [cause ch. 7]):\n");
 [tmp, sorted_stage_indices] = sort(Eff, 'descend');
 % now display stage information
 for i = 1 : numel(sorted_stage_indices)

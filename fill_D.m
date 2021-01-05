@@ -88,8 +88,8 @@ sanity_cost = main_stage_data.(field_name).apCost;
 D(stage_index, sanity_item_index) = -sanity_cost;
 D(stage_index, LMD_item_index) = 3480;
 % S5-2
-stage_id = 'sub_05-1-1';
-field_name = 'sub_05_1_1';
+stage_id = 'sub_05-1-2';
+field_name = 'sub_05_1_2';
 stage_index = activity_indices(stage_id);
 sanity_cost = main_stage_data.(field_name).apCost;
 D(stage_index, sanity_item_index) = -sanity_cost;

@@ -31,6 +31,7 @@ A_eq(item_indices('3133'),:) = D(activity_indices('x3'),:);
 %% the moment of truth
 % we use linprog for Pareto optimality
 % construct f
+% a trick to calculate building material cost correctly
 tmp = ones(numel(activity_names), 1);
 tmp(activity_indices('x1')) = 0;
 tmp(activity_indices('x2')) = 0;
