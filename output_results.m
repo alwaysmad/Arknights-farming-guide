@@ -35,12 +35,22 @@ for i = 1 : numel(sorted_stage_indices)
         end
     end
     notable_drops = "";
-    for j = 1 : (tmp-1)
-        notable_drops = notable_drops + item_names{stage_drops_sanity_distribution_indices(j)} + ", ";
+    for j = 1 : tmp
+        item_index = stage_drops_sanity_distribution_indices(j);
+        item_name = item_names{item_index};
+        item_drop_rate = stage_drops(item_index);
+        stage_sanity_cost = -stage_drops(sanity_item_index);
+        item_sanity_per_drop = stage_sanity_cost / item_drop_rate;
+        if item_index ~= LMD_item_index
+            notable_drops = notable_drops + item_name + " [" + round(item_drop_rate*100, 2) + "%, " + round(item_sanity_per_drop, 2) + " per drop]";
+        else
+            notable_drops = notable_drops + item_name + " [" + item_drop_rate + "]";
+        end
+        if j ~= tmp
+            notable_drops = notable_drops + ", ";
+        end
     end
-    j = tmp;
-    notable_drops = notable_drops + item_names{stage_drops_sanity_distribution_indices(j)};
-    fprintf(fileID, "%s %6.3f (%s)\n", stage_name, stage_efficiency, notable_drops);
+    fprintf(fileID, "%s, %6.3f: %s\n", stage_name, stage_efficiency, notable_drops);
 end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% calculate efficiencies of event stages
@@ -76,16 +86,27 @@ for i = 1 : numel(event_activity_names)
         end
     end
     notable_drops = "";
-    for j = 1 : (tmp-1)
-        notable_drops = notable_drops + item_names{event_stage_drops_sanity_distribution_indices(j)} + ", ";
+    for j = 1 : tmp
+        item_index = event_stage_drops_sanity_distribution_indices(j);
+        item_name = item_names{item_index};
+        item_drop_rate = event_stage_drops(item_index);
+        stage_sanity_cost = -event_stage_drops(sanity_item_index);
+        item_sanity_per_drop = stage_sanity_cost / item_drop_rate;
+        if item_index ~= LMD_item_index
+            notable_drops = notable_drops + item_name + " [" + round(item_drop_rate*100, 2) + "%, " + round(item_sanity_per_drop, 2) + " per drop]";
+        else
+            notable_drops = notable_drops + item_name + " [" + item_drop_rate + "]";
+        end
+        if j ~= tmp
+            notable_drops = notable_drops + ", ";
+        end
     end
-    j = tmp;
-    notable_drops = notable_drops + item_names{event_stage_drops_sanity_distribution_indices(j)};
-    fprintf(fileID, "%s %6.3f (%s)\n", event_stage_name, event_stage_efficiency, notable_drops);
+    fprintf(fileID, "%s, %6.3f: %s\n", event_stage_name, event_stage_efficiency, notable_drops);
 end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
+fprintf(fileID, "Beyond Here: BH-*\n");
 fprintf(fileID, "Mansfield Break: MB-*\n");
 fprintf(fileID, "Maria Nearl: MN-*\n");
 fprintf(fileID, "Rewinding Breeze: FA-*\n");
@@ -386,7 +407,7 @@ for i = 1 : numel(sparking_system_shop_data)
     sparking_system_shop_efficiencies(i) = item_sanity_value / item_cost;
 end
 [tmp, sorted_sparking_system_shop_efficiencies_indices] = sort(sparking_system_shop_efficiencies, 'descend');
-fprintf(fileID, "Calculated best Sparking system shop buys:\n");
+fprintf(fileID, "Calculated best Headhunting Parametric Models shop buys:\n");
 for j = 1 : numel(sorted_sparking_system_shop_efficiencies_indices)
     i = sorted_sparking_system_shop_efficiencies_indices(j);
     item_id = sparking_system_shop_data{i}.item_id;
@@ -395,7 +416,7 @@ for j = 1 : numel(sorted_sparking_system_shop_efficiencies_indices)
     item_index = item_indices(item_id);
     item_name = item_names{item_index};
     item_sanity_value = V(item_index) * item_count;
-    entry_name = item_count + " " + item_name + "(s) for " + item_cost + " Recruitment Data Models";
+    entry_name = item_count + " " + item_name + "(s) for " + item_cost + " Headhunting Parametric Models";
     entry_efficiency = sparking_system_shop_efficiencies(i);
     fprintf(fileID, "%s (%g sanity per model)\n", entry_name, entry_efficiency);
 end
