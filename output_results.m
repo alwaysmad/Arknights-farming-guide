@@ -9,9 +9,12 @@ Eff = Eff./S;
 % take care of rows with Nan and Inf corresponding to crafting
 Eff(isinf(Eff)) = 0;
 Eff(isnan(Eff)) = 0;
+Eff = round(Eff, 4);
 %% sort stages by efficiency and write their drops
 fprintf(fileID, "Calculated best farming stages (based on CN statistics [cause ch. 7]):\n");
-[tmp, sorted_stage_indices] = sort(Eff, 'descend');
+%[tmp, sorted_stage_indices] = sort(Eff, 'descend');
+tmp = sortrows([Eff (1:numel(Eff))'], [1, 2], {'descend', 'ascend'});
+sorted_stage_indices = tmp(:,2);
 % now display stage information
 for i = 1 : numel(sorted_stage_indices)
     stage_index = sorted_stage_indices(i);
@@ -26,9 +29,9 @@ for i = 1 : numel(sorted_stage_indices)
     stage_drops_sanity_distribution = stage_drops.*V';
     [tmp, stage_drops_sanity_distribution_indices] = sort(stage_drops_sanity_distribution,'descend');
     % we dispaly stage's most valuable drops
-    % not display drops with stage_drops_sanity_distribution = 0
     tmp = drops_to_display_num;
     for j = 1 : drops_to_display_num
+        % not display drops with stage_drops_sanity_distribution = 0
         if stage_drops_sanity_distribution(stage_drops_sanity_distribution_indices(j)) <= 0
             tmp = j - 1;
             break
@@ -50,7 +53,7 @@ for i = 1 : numel(sorted_stage_indices)
             notable_drops = notable_drops + ", ";
         end
     end
-    fprintf(fileID, "%s, %6.3f: %s\n", stage_name, stage_efficiency, notable_drops);
+    fprintf(fileID, "%s,%6.3f: %s\n", stage_name, stage_efficiency, notable_drops);
 end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% calculate efficiencies of event stages
@@ -101,7 +104,7 @@ for i = 1 : numel(event_activity_names)
             notable_drops = notable_drops + ", ";
         end
     end
-    fprintf(fileID, "%s, %6.3f: %s\n", event_stage_name, event_stage_efficiency, notable_drops);
+    fprintf(fileID, "%s,%6.3f: %s\n", event_stage_name, event_stage_efficiency, notable_drops);
 end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
