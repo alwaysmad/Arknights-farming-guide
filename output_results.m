@@ -124,9 +124,20 @@ fprintf(fileID, "Heart of Surging Flame: OF-*\n");
 fprintf(fileID, "Operational Intelligence: SW-EV-*\n");
 fprintf(fileID, "Grani and the Knights' Treasure: GT-*\n");
 fprintf(fileID, "------------------------------------------------------------\n");
+%% display inefficient craft recipes
+R = round(R, 4);
+fprintf(fileID, "Inefficient craft recipes:\n");
+inefficient_craft_stage_indices = find( all([S<=0 R<0], 2) );
+for i = 1 : numel(inefficient_craft_stage_indices)
+    stage_index = inefficient_craft_stage_indices(i);
+    stage_name = activity_names{stage_index};
+    fprintf(fileID, "%s, revenue: %6.3f\n", stage_name, R(stage_index));
+end
+fprintf(fileID, "------------------------------------------------------------\n");
 %% credit shop efficiency
 % I failed to find any data so I had to do this by hand...
 % items appear with 99%, 95%, 75%, 50% or 0% discount
+% I'm only displaying of efficiencies of 75%, 50% and no discount buys 
 credit_shop_data{1}.item_id = '30062'; % device
 credit_shop_data{1}.item_count = 1;
 credit_shop_data{1}.credit_cost = 160;
