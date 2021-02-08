@@ -22,7 +22,7 @@ tmp = jsondecode(resp.Body.string());
 raw_craft_data = tmp.workshopFormulas;
 %% get stage data (EN) for main stages
 url = "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/en_US/gamedata/excel/stage_table.json";
-%url = "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/stage_table.json";
+% url = "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/stage_table.json";
 uri = URI(url);
 fprintf("Getting main stage data from %s\n", url)
 r = RequestMessage;

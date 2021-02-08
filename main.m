@@ -1,6 +1,13 @@
 clc;
 clear;
 %% 
+% if ~exist('OCTAVE_VERSION', 'builtin') 
+%     % we are in MATLAB
+%     get_raw_data; % downloads necessary data
+% elseif ~isempty(Ver_Octave_indices)
+%     % we are in Octave
+%     get_raw_data_octave;
+% end
 get_raw_data; % downloads necessary data
 %% 
 preprocess_item_data; % removes all unnecessary items
@@ -21,7 +28,7 @@ building_material_operator_bonus = 70;
 fill_D; % forms and fills main activity drop matrix (EN statistics)
 %% 
 % we ignore event stages that have less than this samples
-minimum_threshold = 100;
+minimum_threshold = 10;
 fill_event_D; % forms and fills event activity drop matrix (CN statistics)
 %% 
 % we use additional logic taking base into account here (but actually not lol)

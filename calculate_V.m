@@ -43,6 +43,8 @@ A_eq(item_indices('30022'),:) = D(activity_indices('x31'),:); % Craft: Sugar
 A_eq(item_indices('30023'),:) = D(activity_indices('x32'),:); % Craft: Sugar Pack
 A_eq(item_indices('30012'),:) = D(activity_indices('x34'),:); % Craft: Orirock Cube
 A_eq(item_indices('30013'),:) = D(activity_indices('x35'),:); % Craft: Orirock Cluster
+A_eq(item_indices('3302'),:) = D(activity_indices('x37'),:); % Craft: Skill Summary - 2
+A_eq(item_indices('3303'),:) = D(activity_indices('x38'),:); % Craft: Skill Summary - 3
 %% the moment of truth
 % we use linprog for Pareto optimality
 % construct f

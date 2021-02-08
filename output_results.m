@@ -109,6 +109,7 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
+fprintf(fileID, "Who is Real: WR-*\n");
 fprintf(fileID, "Beyond Here: BH-*\n");
 fprintf(fileID, "Mansfield Break: MB-*\n");
 fprintf(fileID, "Maria Nearl: MN-*\n");
@@ -123,16 +124,6 @@ fprintf(fileID, "Code of Brawl: CB-*\n");
 fprintf(fileID, "Heart of Surging Flame: OF-*\n");
 fprintf(fileID, "Operational Intelligence: SW-EV-*\n");
 fprintf(fileID, "Grani and the Knights' Treasure: GT-*\n");
-fprintf(fileID, "------------------------------------------------------------\n");
-%% display inefficient craft recipes
-R = round(R, 4);
-fprintf(fileID, "Inefficient craft recipes:\n");
-inefficient_craft_stage_indices = find( all([S<=0 R<0], 2) );
-for i = 1 : numel(inefficient_craft_stage_indices)
-    stage_index = inefficient_craft_stage_indices(i);
-    stage_name = activity_names{stage_index};
-    fprintf(fileID, "%s, revenue: %6.3f\n", stage_name, R(stage_index));
-end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% credit shop efficiency
 % I failed to find any data so I had to do this by hand...
@@ -433,6 +424,16 @@ for j = 1 : numel(sorted_sparking_system_shop_efficiencies_indices)
     entry_name = item_count + " " + item_name + "(s) for " + item_cost + " Headhunting Parametric Models";
     entry_efficiency = sparking_system_shop_efficiencies(i);
     fprintf(fileID, "%s (%g sanity per model)\n", entry_name, entry_efficiency);
+end
+fprintf(fileID, "------------------------------------------------------------\n");
+%% display inefficient craft recipes
+tmp = round(R, 4);
+fprintf(fileID, "Inefficient craft recipes:\n");
+inefficient_craft_stage_indices = find( all([S<=0 tmp<0], 2) );
+for i = 1 : numel(inefficient_craft_stage_indices)
+    stage_index = inefficient_craft_stage_indices(i);
+    stage_name = activity_names{stage_index};
+    fprintf(fileID, "%s, revenue: %6.3f\n", stage_name, tmp(stage_index));
 end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% output technical more technical information1
