@@ -40,7 +40,7 @@ resp = send(r,uri);
 disp(resp.StatusCode); % show status code
 tmp = jsondecode(resp.Body.string());
 raw_event_stage_data = tmp.stages;
-%% get drop rate data (CN statistics for main stages)
+%% get drop rate data (EN statistics for main stages)
 % url = "https://penguin-stats.io/PenguinStats/api/v2/result/matrix?server=US";
 url = "https://penguin-stats.io/PenguinStats/api/v2/result/matrix?server=CN";
 uri = URI(url);
