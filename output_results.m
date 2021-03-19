@@ -109,6 +109,7 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
+fprintf(fileID, "Operation Originium Dust: OD-*\n");
 fprintf(fileID, "Who is Real: WR-*\n");
 fprintf(fileID, "Beyond Here: BH-*\n");
 fprintf(fileID, "Mansfield Break: MB-*\n");
