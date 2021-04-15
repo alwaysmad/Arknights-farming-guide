@@ -11,7 +11,7 @@ Eff(isinf(Eff)) = 0;
 Eff(isnan(Eff)) = 0;
 Eff = round(Eff, 4);
 %% sort stages by efficiency and write their drops
-fprintf(fileID, "Calculated best farming stages (based on EN statistics):\n");
+fprintf(fileID, "Calculated best farming stages (based on CN statistics):\n");
 %[tmp, sorted_stage_indices] = sort(Eff, 'descend');
 tmp = sortrows([Eff (1:numel(Eff))'], [1, 2], {'descend', 'ascend'});
 sorted_stage_indices = tmp(:,2);
@@ -109,6 +109,7 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
+fprintf(fileID, "A Walk In The Dust: WD-*\n");
 fprintf(fileID, "Operation Originium Dust: OD-*\n");
 fprintf(fileID, "Who is Real: WR-*\n");
 fprintf(fileID, "Beyond Here: BH-*\n");
