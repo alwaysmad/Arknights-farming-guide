@@ -262,6 +262,8 @@ green_cert_shop_data{11}.item_id = '31013'; % coagulating gel
 green_cert_shop_data{11}.cc_cost = 40;
 green_cert_shop_data{12}.item_id = '31023'; % incandescent alloy
 green_cert_shop_data{12}.cc_cost = 35;
+green_cert_shop_data{13}.item_id = '31033'; % Crystalline Component
+green_cert_shop_data{13}.cc_cost = 30;
 % make shop entries
 green_cert_shop_efficiencies = [];
 for i = 1 : numel(green_cert_shop_data)
@@ -365,6 +367,9 @@ sparking_system_shop_data{23}.cost = 50;
 sparking_system_shop_data{24}.item_id = '31023'; % 2 Incandescent Alloy for 40
 sparking_system_shop_data{24}.item_count = 2;
 sparking_system_shop_data{24}.cost = 40;
+sparking_system_shop_data{37}.item_id = '31033'; % 2 Crystalline Component for 40
+sparking_system_shop_data{37}.item_count = 2;
+sparking_system_shop_data{37}.cost = 40;
 % t4
 sparking_system_shop_data{25}.item_id = '30014'; % 1 Orirock Concentration for 60
 sparking_system_shop_data{25}.item_count = 1;
@@ -403,6 +408,9 @@ sparking_system_shop_data{35}.cost = 65;
 sparking_system_shop_data{36}.item_id = '31024'; % 1 Incandescent Alloy Block for 75
 sparking_system_shop_data{36}.item_count = 1;
 sparking_system_shop_data{36}.cost = 75;
+sparking_system_shop_data{38}.item_id = '31034'; % 1 Crystalline Circuit for 90
+sparking_system_shop_data{38}.item_count = 1;
+sparking_system_shop_data{38}.cost = 90;
 % calculate efficiency
 sparking_system_shop_efficiencies = [];
 for i = 1 : numel(sparking_system_shop_data)
