@@ -109,6 +109,7 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
+fprintf(fileID, "Vigilo: VI-*\n");
 fprintf(fileID, "Preluding Lights: PL-*\n");
 fprintf(fileID, "Under Tides: SV-*\n");
 fprintf(fileID, "A Walk In The Dust: WD-*\n");
