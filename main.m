@@ -42,5 +42,5 @@ file_name = 'output.txt';
 % we just skip stages with small efficiency
 efficiency_threshold = 0.80;
 drops_to_display_num = 4;
-event_stages_efficiency_threshold = 0.90;
+event_stages_efficiency_threshold = 0.80;
 output_results;
