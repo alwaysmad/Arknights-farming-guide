@@ -12,7 +12,7 @@ Eff(isnan(Eff)) = 0;
 Eff = round(Eff, 4);
 %% sort stages by efficiency and write their drops
 fprintf(fileID, "Calculated best farming stages (based on CN statistics):\n");
-%[tmp, sorted_stage_indices] = sort(Eff, 'descend');
+fprintf(fileID, "Stage | Efficiency | Major Drops\n");
 tmp = sortrows([Eff (1:numel(Eff))'], [1, 2], {'descend', 'ascend'});
 sorted_stage_indices = tmp(:,2);
 % now display stage information
@@ -66,6 +66,7 @@ event_Eff(isinf(event_Eff)) = 0;
 event_Eff(isnan(event_Eff)) = 0;
 %% display best event farming stages
 fprintf(fileID, "Notable event farming stages (based on CN statistics):\n");
+fprintf(fileID, "Stage | Efficiency | Major Drops\n");
 for i = 1 : numel(event_activity_names)
     % we don't sort them to preserve original order
     event_stage_index = i;
@@ -451,6 +452,7 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% output technical more technical information1
 fprintf(fileID, "Calculated sanity values of items:\n");
+fprintf(fileID, "Item | Sanity Value \n");
 for i = 1 : numel(V)
     item_index = i;
     item_name = item_names{item_index};
@@ -458,7 +460,8 @@ for i = 1 : numel(V)
     fprintf(fileID, "%s %f\n", item_name, item_sanity_value);
 end
 fprintf(fileID, "------------------------------------------------------------\n");
-fprintf(fileID, "Calculated revenue values of activities:\n");
+fprintf(fileID, "Calculated revenue values of activities(stages + crafts):\n");
+fprintf(fileID, "Activitiy | Revenue \n");
 for i = 1 : numel(R)
     activity_index = i;
     activity_name = activity_names{i};
