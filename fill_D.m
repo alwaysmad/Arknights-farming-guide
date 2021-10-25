@@ -3,7 +3,7 @@ rows_num = activity_indices.size(1);
 columns_num = item_indices.size(1);
 D = zeros(rows_num, columns_num);
 % D(stage/craft, item)
-%% fill with drop rates from penguin statisctics (EN)
+%% fill with drop rates from penguin statisctics
 for i = 1 : numel(en_drop_data)
     % skip entry if data is insufficient
     if en_drop_data{i}.times < minimum_threshold
@@ -14,7 +14,10 @@ for i = 1 : numel(en_drop_data)
     if isKey(item_indices, item_id) == 0
         continue
     end
-    stage_id = en_drop_data{i}.stageId;
+    % Penguin Statistics stores drop data for interlude and sidestory
+    % stages in format of "<event_stage_id>_perm"
+    %stage_id = en_drop_data{i}.stageId;
+    stage_id = erase(en_drop_data{i}.stageId, "_perm");
     % if entry is related to main story stages then we add data to D
     if isKey(activity_indices, stage_id) == 1
         % items and stages we consider here should not have field 'end'
@@ -39,6 +42,31 @@ for i = 1 : numel(field_names)
     % every stage drops 12*sanity LMD unless it's an LMD farnimg stage
     D(stage_index, LMD_item_index) = 12 * sanity_cost;
 end
+% add sanity and LMD to sidestiry OF-F1 ... OF-F4
+% OF-F1
+stage_id = 'a003_f01'; 
+stage_index = activity_indices(stage_id);
+sanity_cost = 9;
+D(stage_index, sanity_item_index) = -sanity_cost;
+D(stage_index, LMD_item_index) = 12 * sanity_cost;
+% OF-F2
+stage_id = 'a003_f02';
+stage_index = activity_indices(stage_id);
+sanity_cost = 12;
+D(stage_index, sanity_item_index) = -sanity_cost;
+D(stage_index, LMD_item_index) = 12 * sanity_cost;
+% OF-F3
+stage_id = 'a003_f03'; 
+stage_index = activity_indices(stage_id);
+sanity_cost = 15;
+D(stage_index, sanity_item_index) = -sanity_cost;
+D(stage_index, LMD_item_index) = 12 * sanity_cost;
+% OF-F4
+stage_id = 'a003_f04';
+stage_index = activity_indices(stage_id);
+sanity_cost = 18;
+D(stage_index, sanity_item_index) = -sanity_cost;
+D(stage_index, LMD_item_index) = 12 * sanity_cost;
 % add LMD to CE-5
 stage_id = 'wk_melee_5'; 
 stage_index = activity_indices(stage_id);

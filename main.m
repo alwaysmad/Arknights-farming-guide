@@ -23,7 +23,7 @@ prepare_event_activity_data; % forms event stage data into map and array
 minimum_threshold = 150;
 % feel free to change these but I don't think it will make much difference
 material_craft_operator_bonus = 80;
-skill_summary_craft_operator_bonus = 70;
+skill_summary_craft_operator_bonus = 80;
 building_material_operator_bonus = 70;
 fill_D; % forms and fills main activity drop matrix (EN statistics)
 %% 
