@@ -2,10 +2,11 @@ fprintf("%s\n", file_name);
 fileID = fopen('output.txt','w');
 %% calculate stage efficienies
 % vector of activities' sanity costs
-S = -D(:,sanity_item_index);
+% S = -D(:,sanity_item_index);
+% S = -sum((D<0).*D,2);
+S = -(D<0).*D * V;
 % vector of stage/craft efficiency
-Eff = (S + R);
-Eff = Eff./S;
+Eff = (S + R) ./ S;
 % take care of rows with Nan and Inf corresponding to crafting
 Eff(isinf(Eff)) = 0;
 Eff(isnan(Eff)) = 0;
@@ -16,8 +17,22 @@ fprintf(fileID, "Stage | Efficiency | Major Drops\n");
 tmp = sortrows([Eff (1:numel(Eff))'], [1, 2], {'descend', 'ascend'});
 sorted_stage_indices = tmp(:,2);
 % now display stage information
+stage_ids_not_to_display = {'x1' 'x10' 'x11' 'x12' 'x13' 'x14' 'x15' 'x16' ...
+    'x17' 'x18' 'x19' 'x2' 'x20' 'x21' 'x22' 'x23' 'x24' 'x25' 'x26' 'x27' ...
+    'x28' 'x29' 'x3' 'x30' 'x31' 'x32' 'x33' 'x34' 'x35' 'x36' 'x37' 'x38' ...
+    'x4' 'x5' 'x55' 'x56' 'x57' 'x58' 'x6' 'x7' 'x8' 'x9' ...
+    'act12side_01', 'act12side_02', 'act12side_03', 'act12side_04', 'act12side_05'...
+    'act12side_06', 'act12side_07', 'act12side_08', 'act12side_09'};
+stage_indices_not_to_display = [];
+for stage_id_not_to_display = stage_ids_not_to_display
+    stage_indices_not_to_display(end+1) = activity_indices(stage_id_not_to_display{1});
+end
 for i = 1 : numel(sorted_stage_indices)
     stage_index = sorted_stage_indices(i);
+    % skip crafting activities and DH stages
+    if ismember(stage_index, stage_indices_not_to_display)
+        continue
+    end
     stage_name = activity_names{stage_index};
     stage_efficiency = Eff(stage_index);
     % we just skip stages with small efficiency
@@ -44,10 +59,18 @@ for i = 1 : numel(sorted_stage_indices)
         item_drop_rate = stage_drops(item_index);
         stage_sanity_cost = -stage_drops(sanity_item_index);
         item_sanity_per_drop = stage_sanity_cost / item_drop_rate;
-        if item_index ~= LMD_item_index
-            notable_drops = notable_drops + item_name + " [" + round(item_drop_rate*100, 2) + "%, " + round(item_sanity_per_drop, 2) + " per drop]";
+        if stage_sanity_cost ~= 0
+            if item_index ~= LMD_item_index
+                notable_drops = notable_drops + item_name + " [" + round(item_drop_rate*100, 2) + "%, " + round(item_sanity_per_drop, 2) + " per drop]";
+            else
+                notable_drops = notable_drops + item_name + " [" + item_drop_rate + "]";
+            end
         else
-            notable_drops = notable_drops + item_name + " [" + item_drop_rate + "]";
+            if item_index ~= LMD_item_index
+                notable_drops = notable_drops + item_name + " [" + round(item_drop_rate*100, 2) + "%]";
+            else
+                notable_drops = notable_drops + item_name + " [" + item_drop_rate + "]";
+            end
         end
         if j ~= tmp
             notable_drops = notable_drops + ", ";
@@ -58,9 +81,9 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% calculate efficiencies of event stages
 event_R = event_D*V;
-event_S = -event_D(:,sanity_item_index);
-event_Eff = event_S + event_R;
-event_Eff = event_Eff./event_S;
+event_S = - (event_D<0) .* event_D * V;
+% event_S = -event_D(:,sanity_item_index);
+event_Eff = (event_S + event_R) ./ event_S;
 % take care of rows with Nan and Inf
 event_Eff(isinf(event_Eff)) = 0;
 event_Eff(isnan(event_Eff)) = 0;
@@ -96,10 +119,18 @@ for i = 1 : numel(event_activity_names)
         item_drop_rate = event_stage_drops(item_index);
         stage_sanity_cost = -event_stage_drops(sanity_item_index);
         item_sanity_per_drop = stage_sanity_cost / item_drop_rate;
-        if item_index ~= LMD_item_index
-            notable_drops = notable_drops + item_name + " [" + round(item_drop_rate*100, 2) + "%, " + round(item_sanity_per_drop, 2) + " per drop]";
+        if stage_sanity_cost ~= 0
+            if item_index ~= LMD_item_index
+                notable_drops = notable_drops + item_name + " [" + round(item_drop_rate*100, 2) + "%, " + round(item_sanity_per_drop, 2) + " per drop]";
+            else
+                notable_drops = notable_drops + item_name + " [" + item_drop_rate + "]";
+            end
         else
-            notable_drops = notable_drops + item_name + " [" + item_drop_rate + "]";
+            if item_index ~= LMD_item_index
+                notable_drops = notable_drops + item_name + " [" + round(item_drop_rate*100, 2) + "%]";
+            else
+                notable_drops = notable_drops + item_name + " [" + item_drop_rate + "]";
+            end
         end
         if j ~= tmp
             notable_drops = notable_drops + ", ";
@@ -113,6 +144,7 @@ fprintf(fileID, "Event stages' code names info:\n");
 fprintf(fileID, "Break the Ice: BI-*\n");
 fprintf(fileID, "Near Light: NL-*\n");
 fprintf(fileID, "Pinus Sylvestris: PS-*\n");
+fprintf(fileID, "Dossoles Holiday: DH-*\n");
 fprintf(fileID, "Vigilo: VI-*\n");
 fprintf(fileID, "Preluding Lights: PL-*\n");
 fprintf(fileID, "Under Tides: SV-*\n");
@@ -444,15 +476,15 @@ for j = 1 : numel(sorted_sparking_system_shop_efficiencies_indices)
 end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display inefficient craft recipes
-tmp = round(R, 4);
-fprintf(fileID, "Inefficient craft recipes:\n");
-inefficient_craft_stage_indices = find( all([S<=0 tmp<0], 2) );
-for i = 1 : numel(inefficient_craft_stage_indices)
-    stage_index = inefficient_craft_stage_indices(i);
-    stage_name = activity_names{stage_index};
-    fprintf(fileID, "%s, revenue: %6.3f\n", stage_name, tmp(stage_index));
-end
-fprintf(fileID, "------------------------------------------------------------\n");
+% tmp = round(R, 4);
+% fprintf(fileID, "Inefficient craft recipes:\n");
+% inefficient_craft_stage_indices = find( all([S<=0 tmp<0], 2) );
+% for i = 1 : numel(inefficient_craft_stage_indices)
+%     stage_index = inefficient_craft_stage_indices(i);
+%     stage_name = activity_names{stage_index};
+%     fprintf(fileID, "%s, revenue: %6.3f\n", stage_name, tmp(stage_index));
+% end
+% fprintf(fileID, "------------------------------------------------------------\n");
 %% output technical more technical information1
 fprintf(fileID, "Calculated sanity values of items:\n");
 fprintf(fileID, "Item | Sanity Value \n");

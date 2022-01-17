@@ -14,13 +14,15 @@ preprocess_item_data; % removes all unnecessary items
 preprocess_craft_data; % removes all unnecessary crafting recipes
 preprocess_main_stage_data; % removes all unrafmable main stages
 preprocess_event_stage_data; % removes all unfarmable event stages
+%%
+copy_DH_to_main_activity; % copies Dossoles Holiday stages to main_stage_data 
 %% 
 prepare_item_data; % forms item data into map and array
 prepare_main_activity_data; % forms main stage and craft data into map and array
 prepare_event_activity_data; % forms event stage data into map and array
 %% 
 % we ignore stages that have less than this samples
-minimum_threshold = 200;
+minimum_threshold = 1000;
 % feel free to change these but I don't think it will make much difference
 material_craft_operator_bonus = 80;
 skill_summary_craft_operator_bonus = 80;
@@ -30,6 +32,8 @@ fill_D; % forms and fills main activity drop matrix (EN statistics)
 % we ignore event stages that have less than this samples
 minimum_threshold = 1;
 fill_event_D; % forms and fills event activity drop matrix (CN statistics)
+%%
+copy_DH_drop_data; % copies Dossoles Holiday drop data to D
 %% 
 % we use additional logic taking base into account here (but actually not lol)
 LMD_and_EXP_values;

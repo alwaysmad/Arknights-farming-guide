@@ -36,3 +36,13 @@ for i = 1 : numel(field_names)
     % every stage drops 12*sanity LMD unless it's an LMD farnimg stage
     event_D(stage_index, LMD_item_index) = 12 * sanity_cost;
 end
+%% add Dossoles Holiday infinite shop buys
+%
+event_D(event_activity_indices('DH_store_Oriron_Cluster'), item_indices('30043')) = 1;
+event_D(event_activity_indices('DH_store_Oriron_Cluster'), item_indices('charm_coin_1')) = -50/9;
+%
+event_D(event_activity_indices('DH_store_Manganese_Ore'), item_indices('30083')) = 1;
+event_D(event_activity_indices('DH_store_Manganese_Ore'), item_indices('charm_coin_1')) = -50/9;
+%
+event_D(event_activity_indices('DH_store_Orirock_Cluster'), item_indices('30013')) = 1;
+event_D(event_activity_indices('DH_store_Orirock_Cluster'), item_indices('charm_coin_1')) = -35/9;

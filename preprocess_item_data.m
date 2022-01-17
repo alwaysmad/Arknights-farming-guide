@@ -54,3 +54,25 @@ item_data = rmfield(item_data, 'token_ObsidianCoin');
 item_data = rmfield(item_data, 'et_ObsidianPass_rep_1');
 item_data = rmfield(item_data, 'token_Obsidian_rep_1');
 item_data = rmfield(item_data, 'token_ObsidianCoin_rep_1');
+%% Add Dossoles Holiday sticker items
+% charm_coin_4
+item_data.DH_150_cost_sticker.itemId = 'charm_coin_4';
+item_data.DH_150_cost_sticker.name = 'Dossoles Holiday 150 cost sticker';
+% trap_oxygen_3
+item_data.DH_60_cost_sticker.itemId = 'trap_oxygen_3';
+item_data.DH_60_cost_sticker.name = 'Dossoles Holiday 60 cost sticker';
+% charm_r2
+item_data.DH_40_cost_sticker.itemId = 'charm_r2';
+item_data.DH_40_cost_sticker.name = 'Dossoles Holiday 40 cost sticker';
+% charm_r1
+item_data.DH_20_cost_sticker.itemId = 'charm_r1';
+item_data.DH_20_cost_sticker.name = 'Dossoles Holiday 20 cost sticker';
+% charm_coin_3
+item_data.DH_18_cost_sticker.itemId = 'charm_coin_3';
+item_data.DH_18_cost_sticker.name = 'Dossoles Holiday 18 cost sticker';
+% charm_coin_2
+item_data.DH_12_cost_sticker.itemId = 'charm_coin_2';
+item_data.DH_12_cost_sticker.name = 'Dossoles Holiday 12 cost sticker';
+% charm_coin_1
+item_data.DH_9_cost_sticker.itemId = 'charm_coin_1';
+item_data.DH_9_cost_sticker.name = 'Dossoles Holiday 9 cost sticker';

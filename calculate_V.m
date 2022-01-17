@@ -29,7 +29,7 @@ A_eq(T4_exp_card_item_index, T4_exp_card_item_index) = 1;
 A_eq(item_indices('3131'),:) = D(activity_indices('x1'),:); % Craft: Light Building Material
 A_eq(item_indices('3132'),:) = D(activity_indices('x2'),:); % Craft: Concrete Building Material
 A_eq(item_indices('3133'),:) = D(activity_indices('x3'),:); % Craft: Reinforced Building Material
-% a trick to artificially lower t1 and t2 costs linking them to t3 costs
+% a trick to artificially lower t1 and t2 costs by linking them to t3 costs
 % trough crafting 
 A_eq(item_indices('30062'),:) = D(activity_indices('x19'),:); % Craft: Device
 A_eq(item_indices('30063'),:) = D(activity_indices('x20'),:); % Craft: Integrated Device
@@ -45,6 +45,26 @@ A_eq(item_indices('30012'),:) = D(activity_indices('x34'),:); % Craft: Orirock C
 A_eq(item_indices('30013'),:) = D(activity_indices('x35'),:); % Craft: Orirock Cluster
 A_eq(item_indices('3302'),:) = D(activity_indices('x37'),:); % Craft: Skill Summary - 2
 A_eq(item_indices('3303'),:) = D(activity_indices('x38'),:); % Craft: Skill Summary - 3
+% bind Dossoles Holyday stickers' cost to their value
+% linking everything to 9 cost sticker
+% 12 cost sticker
+A_eq(item_indices('charm_coin_2'), item_indices('charm_coin_2')) = -1 / 12;
+A_eq(item_indices('charm_coin_2'), item_indices('charm_coin_1')) = 1 / 9;
+% 18 cost sticker
+A_eq(item_indices('charm_coin_3'), item_indices('charm_coin_3')) = -1 / 18;
+A_eq(item_indices('charm_coin_3'), item_indices('charm_coin_1')) = 1 / 9;
+% 20 cost sticker
+A_eq(item_indices('charm_r1'), item_indices('charm_r1')) = -1 / 20;
+A_eq(item_indices('charm_r1'), item_indices('charm_coin_1')) = 1 / 9;
+% 40 cost sticker
+A_eq(item_indices('charm_r2'), item_indices('charm_r2')) = -1 / 40;
+A_eq(item_indices('charm_r2'), item_indices('charm_coin_1')) = 1 / 9;
+% 150 cost sticker
+A_eq(item_indices('charm_coin_4'), item_indices('charm_coin_4')) = -1 / 150;
+A_eq(item_indices('charm_coin_4'), item_indices('charm_coin_1')) = 1 / 9;
+% 60 cost sticker
+A_eq(item_indices('trap_oxygen_3'), item_indices('trap_oxygen_3')) = -1 / 60;
+A_eq(item_indices('trap_oxygen_3'), item_indices('charm_coin_1')) = 1 / 9;
 %% the moment of truth
 % we use linprog for Pareto optimality
 % construct f

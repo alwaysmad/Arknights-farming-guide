@@ -21,16 +21,4 @@ for i = 1:numel(field_names)
         main_stage_data = rmfield(main_stage_data, field_names{i});
         continue;
     end
-%     % keep event stages that are available in interlude and sidestory
-%     if raw_main_stage_data.(field_names{i}).stageType == "ACTIVITY"
-%         if raw_main_stage_data.(field_names{i}).code == "OF-F1" continue; end
-%         if raw_main_stage_data.(field_names{i}).code == "OF-F2" continue; end
-%         if raw_main_stage_data.(field_names{i}).code == "OF-F3" continue; end
-%         if raw_main_stage_data.(field_names{i}).code == "OF-F4" continue; end
-%     end
-%     % remove all other event stages
-%     if raw_main_stage_data.(field_names{i}).stageType == "ACTIVITY"
-%        main_stage_data = rmfield(main_stage_data, field_names{i});
-%        continue;
-%     end 
 end
