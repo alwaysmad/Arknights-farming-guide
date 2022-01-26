@@ -141,6 +141,7 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
+fprintf(fileID, "Invitation to Wine: IW-*\n");
 fprintf(fileID, "Break the Ice: BI-*\n");
 fprintf(fileID, "Near Light: NL-*\n");
 fprintf(fileID, "Pinus Sylvestris: PS-*\n");
@@ -485,7 +486,7 @@ fprintf(fileID, "------------------------------------------------------------\n"
 %     fprintf(fileID, "%s, revenue: %6.3f\n", stage_name, tmp(stage_index));
 % end
 % fprintf(fileID, "------------------------------------------------------------\n");
-%% output technical more technical information1
+%% output technical more technical information
 fprintf(fileID, "Calculated sanity values of items:\n");
 fprintf(fileID, "Item | Sanity Value \n");
 for i = 1 : numel(V)
