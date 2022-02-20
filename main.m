@@ -22,7 +22,7 @@ prepare_main_activity_data; % forms main stage and craft data into map and array
 prepare_event_activity_data; % forms event stage data into map and array
 %% 
 % we ignore stages that have less than this samples
-minimum_threshold = 500;
+minimum_threshold = 300;
 % feel free to change these but I don't think it will make much difference
 material_craft_operator_bonus = 80;
 skill_summary_craft_operator_bonus = 80;

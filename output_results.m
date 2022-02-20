@@ -141,6 +141,7 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
+fprintf(fileID, "A Light Spark in Darkness: TB-*\n");
 fprintf(fileID, "Invitation to Wine: IW-*\n");
 fprintf(fileID, "Break the Ice: BI-*\n");
 fprintf(fileID, "Near Light: NL-*\n");
