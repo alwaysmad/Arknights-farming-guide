@@ -6,10 +6,10 @@ D = zeros(rows_num, columns_num);
 %% fill with drop rates from penguin statisctics
 for i = 1 : numel(en_drop_data)
     % skip entry if data is insufficient
-    if en_drop_data{i}.times < minimum_threshold
+    if en_drop_data(i).times < minimum_threshold
         continue
     end
-    item_id = en_drop_data{i}.itemId;
+    item_id = en_drop_data(i).itemId;
     % skip entry if it is related to item we don't consider
     if isKey(item_indices, item_id) == 0
         continue
@@ -17,11 +17,11 @@ for i = 1 : numel(en_drop_data)
     % Penguin Statistics stores drop data for interlude and sidestory
     % stages in format of "<event_stage_id>_perm"
     %stage_id = en_drop_data{i}.stageId;
-    stage_id = erase(en_drop_data{i}.stageId, "_perm");
+    stage_id = erase(en_drop_data(i).stageId, "_perm");
     % if entry is related to main story stages then we add data to D
     if isKey(activity_indices, stage_id) == 1
         % items and stages we consider here should not have field 'end'
-        drop_rate = en_drop_data{i}.quantity / en_drop_data{i}.times;
+        drop_rate = en_drop_data(i).quantity / en_drop_data(i).times;
         % should not interlap
         D(activity_indices(stage_id), item_indices(item_id)) = drop_rate;
     end
