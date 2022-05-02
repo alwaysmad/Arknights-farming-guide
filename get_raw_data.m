@@ -51,8 +51,7 @@ disp(resp.StatusCode); % show status code
 tmp = jsondecode(resp.Body.string());
 en_drop_data = tmp.matrix;
 %% get drop rate data (CN statistics for event stages)
-%url = "https://penguin-stats.io/PenguinStats/api/v2/result/matrix?show_closed_zones=true&server=US";
-%url = "https://penguin-stats.io/PenguinStats/api/v2/result/matrix?show_closed_zones=true";
+% url = "https://penguin-stats.io/PenguinStats/api/v2/result/matrix?show_closed_zones=true&server=US";
 url = "https://penguin-stats.io/PenguinStats/api/v2/result/matrix?show_closed_zones=true&server=CN";
 uri = URI(url);
 fprintf("Getting drop rate data from %s\n", url)

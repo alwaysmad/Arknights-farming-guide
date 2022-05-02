@@ -141,6 +141,7 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
+fprintf(fileID, "Stultifera Navis: SN-*\n");
 fprintf(fileID, "Guiding Ahead: GA-*\n");
 fprintf(fileID, "A Light Spark in Darkness: TB-*\n");
 fprintf(fileID, "Invitation to Wine: IW-*\n");
@@ -306,6 +307,10 @@ green_cert_shop_data{12}.item_id = '31023'; % incandescent alloy
 green_cert_shop_data{12}.cc_cost = 35;
 green_cert_shop_data{13}.item_id = '31033'; % Crystalline Component
 green_cert_shop_data{13}.cc_cost = 30;
+green_cert_shop_data{14}.item_id = '31043'; % Semi-Synthetic Solvent
+green_cert_shop_data{14}.cc_cost = 40;
+green_cert_shop_data{15}.item_id = '31053'; % Compound Cutting Fluid
+green_cert_shop_data{15}.cc_cost = 40;
 % make shop entries
 green_cert_shop_efficiencies = [];
 for i = 1 : numel(green_cert_shop_data)
@@ -412,6 +417,12 @@ sparking_system_shop_data{24}.cost = 40;
 sparking_system_shop_data{37}.item_id = '31033'; % 2 Crystalline Component for 40
 sparking_system_shop_data{37}.item_count = 2;
 sparking_system_shop_data{37}.cost = 40;
+sparking_system_shop_data{39}.item_id = '31043'; % 2 Semi-Synthetic Solvent for 50
+sparking_system_shop_data{39}.item_count = 2;
+sparking_system_shop_data{39}.cost = 50;
+sparking_system_shop_data{40}.item_id = '31053'; % 2 Compound Cutting Fluid for 50
+sparking_system_shop_data{40}.item_count = 2;
+sparking_system_shop_data{40}.cost = 50;
 % t4
 sparking_system_shop_data{25}.item_id = '30014'; % 1 Orirock Concentration for 60
 sparking_system_shop_data{25}.item_count = 1;
@@ -453,6 +464,12 @@ sparking_system_shop_data{36}.cost = 75;
 sparking_system_shop_data{38}.item_id = '31034'; % 1 Crystalline Circuit for 90
 sparking_system_shop_data{38}.item_count = 1;
 sparking_system_shop_data{38}.cost = 90;
+sparking_system_shop_data{41}.item_id = '31044'; % 1 Refined Solvent for 70
+sparking_system_shop_data{41}.item_count = 1;
+sparking_system_shop_data{41}.cost = 70;
+sparking_system_shop_data{42}.item_id = '31054'; % 1 Cutting Fluid Solution for 70
+sparking_system_shop_data{42}.item_count = 1;
+sparking_system_shop_data{42}.cost = 70;
 % calculate efficiency
 sparking_system_shop_efficiencies = [];
 for i = 1 : numel(sparking_system_shop_data)
