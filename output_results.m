@@ -141,6 +141,7 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
+fprintf(fileID, "Lingering Echoes: LE-*\n");
 fprintf(fileID, "Stultifera Navis: SN-*\n");
 fprintf(fileID, "Guiding Ahead: GA-*\n");
 fprintf(fileID, "A Light Spark in Darkness: TB-*\n");
