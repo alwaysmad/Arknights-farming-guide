@@ -141,6 +141,11 @@ end
 fprintf(fileID, "------------------------------------------------------------\n");
 %% display short event info
 fprintf(fileID, "Event stages' code names info:\n");
+fprintf(fileID, "It's Been a While: BW-*\n");
+fprintf(fileID, "An Obscure Wanderer: AW-*\n");
+fprintf(fileID, "Ideal City: Carnival in Endless Summer: IC-*\n");
+fprintf(fileID, "To Be Continued: TC-*\n");
+fprintf(fileID, "Dorothy’s Vision: DV-*\n");
 fprintf(fileID, "Lingering Echoes: LE-*\n");
 fprintf(fileID, "Stultifera Navis: SN-*\n");
 fprintf(fileID, "Guiding Ahead: GA-*\n");
