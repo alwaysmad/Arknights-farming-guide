@@ -1,194 +1,192 @@
 Calculated best farming stages (based on CN statistics):
 Stage | Efficiency | Major Drops
-1-7, 1.000: Orirock Cube [124.52%, 4.82 per drop], Drill Battle Record [123.99%, 4.84 per drop], LMD [72], Pure Gold [8.97%, 66.92 per drop]
-4-8, 1.000: Grindstone [34.3%, 61.22 per drop], Grindstone Pentahydrate [4.76%, 441.37 per drop], LMD [252], Ester [41.36%, 50.78 per drop]
-4-9, 1.000: RMA70-12 [29.46%, 71.28 per drop], RMA70-24 [4.39%, 478.85 per drop], LMD [252], Ester [41.42%, 50.7 per drop]
-7-4, 1.000: Polyester Pack [55.45%, 32.46 per drop], Sugar [19.57%, 91.96 per drop], Oriron [15.21%, 118.31 per drop], LMD [216]
-R8-11, 1.000: Crystalline Component [54.24%, 38.72 per drop], Crystalline Circuit [2.98%, 705.29 per drop], Device [14.08%, 149.17 per drop], Orirock Cube [36.58%, 57.41 per drop]
-JT8-3, 1.000: Aketon [44.8%, 40.18 per drop], Oriron [15.93%, 113.03 per drop], Sugar [19.36%, 92.96 per drop], LMD [216]
-9-10, 1.000: Integrated Device [33.23%, 54.17 per drop], Sugar [19.65%, 91.61 per drop], Oriron [15.99%, 112.59 per drop], LMD [216]
-9-18, 1.000: Semi-Synthetic Solvent [32.95%, 63.74 per drop], Refined Solvent [4.92%, 426.99 per drop], Sugar [19.9%, 105.52 per drop], Oriron [16.15%, 130.05 per drop]
-10-3, 1.000: Coagulating Gel [33.19%, 63.27 per drop], Polymerized Gel [5.1%, 412.11 per drop], Oriron [16.97%, 123.78 per drop], Sugar [19.54%, 107.45 per drop]
-10-10, 1.000: Sugar Pack [45.13%, 46.53 per drop], Sugar Lump [4.87%, 431.45 per drop], Device [15.49%, 135.6 per drop], Orirock Cube [36.5%, 57.53 per drop]
-10-11, 1.000: Oriron Cluster [45.71%, 52.51 per drop], Oriron Block [4.14%, 580.35 per drop], LMD [288], Sugar [18.43%, 130.22 per drop]
-10-14, 1.000: Incandescent Alloy [39.62%, 53 per drop], Incandescent Alloy Block [4.43%, 474.32 per drop], LMD [252], Diketon [33.01%, 63.62 per drop]
-10-15, 1.000: Loxic Kohl [49.93%, 48.07 per drop], White Horse Kohl [5.83%, 411.35 per drop], LMD [288], Aketon [3.31%, 724.92 per drop]
-10-17, 1.000: Compound Cutting Fluid [54.55%, 44 per drop], Device [14.34%, 167.36 per drop], LMD [288], Coagulating Gel [3.33%, 720.92 per drop]
+1-7, 1.000: Orirock Cube [124.52%, 4.82 per drop], Drill Battle Record [124%, 4.84 per drop], LMD [72], Pure Gold [8.97%, 66.88 per drop]
+4-8, 1.000: Grindstone [34.22%, 61.36 per drop], Grindstone Pentahydrate [4.74%, 443.43 per drop], LMD [252], Ester [41.37%, 50.76 per drop]
+4-9, 1.000: RMA70-12 [29.43%, 71.36 per drop], RMA70-24 [4.38%, 479.47 per drop], LMD [252], Ester [41.44%, 50.67 per drop]
+7-4, 1.000: Polyester Pack [55.57%, 32.39 per drop], Sugar [19.41%, 92.73 per drop], Oriron [15.23%, 118.21 per drop], LMD [216]
+7-15, 1.000: Integrated Device [33.23%, 54.17 per drop], Sugar [19.52%, 92.23 per drop], Oriron [15.77%, 114.17 per drop], LMD [216]
+R8-11, 1.000: Crystalline Component [54.46%, 38.56 per drop], Crystalline Circuit [3.04%, 691.82 per drop], Device [14.15%, 148.43 per drop], Orirock Cube [36.56%, 57.44 per drop]
+JT8-3, 1.000: Aketon [44.77%, 40.21 per drop], Sugar [19.37%, 92.92 per drop], Oriron [15.89%, 113.28 per drop], LMD [216]
+9-5, 1.000: Sugar Pack [39.29%, 45.81 per drop], Sugar Lump [3.67%, 490.82 per drop], Sugar [19.65%, 91.62 per drop], Oriron [15.75%, 114.29 per drop]
+9-18, 1.000: Semi-Synthetic Solvent [32.98%, 63.68 per drop], Refined Solvent [4.94%, 425.31 per drop], Sugar [19.87%, 105.71 per drop], Oriron [16.13%, 130.2 per drop]
+10-3, 1.000: Coagulating Gel [33.3%, 63.06 per drop], Polymerized Gel [5.11%, 410.87 per drop], Oriron [16.72%, 125.57 per drop], Sugar [19.67%, 106.77 per drop]
+10-11, 1.000: Oriron Cluster [45.79%, 52.42 per drop], Oriron Block [4.1%, 584.99 per drop], LMD [288], Sugar [18.26%, 131.41 per drop]
+10-14, 1.000: Incandescent Alloy [39.59%, 53.05 per drop], Incandescent Alloy Block [4.37%, 480.28 per drop], LMD [252], Diketon [33.08%, 63.47 per drop]
+10-15, 1.000: Loxic Kohl [50.06%, 47.94 per drop], White Horse Kohl [5.83%, 411.59 per drop], LMD [288], Aketon [3.39%, 707.82 per drop]
+10-17, 1.000: Compound Cutting Fluid [53.96%, 44.48 per drop], Device [12.74%, 188.4 per drop], LMD [288], Orirock Cube [32.7%, 73.4 per drop]
 CE-5, 1.000: LMD [7500]
-SK-5, 1.000: Carbon Pack [299.98%, 10 per drop], Carbon Brick [50.16%, 59.81 per drop], LMD [360]
+SK-5, 1.000: Carbon Pack [299.98%, 10 per drop], Carbon Brick [50.22%, 59.73 per drop], LMD [360]
 LS-5, 1.000: Strategic Battle Record [300%, 10 per drop], Tactical Battle Record [100%, 30 per drop], Frontline Battle Record [100%, 30 per drop], LMD [360]
-CA-5, 1.000: Skill Summary - 3 [200%, 15 per drop], Skill Summary - 2 [149.98%, 20 per drop], Skill Summary - 1 [149.91%, 20.01 per drop], LMD [360]
+CA-5, 1.000: Skill Summary - 3 [200%, 15 per drop], Skill Summary - 2 [150.02%, 20 per drop], Skill Summary - 1 [149.88%, 20.02 per drop], LMD [360]
 OF-F4, 1.000: Manganese Ore [31.68%, 56.83 per drop], Manganese Trihydrate [3.79%, 475.03 per drop], Sugar [20.01%, 89.95 per drop], Oriron [15.2%, 118.41 per drop]
-7-15, 1.000: Integrated Device [33.24%, 54.15 per drop], Sugar [19.55%, 92.08 per drop], Oriron [15.78%, 114.09 per drop], LMD [216]
-10-7, 0.999: Manganese Ore [42.25%, 56.81 per drop], Manganese Trihydrate [4.46%, 538.12 per drop], Device [12.8%, 187.47 per drop], LMD [288]
-4-4, 0.999: Loxic Kohl [36.91%, 48.76 per drop], White Horse Kohl [5.01%, 359.41 per drop], Device [12.59%, 142.94 per drop], Orirock Cube [31.57%, 57.02 per drop]
-MN-6, 0.997: Coagulating Gel [24.64%, 60.89 per drop], Polymerized Gel [4.21%, 355.96 per drop], Polyketon [11.83%, 126.78 per drop], Oriron [11.51%, 130.35 per drop]
-9-4, 0.996: Semi-Synthetic Solvent [27.72%, 64.93 per drop], Refined Solvent [5.01%, 359.54 per drop], Device [12.04%, 149.51 per drop], Orirock Cube [30.06%, 59.88 per drop]
-10-7, 0.996: Manganese Ore [42.36%, 56.66 per drop], Manganese Trihydrate [4.47%, 537.09 per drop], Device [14.2%, 168.97 per drop], LMD [288]
-10-15, 0.995: Loxic Kohl [50.01%, 47.99 per drop], White Horse Kohl [5.67%, 423.63 per drop], LMD [288], Aketon [3.02%, 795.45 per drop]
-10-14, 0.992: Incandescent Alloy [39.6%, 53.03 per drop], Incandescent Alloy Block [4.39%, 478.28 per drop], LMD [252], Ester [41.93%, 50.08 per drop]
-7-17, 0.991: Grindstone [31.91%, 65.8 per drop], Grindstone Pentahydrate [4.71%, 445.9 per drop], Sugar [19.93%, 105.39 per drop], Oriron [15.82%, 132.75 per drop]
-10-11, 0.987: Oriron Cluster [45.48%, 52.77 per drop], Oriron Block [4.02%, 596.97 per drop], LMD [288], Oriron [15.11%, 158.84 per drop]
-4-7, 0.986: Manganese Ore [29.64%, 60.73 per drop], Manganese Trihydrate [3.83%, 469.83 per drop], Device [12.43%, 144.77 per drop], Orirock Cube [30.93%, 58.19 per drop]
-10-16, 0.985: Manganese Ore [54.79%, 38.33 per drop], Polyester [76.87%, 27.32 per drop], LMD [252]
-JT8-2, 0.984: Coagulating Gel [33.3%, 63.06 per drop], Polymerized Gel [4.69%, 447.71 per drop], LMD [252], Ester [41.3%, 50.84 per drop]
-9-5, 0.984: Sugar Pack [39.07%, 46.07 per drop], Sugar Lump [3.72%, 484.35 per drop], Sugar [19.77%, 91.02 per drop], Oriron [15.62%, 115.27 per drop]
-4-2, 0.983: Sugar Pack [38.86%, 46.32 per drop], Sugar Lump [4.02%, 448.15 per drop], Sugar [19.7%, 91.38 per drop], Oriron [16.01%, 112.4 per drop]
-10-16, 0.982: Manganese Ore [54.35%, 38.64 per drop], Polyester [77.92%, 26.95 per drop], LMD [252]
-10-3, 0.980: Coagulating Gel [33%, 63.63 per drop], Polymerized Gel [4.84%, 433.68 per drop], Oriron [16.89%, 124.36 per drop], Sugar [20.44%, 102.75 per drop]
-10-12, 0.976: Grindstone [45.41%, 46.25 per drop], Sugar [20.48%, 102.56 per drop], Oriron [16.32%, 128.71 per drop], LMD [252]
-R8-2, 0.976: Loxic Kohl [35.15%, 51.21 per drop], White Horse Kohl [4.61%, 390.74 per drop], Sugar [18.82%, 95.62 per drop], Oriron [15.24%, 118.1 per drop]
-WD-7, 0.975: Aketon [31.54%, 57.08 per drop], Keton Colloid [3.9%, 461.65 per drop], LMD [216], Diketon [33.72%, 53.39 per drop]
-7-10, 0.975: RMA70-12 [34.16%, 52.69 per drop], LMD [216], Diketon [33.51%, 53.71 per drop], Ester [41.17%, 43.72 per drop]
-9-19, 0.974: RMA70-12 [39.92%, 52.61 per drop], LMD [252], Diketon [33.54%, 62.62 per drop], Ester [41.42%, 50.7 per drop]
-10-12, 0.971: Grindstone [45.22%, 46.44 per drop], Sugar [20.48%, 102.55 per drop], Oriron [16.06%, 130.77 per drop], LMD [252]
-10-4, 0.971: Aketon [54.81%, 38.32 per drop], Device [46.6%, 45.06 per drop], LMD [252]
-R8-7, 0.970: Incandescent Alloy [32.78%, 54.91 per drop], Incandescent Alloy Block [4.02%, 447.47 per drop], Sugar [19.69%, 91.43 per drop], Oriron [15.46%, 116.39 per drop]
-GT-5, 0.968: Loxic Kohl [44.05%, 34.05 per drop], Device [8.49%, 176.6 per drop], Polyester [14.1%, 106.4 per drop], LMD [180]
-S4-1, 0.968: Oriron Cluster [31.19%, 57.71 per drop], Oriron Block [3.37%, 534.21 per drop], Sugar [19.67%, 91.52 per drop], Oriron [15.66%, 114.97 per drop]
-R8-9, 0.967: RMA70-12 [34.14%, 52.72 per drop], LMD [216], Ester [42.11%, 42.74 per drop], Diketon [32.73%, 55 per drop]
-7-5, 0.966: Loxic Kohl [34.52%, 52.14 per drop], White Horse Kohl [4.32%, 416.6 per drop], LMD [216], Ester [42.04%, 42.81 per drop]
-10-4, 0.966: Aketon [54.31%, 38.67 per drop], Device [47.11%, 44.58 per drop], LMD [252]
-2-5, 0.966: Sugar Pack [36.72%, 32.68 per drop], Drill Battle Record [146.46%, 8.19 per drop], LMD [144], Sugar Substitute [25.55%, 46.96 per drop]
-OF-F3, 0.964: Sugar Pack [47.19%, 31.79 per drop], Device [10.17%, 147.56 per drop], Polyester [13.72%, 109.34 per drop], LMD [180]
-10-5, 0.963: RMA70-12 [29.13%, 72.1 per drop], RMA70-24 [3.94%, 532.51 per drop], LMD [252], Diketon [33.73%, 62.25 per drop]
-4-5, 0.962: Aketon [31.12%, 57.83 per drop], Keton Colloid [3.59%, 501.67 per drop], LMD [216], Ester [41.22%, 43.67 per drop]
-S5-8, 0.962: Incandescent Alloy [30.92%, 58.21 per drop], Incandescent Alloy Block [4%, 449.71 per drop], Device [11.7%, 153.81 per drop], Orirock Cube [31.73%, 56.72 per drop]
-SV-8, 0.961: Crystalline Component [33.8%, 53.26 per drop], Crystalline Circuit [5.22%, 344.57 per drop], Device [11.51%, 156.33 per drop], Orirock Cube [34.12%, 52.76 per drop]
-5-5, 0.961: Oriron Cluster [29.56%, 60.89 per drop], Oriron Block [3.3%, 545.01 per drop], Device [12.19%, 147.62 per drop], Orirock Cube [31.78%, 56.64 per drop]
-10-10, 0.959: Sugar Pack [45.04%, 46.63 per drop], Sugar Lump [4.36%, 481.83 per drop], Device [14.53%, 144.55 per drop], Orirock Cube [37.53%, 55.95 per drop]
-2-6, 0.959: Polyester Pack [36.4%, 32.97 per drop], Drill Battle Record [124.6%, 9.63 per drop], LMD [144], Ester [26.53%, 45.23 per drop]
-S3-6, 0.956: Incandescent Alloy [39.62%, 37.86 per drop], Device [8.42%, 178.17 per drop], Polyester [13.95%, 107.57 per drop], LMD [180]
-MB-6, 0.956: Sugar Pack [47.15%, 31.81 per drop], Oriron [10.63%, 141.09 per drop], LMD [180], Polyketon [10.17%, 147.5 per drop]
-DM-8, 0.956: Oriron Cluster [30.29%, 59.43 per drop], Oriron Block [3.37%, 534.86 per drop], Sugar [20.81%, 86.5 per drop], Oriron [15.69%, 114.7 per drop]
-RI-8, 0.956: RMA70-12 [34%, 52.94 per drop], LMD [216], Ester [42.33%, 42.52 per drop], Diketon [32.38%, 55.58 per drop]
-6-4, 0.956: Polyester Pack [38.75%, 46.45 per drop], Polyester Lump [3.91%, 460.02 per drop], LMD [216], Ester [41.84%, 43.02 per drop]
-9-6, 0.955: Compound Cutting Fluid [27.32%, 65.89 per drop], Cutting Fluid Solution [4.69%, 383.6 per drop], LMD [216], Ester [41.06%, 43.84 per drop]
-3-2, 0.955: Manganese Ore [36.94%, 40.6 per drop], Device [8.46%, 177.32 per drop], Polyester [14.1%, 106.35 per drop], LMD [180]
-WD-8, 0.954: RMA70-12 [32.79%, 54.9 per drop], Device [12.16%, 148.01 per drop], Orirock Cube [31.25%, 57.6 per drop], LMD [216]
-10-17, 0.951: Compound Cutting Fluid [50.84%, 47.21 per drop], Device [12.38%, 193.84 per drop], LMD [288], Loxic Kohl [4.73%, 506.95 per drop]
-5-2, 0.951: Sugar Pack [35.68%, 50.45 per drop], Sugar Lump [3.77%, 477.95 per drop], Device [13.08%, 137.59 per drop], Orirock Cube [31.32%, 57.47 per drop]
-DM-6, 0.951: Sugar Pack [46.42%, 32.31 per drop], Sugar [13.47%, 111.32 per drop], Oriron [10.82%, 138.59 per drop], LMD [180]
-WD-6, 0.950: Polyester Pack [46.74%, 32.09 per drop], Device [8.7%, 172.5 per drop], Polyester [13.12%, 114.32 per drop], LMD [180]
-R8-10, 0.950: Manganese Ore [29.54%, 60.94 per drop], Manganese Trihydrate [3.53%, 510.45 per drop], LMD [216], Ester [41.89%, 42.97 per drop]
-6-2, 0.950: Manganese Ore [29.61%, 60.79 per drop], Manganese Trihydrate [3.45%, 521.76 per drop], LMD [216], Diketon [33.65%, 53.49 per drop]
-9-12, 0.950: Incandescent Alloy [31.93%, 56.38 per drop], Incandescent Alloy Block [3.72%, 484.41 per drop], LMD [216], Ester [41.96%, 42.9 per drop]
-6-11, 0.948: Loxic Kohl [49.16%, 42.72 per drop], Device [75.94%, 27.65 per drop], LMD [252]
-4-10, 0.947: Integrated Device [29.75%, 70.59 per drop], Optimized Device [3.08%, 681.89 per drop], Device [14.36%, 146.28 per drop], Orirock Cube [35.71%, 58.8 per drop]
-S9-1, 0.947: Aketon [28.78%, 62.54 per drop], Keton Colloid [3.35%, 537.87 per drop], Sugar [20.11%, 89.51 per drop], Oriron [15.15%, 118.81 per drop]
-6-12, 0.945: Incandescent Alloy [33.39%, 53.91 per drop], Incandescent Alloy Block [3.33%, 539.91 per drop], Sugar [19.95%, 90.21 per drop], Oriron [16.09%, 111.86 per drop]
-TW-6, 0.945: Incandescent Alloy [38.79%, 38.67 per drop], LMD [180], Polyketon [10.41%, 144.12 per drop], Sugar [12.33%, 121.61 per drop]
-3-8, 0.945: Polyester Pack [39.18%, 45.95 per drop], Polyester Lump [3.57%, 504.04 per drop], LMD [216], Ester [41.75%, 43.12 per drop]
-10-5, 0.944: RMA70-12 [28.38%, 73.99 per drop], RMA70-24 [3.82%, 550.35 per drop], LMD [252], Ester [42.99%, 48.85 per drop]
-S4-6, 0.943: LMD [3480], Sugar [21.1%, 99.53 per drop], Oriron [16.54%, 126.98 per drop], Manganese Ore [2.78%, 754.41 per drop]
-M8-8, 0.943: Integrated Device [31.39%, 57.35 per drop], Device [12.33%, 145.93 per drop], Orirock Cube [33.09%, 54.39 per drop], LMD [216]
-3-4, 0.942: Integrated Device [27.36%, 54.83 per drop], Device [8.55%, 175.5 per drop], Polyester [13.99%, 107.24 per drop], LMD [180]
-3-1, 0.941: Aketon [36.79%, 40.77 per drop], Polyketon [10.58%, 141.82 per drop], LMD [180], Sugar [12.79%, 117.29 per drop]
-7-8, 0.941: Coagulating Gel [25.85%, 69.63 per drop], Polymerized Gel [4.38%, 410.71 per drop], Sugar [20.36%, 88.39 per drop], Oriron [15.57%, 115.6 per drop]
-2-10, 0.939: RMA70-12 [27.66%, 54.23 per drop], Polyketon [10.45%, 143.54 per drop], Sugar [12.98%, 115.52 per drop], LMD [180]
-5-8, 0.937: Aketon [30.9%, 58.25 per drop], Keton Colloid [3.29%, 546.79 per drop], LMD [216], Ester [41.17%, 43.73 per drop]
-7-9, 0.935: Integrated Device [27.86%, 75.38 per drop], Optimized Device [2.94%, 714.8 per drop], LMD [252], Ester [42.06%, 49.92 per drop]
-6-16, 0.932: Integrated Device [31.37%, 66.95 per drop], Polyketon [100.14%, 20.97 per drop], LMD [252]
-4-1, 0.930: LMD [2700], Loxic Kohl [5.19%, 347.02 per drop], Device [11.7%, 153.84 per drop], Orirock Cube [28.59%, 62.96 per drop]
-9-9, 0.929: Loxic Kohl [36.33%, 49.55 per drop], White Horse Kohl [3.64%, 495 per drop], Device [11.7%, 153.87 per drop], Orirock Cube [31.29%, 57.53 per drop]
-9-15, 0.927: Manganese Ore [29.29%, 61.44 per drop], Manganese Trihydrate [3.38%, 533.25 per drop], LMD [216], Ester [42.46%, 42.4 per drop]
-GT-6, 0.924: Grindstone [32.23%, 46.54 per drop], Oriron [10.91%, 137.53 per drop], Polyketon [10.67%, 140.59 per drop], LMD [180]
-CA-4, 0.920: Skill Summary - 3 [160.62%, 15.56 per drop], Skill Summary - 2 [100%, 25 per drop], Skill Summary - 1 [100%, 25 per drop], LMD [300]
-S5-9, 0.920: Crystalline Component [33.35%, 53.97 per drop], Crystalline Circuit [3.8%, 473.61 per drop], Sugar [20.27%, 88.8 per drop], Oriron [15.26%, 117.97 per drop]
-S5-7, 0.918: Coagulating Gel [26.07%, 69.05 per drop], Polymerized Gel [4.14%, 434.59 per drop], LMD [216], Ester [41.84%, 43.02 per drop]
-S5-6, 0.916: Tactical Battle Record [287.66%, 6.26 per drop], Sugar [22.12%, 81.39 per drop], Oriron [15.38%, 117 per drop], LMD [216]
-M8-7, 0.915: Sugar Pack [49.51%, 42.41 per drop], Oriron [107.76%, 19.49 per drop], LMD [252]
-9-17, 0.913: Oriron Cluster [29.17%, 61.71 per drop], Oriron Block [2.72%, 662.56 per drop], Device [12.32%, 146.06 per drop], Orirock Cube [31%, 58.07 per drop]
-5-3, 0.913: Polyester Pack [49.08%, 36.68 per drop], Sugar [85.06%, 21.16 per drop], LMD [216]
+4-4, 1.000: Loxic Kohl [36.9%, 48.78 per drop], White Horse Kohl [5.01%, 359.36 per drop], Device [12.6%, 142.84 per drop], Orirock Cube [31.54%, 57.06 per drop]
+9-10, 1.000: Integrated Device [33.2%, 54.21 per drop], Sugar [19.59%, 91.86 per drop], Oriron [16.03%, 112.26 per drop], LMD [216]
+4-2, 0.999: Sugar Pack [38.88%, 46.3 per drop], Sugar Lump [4.01%, 449.02 per drop], Sugar [19.73%, 91.24 per drop], Oriron [15.99%, 112.58 per drop]
+10-15, 0.998: Loxic Kohl [50.08%, 47.92 per drop], White Horse Kohl [5.69%, 421.7 per drop], LMD [288], Aketon [2.96%, 810.97 per drop]
+7-17, 0.995: Grindstone [31.92%, 65.79 per drop], Grindstone Pentahydrate [4.67%, 449.84 per drop], Sugar [19.94%, 105.32 per drop], Oriron [15.8%, 132.88 per drop]
+10-14, 0.995: Incandescent Alloy [39.68%, 52.92 per drop], Incandescent Alloy Block [4.38%, 479.27 per drop], LMD [252], Ester [42.19%, 49.77 per drop]
+9-4, 0.994: Semi-Synthetic Solvent [27.77%, 64.82 per drop], Refined Solvent [5.02%, 358.34 per drop], Device [12.01%, 149.89 per drop], Orirock Cube [30.12%, 59.75 per drop]
+10-7, 0.993: Manganese Ore [42.08%, 57.03 per drop], Manganese Trihydrate [4.48%, 535.93 per drop], Device [12.75%, 188.27 per drop], LMD [288]
+10-7, 0.992: Manganese Ore [42.45%, 56.53 per drop], Manganese Trihydrate [4.43%, 542.17 per drop], Device [14.32%, 167.6 per drop], LMD [288]
+MN-6, 0.988: Coagulating Gel [24.57%, 61.05 per drop], Polymerized Gel [4.07%, 368.65 per drop], Polyketon [11.74%, 127.8 per drop], Oriron [11.27%, 133.13 per drop]
+10-11, 0.988: Oriron Cluster [45.44%, 52.82 per drop], Oriron Block [3.97%, 603.98 per drop], LMD [288], Oriron [15.09%, 159.07 per drop]
+2-5, 0.984: Sugar Pack [36.75%, 32.65 per drop], Drill Battle Record [146.45%, 8.19 per drop], LMD [144], Sugar Substitute [25.55%, 46.97 per drop]
+10-3, 0.982: Coagulating Gel [33.2%, 63.25 per drop], Polymerized Gel [4.88%, 430.63 per drop], Oriron [17%, 123.54 per drop], Sugar [20.32%, 103.33 per drop]
+10-16, 0.982: Manganese Ore [54.93%, 38.23 per drop], Polyester [76.73%, 27.37 per drop], LMD [252]
+JT8-2, 0.981: Coagulating Gel [33.29%, 63.08 per drop], Polymerized Gel [4.69%, 447.9 per drop], LMD [252], Ester [41.34%, 50.8 per drop]
+10-12, 0.981: Grindstone [45.26%, 46.4 per drop], Sugar [20.48%, 102.56 per drop], Oriron [16.24%, 129.28 per drop], LMD [252]
+4-7, 0.981: Manganese Ore [29.62%, 60.78 per drop], Manganese Trihydrate [3.82%, 470.7 per drop], Device [12.39%, 145.25 per drop], Orirock Cube [30.94%, 58.17 per drop]
+R8-2, 0.980: Loxic Kohl [35.11%, 51.27 per drop], White Horse Kohl [4.63%, 388.92 per drop], Sugar [18.81%, 95.69 per drop], Oriron [15.39%, 116.96 per drop]
+OF-F3, 0.980: Sugar Pack [47.19%, 31.79 per drop], Device [10.17%, 147.56 per drop], Polyester [13.72%, 109.34 per drop], LMD [180]
+10-16, 0.978: Manganese Ore [54.33%, 38.65 per drop], Polyester [78.1%, 26.89 per drop], LMD [252]
+R8-7, 0.977: Incandescent Alloy [32.82%, 54.85 per drop], Incandescent Alloy Block [4.01%, 448.62 per drop], Sugar [19.79%, 90.96 per drop], Oriron [15.42%, 116.76 per drop]
+7-10, 0.976: RMA70-12 [34.13%, 52.74 per drop], LMD [216], Diketon [33.51%, 53.71 per drop], Ester [41.19%, 43.7 per drop]
+9-19, 0.976: RMA70-12 [39.9%, 52.64 per drop], LMD [252], Diketon [33.54%, 62.62 per drop], Ester [41.38%, 50.75 per drop]
+10-12, 0.976: Grindstone [45.27%, 46.39 per drop], Sugar [20.5%, 102.45 per drop], Oriron [15.95%, 131.67 per drop], LMD [252]
+MB-6, 0.975: Sugar Pack [47.15%, 31.81 per drop], Oriron [10.63%, 141.09 per drop], LMD [180], Polyketon [10.17%, 147.5 per drop]
+S4-1, 0.971: Oriron Cluster [31.17%, 57.74 per drop], Oriron Block [3.37%, 534.39 per drop], Sugar [19.65%, 91.6 per drop], Oriron [15.65%, 115.01 per drop]
+10-17, 0.971: Compound Cutting Fluid [51.26%, 46.82 per drop], Device [12.71%, 188.82 per drop], LMD [288], Loxic Kohl [4.63%, 517.82 per drop]
+DM-6, 0.970: Sugar Pack [46.44%, 32.3 per drop], Sugar [13.46%, 111.43 per drop], Oriron [10.81%, 138.72 per drop], LMD [180]
+R8-9, 0.969: RMA70-12 [34.17%, 52.67 per drop], LMD [216], Ester [42.08%, 42.78 per drop], Diketon [32.69%, 55.06 per drop]
+7-5, 0.968: Loxic Kohl [34.54%, 52.11 per drop], White Horse Kohl [4.33%, 415.89 per drop], LMD [216], Ester [42.04%, 42.81 per drop]
+10-4, 0.968: Aketon [54.76%, 38.35 per drop], Device [46.62%, 45.04 per drop], LMD [252]
+DM-8, 0.967: Oriron Cluster [30.52%, 58.99 per drop], Oriron Block [3.44%, 523.94 per drop], Sugar [20.61%, 87.32 per drop], Oriron [15.73%, 114.44 per drop]
+GT-5, 0.966: Loxic Kohl [44.03%, 34.07 per drop], Device [8.49%, 176.76 per drop], Polyester [14.15%, 106.04 per drop], LMD [180]
+9-6, 0.965: Compound Cutting Fluid [27.3%, 65.93 per drop], Cutting Fluid Solution [4.69%, 383.78 per drop], LMD [216], Ester [41.14%, 43.76 per drop]
+10-5, 0.965: RMA70-12 [29.17%, 71.99 per drop], RMA70-24 [3.95%, 531.56 per drop], LMD [252], Diketon [33.78%, 62.17 per drop]
+5-2, 0.964: Sugar Pack [35.57%, 50.6 per drop], Sugar Lump [3.78%, 475.65 per drop], Device [13.01%, 138.37 per drop], Orirock Cube [31.03%, 58.01 per drop]
+S5-8, 0.964: Incandescent Alloy [30.99%, 58.09 per drop], Incandescent Alloy Block [3.98%, 451.76 per drop], Device [11.72%, 153.61 per drop], Orirock Cube [31.79%, 56.61 per drop]
+10-4, 0.964: Aketon [54.31%, 38.67 per drop], Device [47.13%, 44.56 per drop], LMD [252]
+WD-7, 0.964: Aketon [31.03%, 58.01 per drop], Keton Colloid [3.84%, 469.03 per drop], LMD [216], Diketon [34.32%, 52.45 per drop]
+WR-8, 0.962: Incandescent Alloy [38.74%, 38.72 per drop], Device [10.3%, 145.68 per drop], Polyester [17.1%, 87.7 per drop], LMD [180]
+4-5, 0.961: Aketon [31.13%, 57.83 per drop], Keton Colloid [3.58%, 502.71 per drop], LMD [216], Diketon [33.14%, 54.31 per drop]
+S3-6, 0.960: Incandescent Alloy [39.61%, 37.87 per drop], Device [8.42%, 178.16 per drop], Polyester [13.91%, 107.81 per drop], LMD [180]
+WD-8, 0.959: RMA70-12 [32.96%, 54.62 per drop], Device [12%, 150.05 per drop], Orirock Cube [31.22%, 57.66 per drop], LMD [216]
+5-5, 0.958: Oriron Cluster [29.46%, 61.1 per drop], Oriron Block [3.28%, 549.41 per drop], Device [12.21%, 147.44 per drop], Orirock Cube [31.52%, 57.11 per drop]
+RI-8, 0.957: RMA70-12 [34%, 52.94 per drop], LMD [216], Ester [42.33%, 42.52 per drop], Diketon [32.38%, 55.58 per drop]
+6-12, 0.957: Incandescent Alloy [33.46%, 53.8 per drop], Incandescent Alloy Block [3.41%, 527.97 per drop], Sugar [19.76%, 91.1 per drop], Oriron [16.15%, 111.47 per drop]
+SV-8, 0.956: Crystalline Component [33.8%, 53.26 per drop], Crystalline Circuit [5.22%, 344.57 per drop], Device [11.51%, 156.33 per drop], Orirock Cube [34.12%, 52.76 per drop]
+2-6, 0.955: Polyester Pack [36.41%, 32.96 per drop], Drill Battle Record [124.56%, 9.63 per drop], LMD [144], Ester [26.53%, 45.24 per drop]
+9-12, 0.954: Incandescent Alloy [32.01%, 56.23 per drop], Incandescent Alloy Block [3.7%, 486.7 per drop], LMD [216], Diketon [33.86%, 53.16 per drop]
+3-2, 0.951: Manganese Ore [36.94%, 40.6 per drop], Device [8.46%, 177.2 per drop], Polyester [14.1%, 106.42 per drop], LMD [180]
+TW-6, 0.951: Incandescent Alloy [38.74%, 38.72 per drop], Polyketon [10.48%, 143.07 per drop], LMD [180], Sugar [12.38%, 121.13 per drop]
+R8-10, 0.948: Manganese Ore [29.55%, 60.91 per drop], Manganese Trihydrate [3.49%, 516.07 per drop], LMD [216], Ester [41.49%, 43.38 per drop]
+6-11, 0.947: Loxic Kohl [49.19%, 42.69 per drop], Device [75.92%, 27.66 per drop], LMD [252]
+WD-6, 0.946: Polyester Pack [46.75%, 32.08 per drop], Device [8.66%, 173.3 per drop], Polyester [13.14%, 114.18 per drop], LMD [180]
+S9-1, 0.945: Aketon [28.76%, 62.59 per drop], Keton Colloid [3.28%, 548.51 per drop], Sugar [20.11%, 89.52 per drop], Oriron [15.27%, 117.84 per drop]
+S4-6, 0.945: LMD [3480], Sugar [21.1%, 99.55 per drop], Oriron [16.6%, 126.52 per drop], Manganese Ore [2.79%, 753.93 per drop]
+6-2, 0.945: Manganese Ore [29.52%, 60.98 per drop], Manganese Trihydrate [3.43%, 524.16 per drop], LMD [216], Diketon [33.74%, 53.35 per drop]
+4-10, 0.945: Integrated Device [29.72%, 70.67 per drop], Optimized Device [3.07%, 683 per drop], Device [14.41%, 145.72 per drop], Orirock Cube [35.65%, 58.91 per drop]
+3-8, 0.944: Polyester Pack [39.14%, 45.99 per drop], Polyester Lump [3.59%, 501.54 per drop], LMD [216], Ester [41.73%, 43.13 per drop]
+10-5, 0.944: RMA70-12 [28.41%, 73.93 per drop], RMA70-24 [3.78%, 555.3 per drop], LMD [252], Ester [43.03%, 48.8 per drop]
+2-10, 0.943: RMA70-12 [27.63%, 54.28 per drop], Sugar [12.98%, 115.56 per drop], Polyketon [10.45%, 143.49 per drop], LMD [180]
+6-4, 0.942: Polyester Pack [38.42%, 46.85 per drop], Polyester Lump [3.81%, 472.12 per drop], LMD [216], Ester [41.91%, 42.95 per drop]
+3-1, 0.941: Aketon [36.78%, 40.78 per drop], Polyketon [10.6%, 141.54 per drop], Sugar [12.77%, 117.49 per drop], LMD [180]
+M8-8, 0.941: Integrated Device [31.49%, 57.16 per drop], Device [12.25%, 146.92 per drop], Orirock Cube [32.72%, 55 per drop], LMD [216]
+3-4, 0.939: Integrated Device [27.35%, 54.85 per drop], Device [8.57%, 175.12 per drop], Polyester [14.01%, 107.09 per drop], LMD [180]
+7-8, 0.937: Coagulating Gel [25.77%, 69.85 per drop], Polymerized Gel [4.33%, 415.59 per drop], Sugar [20.34%, 88.5 per drop], Oriron [15.61%, 115.32 per drop]
+5-8, 0.937: Aketon [30.93%, 58.21 per drop], Keton Colloid [3.29%, 546.54 per drop], LMD [216], Ester [41.14%, 43.75 per drop]
+9-9, 0.933: Loxic Kohl [36.54%, 49.26 per drop], White Horse Kohl [3.63%, 495.83 per drop], Device [11.93%, 150.85 per drop], Orirock Cube [31.13%, 57.83 per drop]
+7-9, 0.932: Integrated Device [27.81%, 75.5 per drop], Optimized Device [2.93%, 715.65 per drop], LMD [252], Ester [42.28%, 49.67 per drop]
+GT-6, 0.931: Grindstone [32.26%, 46.5 per drop], Oriron [11.01%, 136.28 per drop], Polyketon [10.75%, 139.59 per drop], LMD [180]
+4-1, 0.930: LMD [2700], Loxic Kohl [5.16%, 348.7 per drop], Device [11.88%, 151.45 per drop], Orirock Cube [28.57%, 63 per drop]
+6-16, 0.929: Integrated Device [31.34%, 67 per drop], Polyketon [100.15%, 20.97 per drop], LMD [252]
+M8-7, 0.929: Sugar Pack [49.48%, 42.44 per drop], Oriron [107.84%, 19.47 per drop], LMD [252]
+9-15, 0.924: Manganese Ore [29.26%, 61.51 per drop], Manganese Trihydrate [3.36%, 536.28 per drop], LMD [216], Ester [42.3%, 42.55 per drop]
+S5-9, 0.919: Crystalline Component [33.37%, 53.95 per drop], Crystalline Circuit [3.82%, 471.19 per drop], Sugar [19.92%, 90.35 per drop], Oriron [14.97%, 120.27 per drop]
+S5-6, 0.919: Tactical Battle Record [287.66%, 6.26 per drop], Sugar [22.12%, 81.39 per drop], Oriron [15.38%, 117 per drop], LMD [216]
+S5-7, 0.917: Coagulating Gel [26.06%, 69.08 per drop], Polymerized Gel [4.13%, 435.48 per drop], LMD [216], Ester [41.67%, 43.2 per drop]
+CA-4, 0.916: Skill Summary - 3 [159.71%, 15.65 per drop], Skill Summary - 2 [100%, 25 per drop], Skill Summary - 1 [100%, 25 per drop], LMD [300]
+5-3, 0.916: Polyester Pack [49.07%, 36.68 per drop], Sugar [85.08%, 21.16 per drop], LMD [216]
+9-17, 0.914: Oriron Cluster [29.13%, 61.8 per drop], Oriron Block [2.7%, 666.31 per drop], Device [12.47%, 144.31 per drop], Orirock Cube [30.89%, 58.27 per drop]
+3-3, 0.912: Grindstone [31.94%, 46.96 per drop], Polyester [14.14%, 106.12 per drop], Device [8.37%, 179.15 per drop], LMD [180]
+LS-4, 0.912: Strategic Battle Record [100%, 25 per drop], Tactical Battle Record [199.63%, 12.52 per drop], Frontline Battle Record [300.23%, 8.33 per drop], Drill Battle Record [199.89%, 12.51 per drop]
 CE-4, 0.912: LMD [5700]
-4-3, 0.912: Tactical Battle Record [273.53%, 6.58 per drop], Device [12.09%, 148.86 per drop], Orirock Cube [30.28%, 59.44 per drop], LMD [216]
-LS-4, 0.912: Strategic Battle Record [100%, 25 per drop], Tactical Battle Record [199.52%, 12.53 per drop], Frontline Battle Record [300.26%, 8.33 per drop], Drill Battle Record [199.91%, 12.51 per drop]
-9-7, 0.911: Polyester Pack [36.85%, 48.85 per drop], Polyester Lump [3.63%, 495.43 per drop], LMD [216], Diketon [34.43%, 52.28 per drop]
-SK-4, 0.911: Carbon Pack [200%, 12.5 per drop], Carbon Brick [79.92%, 31.28 per drop], LMD [300]
-3-3, 0.909: Grindstone [31.97%, 46.92 per drop], Polyester [14.12%, 106.25 per drop], Device [8.37%, 179.15 per drop], LMD [180]
-7-16, 0.907: Manganese Ore [43.59%, 41.29 per drop], Orirock Cube [102.83%, 17.5 per drop], LMD [216]
-MB-8, 0.902: Oriron Cluster [28.65%, 62.84 per drop], Oriron Block [3.1%, 581.25 per drop], Oriron [15.23%, 118.22 per drop], Sugar [18.06%, 99.64 per drop]
-SV-9, 0.901: Integrated Device [22.04%, 81.68 per drop], Optimized Device [2.49%, 723.32 per drop], Oriron [15.67%, 114.88 per drop], Sugar [18.96%, 94.94 per drop]
-R8-8, 0.901: Coagulating Gel [31.23%, 57.64 per drop], Polyketon [85.29%, 21.1 per drop], LMD [216]
-TW-8, 0.896: Grindstone [25.69%, 70.07 per drop], Grindstone Pentahydrate [3.41%, 527.5 per drop], Device [11.94%, 150.71 per drop], Orirock Cube [31.75%, 56.69 per drop]
-TW-7, 0.895: Aketon [31.14%, 57.81 per drop], Keton Colloid [2.61%, 688.5 per drop], LMD [216], Ester [41.32%, 43.57 per drop]
-RI-7, 0.894: Sugar Pack [38.27%, 47.03 per drop], Sugar Lump [2.47%, 729 per drop], Sugar [20.74%, 86.79 per drop], Oriron [16.05%, 112.15 per drop]
-DM-7, 0.893: Loxic Kohl [34.52%, 52.14 per drop], White Horse Kohl [3.68%, 489.65 per drop], LMD [216], Ester [42.35%, 42.5 per drop]
+SK-4, 0.911: Carbon Pack [200%, 12.5 per drop], Carbon Brick [80.15%, 31.19 per drop], LMD [300]
+4-3, 0.910: Tactical Battle Record [273.56%, 6.58 per drop], Device [12.15%, 148.11 per drop], Orirock Cube [30.17%, 59.66 per drop], LMD [216]
+MB-8, 0.907: Oriron Cluster [28.29%, 63.62 per drop], Oriron Block [3.24%, 555.6 per drop], Oriron [15.44%, 116.56 per drop], Sugar [17.28%, 104.18 per drop]
+7-16, 0.904: Manganese Ore [43.59%, 41.29 per drop], Orirock Cube [102.83%, 17.51 per drop], LMD [216]
+TW-8, 0.902: Grindstone [25.74%, 69.93 per drop], Grindstone Pentahydrate [3.48%, 516.89 per drop], Device [11.95%, 150.59 per drop], Orirock Cube [31.62%, 56.92 per drop]
+SV-9, 0.901: Integrated Device [21.98%, 81.89 per drop], Optimized Device [2.48%, 727.25 per drop], Oriron [15.82%, 113.81 per drop], Sugar [18.77%, 95.88 per drop]
+7-12, 0.899: Sugar Pack [41.69%, 43.17 per drop], Polyketon [86.22%, 20.88 per drop], LMD [216]
+R8-8, 0.896: Coagulating Gel [31.2%, 57.69 per drop], Polyketon [85.06%, 21.16 per drop], LMD [216]
+DM-7, 0.895: Loxic Kohl [34.54%, 52.11 per drop], White Horse Kohl [3.69%, 488.31 per drop], LMD [216], Ester [42.39%, 42.46 per drop]
+9-7, 0.895: Polyester Pack [36.99%, 48.67 per drop], Polyester Lump [3.42%, 526.5 per drop], LMD [216], Ester [42.35%, 42.51 per drop]
+9-16, 0.893: Grindstone [38.82%, 46.37 per drop], Oriron [49.08%, 36.67 per drop], LMD [216]
+5-7, 0.892: Grindstone [34.2%, 61.41 per drop], Oriron [106.6%, 19.7 per drop], LMD [252]
+TW-7, 0.891: Aketon [30.96%, 58.13 per drop], Keton Colloid [2.63%, 685.55 per drop], LMD [216], Ester [41.38%, 43.5 per drop]
+7-18, 0.891: Oriron Cluster [38.03%, 55.22 per drop], Polyketon [107.42%, 19.55 per drop], LMD [252]
 S6-4, 0.890: LMD [2700], RMA70-12 [3.22%, 559.44 per drop], Ester [44.02%, 40.89 per drop], Grindstone [2.32%, 777 per drop]
-7-18, 0.890: Oriron Cluster [38.04%, 55.21 per drop], Polyketon [107.36%, 19.56 per drop], LMD [252]
-5-7, 0.887: Grindstone [34.22%, 61.37 per drop], Oriron [106.52%, 19.71 per drop], LMD [252]
-7-12, 0.887: Sugar Pack [41.64%, 43.23 per drop], Polyketon [86.33%, 20.85 per drop], LMD [216]
-9-16, 0.887: Grindstone [38.79%, 46.4 per drop], Oriron [49.09%, 36.67 per drop], LMD [216]
-5-10, 0.885: Integrated Device [31.66%, 66.32 per drop], Orirock Cube [185%, 11.35 per drop], LMD [252]
-S5-2, 0.875: LMD [2700], Oriron [15.77%, 114.12 per drop], Sugar [18.72%, 96.17 per drop], Manganese Ore [1.79%, 1006.94 per drop]
-MN-8, 0.872: Manganese Ore [28.77%, 62.56 per drop], Manganese Trihydrate [2.67%, 675.41 per drop], LMD [216], Ester [42.82%, 42.03 per drop]
-10-6, 0.849: Orirock Cluster [76.39%, 27.49 per drop], Device [14.18%, 148.07 per drop], Orirock Cube [35.98%, 58.36 per drop], LMD [252]
-10-6, 0.848: Orirock Cluster [75.94%, 27.65 per drop], Device [14.3%, 146.83 per drop], Orirock Cube [36.15%, 58.08 per drop], LMD [252]
-4-6, 0.844: Orirock Cluster [44.35%, 40.59 per drop], Orirock Concentration [5.18%, 347.62 per drop], Device [12.4%, 145.16 per drop], Orirock Cube [31.05%, 57.96 per drop]
-9-14, 0.844: Crystalline Component [54.19%, 38.76 per drop], Device [14.88%, 141.09 per drop], Orirock Cube [34.77%, 60.4 per drop], LMD [252]
-LS-3, 0.839: Tactical Battle Record [300%, 6.67 per drop], Frontline Battle Record [175.06%, 11.42 per drop], Drill Battle Record [200.42%, 9.98 per drop], LMD [240]
-2-4, 0.833: Orirock Cluster [42.34%, 28.34 per drop], Drill Battle Record [124.35%, 9.65 per drop], LMD [144], Ester [27.53%, 43.6 per drop]
-R8-3, 0.828: Orirock Cluster [43.37%, 41.5 per drop], Orirock Concentration [4.95%, 363.43 per drop], LMD [216], Ester [41.76%, 43.11 per drop]
-6-15, 0.824: RMA70-12 [19.41%, 92.73 per drop], RMA70-24 [2.7%, 666.5 per drop], Polyester [22.73%, 79.19 per drop], LMD [216]
-10-9, 0.822: Polyketon [165.98%, 12.65 per drop], LMD [252], Polyester Pack [3.8%, 553 per drop], Ester [43.04%, 48.79 per drop]
-9-13, 0.822: Orirock Cluster [43.69%, 41.2 per drop], Orirock Concentration [4.75%, 378.81 per drop], Device [12.22%, 147.34 per drop], Orirock Cube [30.74%, 58.55 per drop]
+5-10, 0.884: Integrated Device [31.69%, 66.26 per drop], Orirock Cube [184.95%, 11.35 per drop], LMD [252]
+S5-2, 0.878: LMD [2700], Oriron [15.74%, 114.36 per drop], Sugar [18.78%, 95.83 per drop], Manganese Ore [1.78%, 1009.06 per drop]
+MN-8, 0.876: Manganese Ore [29.23%, 61.59 per drop], Manganese Trihydrate [2.65%, 678.75 per drop], LMD [216], Ester [42.71%, 42.15 per drop]
+10-6, 0.847: Orirock Cluster [76%, 27.63 per drop], Device [14.28%, 147.09 per drop], Orirock Cube [36.19%, 58.03 per drop], LMD [252]
+10-6, 0.847: Orirock Cluster [76.26%, 27.54 per drop], Device [14.17%, 148.22 per drop], Orirock Cube [36.08%, 58.2 per drop], LMD [252]
+4-6, 0.842: Orirock Cluster [44.29%, 40.64 per drop], Orirock Concentration [5.17%, 348.2 per drop], Device [12.36%, 145.68 per drop], Orirock Cube [31.05%, 57.96 per drop]
+9-14, 0.842: Crystalline Component [54.45%, 38.56 per drop], Device [14.81%, 141.79 per drop], Orirock Cube [35.41%, 59.3 per drop], LMD [252]
+LS-3, 0.840: Tactical Battle Record [300%, 6.67 per drop], Frontline Battle Record [175.13%, 11.42 per drop], Drill Battle Record [200.47%, 9.98 per drop], LMD [240]
+2-4, 0.832: Orirock Cluster [42.38%, 28.32 per drop], Drill Battle Record [124.39%, 9.65 per drop], LMD [144], Ester [27.49%, 43.66 per drop]
+6-15, 0.828: RMA70-12 [19.54%, 92.12 per drop], RMA70-24 [2.72%, 662.13 per drop], Polyester [22.33%, 80.6 per drop], LMD [216]
+10-9, 0.826: Polyketon [166.31%, 12.63 per drop], LMD [252], Polyester Pack [3.71%, 566.13 per drop], Ester [42.5%, 49.41 per drop]
+R8-3, 0.826: Orirock Cluster [43.13%, 41.73 per drop], Orirock Concentration [4.91%, 366.59 per drop], LMD [216], Ester [41.84%, 43.03 per drop]
+9-13, 0.821: Orirock Cluster [43.67%, 41.22 per drop], Orirock Concentration [4.76%, 378.26 per drop], Device [12.23%, 147.14 per drop], Orirock Cube [30.79%, 58.47 per drop]
 CE-3, 0.820: LMD [4100]
-7-2, 0.813: Orirock Cluster [42.11%, 42.75 per drop], Orirock Concentration [4.91%, 366.79 per drop], LMD [216], Diketon [33.7%, 53.42 per drop]
-2-9, 0.810: Loxic Kohl [26.19%, 45.82 per drop], Drill Battle Record [124.77%, 9.62 per drop], LMD [144], Damaged Device [15.96%, 75.2 per drop]
-SK-3, 0.808: Carbon Brick [249.57%, 8.01 per drop], Carbon Stick [70.41%, 28.4 per drop], LMD [240]
-WR-10, 0.806: Orirock Cluster [44.13%, 40.79 per drop], Orirock Concentration [4.54%, 396.24 per drop], Device [11.7%, 153.81 per drop], Orirock Cube [30.84%, 58.37 per drop]
-S2-10, 0.804: Frontline Battle Record [400%, 3 per drop], Drill Battle Record [128.66%, 9.33 per drop], LMD [144], Ester [31.18%, 38.48 per drop]
-SV-7, 0.803: Orirock Cluster [51.59%, 29.08 per drop], Polyketon [10.81%, 138.73 per drop], Sugar [13.45%, 111.54 per drop], LMD [180]
+7-2, 0.810: Orirock Cluster [42.14%, 42.72 per drop], Orirock Concentration [4.87%, 369.95 per drop], LMD [216], Diketon [33.84%, 53.19 per drop]
+2-9, 0.809: Loxic Kohl [26.19%, 45.81 per drop], Drill Battle Record [124.78%, 9.62 per drop], LMD [144], Damaged Device [16%, 75 per drop]
+SK-3, 0.808: Carbon Brick [249.56%, 8.01 per drop], Carbon Stick [70.44%, 28.39 per drop], LMD [240]
+WR-10, 0.806: Orirock Cluster [44.31%, 40.62 per drop], Orirock Concentration [4.52%, 397.86 per drop], Device [11.7%, 153.79 per drop], Orirock Cube [30.91%, 58.23 per drop]
+SV-7, 0.804: Orirock Cluster [51.53%, 29.11 per drop], Sugar [13.41%, 111.84 per drop], Polyketon [10.86%, 138.07 per drop], LMD [180]
+S2-10, 0.803: Frontline Battle Record [400%, 3 per drop], Drill Battle Record [128.42%, 9.34 per drop], LMD [144], Ester [31.34%, 38.29 per drop]
 ------------------------------------------------------------
 Notable event farming stages (based on CN statistics):
 Stage | Efficiency | Major Drops
-BW-7, 1.002: Polyester Pack [64.9%, 32.36 per drop], Sugar [20.16%, 104.19 per drop], Oriron [16.2%, 129.64 per drop], LMD [252]
-BW-8, 0.953: Grindstone [46.9%, 44.77 per drop], LMD [252], Ester [41.32%, 50.82 per drop], Diketon [32.82%, 63.99 per drop]
-AW-7, 0.900: Crystalline Component [59.6%, 35.24 per drop], LMD [252], Ester [41.98%, 50.02 per drop], Diketon [32.69%, 64.24 per drop]
+BW-7, 1.001: Polyester Pack [64.9%, 32.36 per drop], Sugar [20.16%, 104.19 per drop], Oriron [16.2%, 129.64 per drop], LMD [252]
+BW-8, 0.957: Grindstone [46.9%, 44.77 per drop], LMD [252], Ester [41.32%, 50.82 per drop], Diketon [32.82%, 63.99 per drop]
+AW-7, 0.895: Crystalline Component [59.6%, 35.24 per drop], LMD [252], Ester [41.98%, 50.02 per drop], Diketon [32.69%, 64.24 per drop]
 AW-8, 1.015: Integrated Device [39.02%, 53.82 per drop], Sugar [20.52%, 102.33 per drop], Oriron [16.41%, 128.01 per drop], LMD [252]
-IC-4, 0.819: Sugar [111%, 10.81 per drop], Device [33.15%, 36.2 per drop], LMD [144]
-IC-6, 0.811: Device [82.29%, 18.23 per drop], Oriron [55.04%, 27.25 per drop], LMD [180]
-IC-7, 1.060: Aketon [77.53%, 27.09 per drop], LMD [252]
-IC-8, 1.055: Coagulating Gel [69.84%, 30.07 per drop], LMD [252]
-IC-9, 1.050: RMA70-12 [57.93%, 36.25 per drop], LMD [252]
-TC-7, 0.974: Aketon [51.24%, 40.99 per drop], Device [14.18%, 148.1 per drop], Orirock Cube [35.7%, 58.82 per drop], LMD [252]
-TC-8, 0.970: RMA70-12 [37.31%, 56.29 per drop], Sugar [20.41%, 102.91 per drop], Oriron [16.42%, 127.92 per drop], LMD [252]
-DV-3, 0.822: Device [66.51%, 18.04 per drop], Polyester [55.05%, 21.8 per drop], LMD [144]
-DV-4, 0.816: Sugar [111.16%, 10.8 per drop], Oriron [44.73%, 26.83 per drop], LMD [144]
-DV-5, 0.820: Polyketon [111.18%, 13.49 per drop], Device [41.78%, 35.9 per drop], LMD [180]
-DV-6, 1.070: Polyester Pack [97.03%, 21.64 per drop], LMD [252]
-DV-7, 1.100: Loxic Kohl [91.99%, 22.83 per drop], LMD [252]
-DV-8, 1.089: Incandescent Alloy [83.25%, 25.23 per drop], LMD [252]
-LE-4, 0.806: Oriron [88.62%, 13.54 per drop], Sugar [55.2%, 21.74 per drop], LMD [144]
-LE-5, 1.065: Sugar Pack [83.31%, 21.61 per drop], LMD [216]
-LE-6, 1.024: Grindstone [67.61%, 31.06 per drop], LMD [252]
-LE-7, 1.045: Semi-Synthetic Solvent [69.9%, 30.04 per drop], LMD [252]
-SN-4, 0.818: Polyester [110.53%, 10.86 per drop], Device [32.89%, 36.49 per drop], LMD [144]
-SN-5, 0.811: Oriron [88.52%, 13.56 per drop], Polyketon [45.32%, 26.48 per drop], LMD [144]
-SN-7, 0.818: Device [83.55%, 17.95 per drop], Oriron [54.94%, 27.3 per drop], LMD [180]
-SN-8, 1.047: Oriron Cluster [77.66%, 27.04 per drop], LMD [252]
-SN-9, 1.087: Manganese Ore [77.75%, 27.01 per drop], LMD [252]
-SN-10, 1.039: Compound Cutting Fluid [70.01%, 30 per drop], LMD [252]
-GA-5, 0.801: Oriron [88.07%, 13.63 per drop], Sugar [54.82%, 21.89 per drop], LMD [144]
-GA-6, 1.067: Sugar Pack [83.49%, 21.56 per drop], LMD [216]
+IC-4, 0.831: Sugar [111%, 10.81 per drop], Device [33.15%, 36.2 per drop], LMD [144]
+IC-6, 0.810: Device [82.29%, 18.23 per drop], Oriron [55.04%, 27.25 per drop], LMD [180]
+IC-7, 1.057: Aketon [77.53%, 27.09 per drop], LMD [252]
+IC-8, 1.050: Coagulating Gel [69.84%, 30.07 per drop], LMD [252]
+IC-9, 1.053: RMA70-12 [57.93%, 36.25 per drop], LMD [252]
+TC-7, 0.972: Aketon [51.24%, 40.99 per drop], Device [14.18%, 148.1 per drop], Orirock Cube [35.7%, 58.82 per drop], LMD [252]
+TC-8, 0.974: RMA70-12 [37.31%, 56.29 per drop], Sugar [20.41%, 102.91 per drop], Oriron [16.42%, 127.92 per drop], LMD [252]
+DV-3, 0.819: Device [66.51%, 18.04 per drop], Polyester [55.05%, 21.8 per drop], LMD [144]
+DV-4, 0.829: Sugar [111.16%, 10.8 per drop], Oriron [44.73%, 26.83 per drop], LMD [144]
+DV-5, 0.818: Polyketon [111.18%, 13.49 per drop], Device [41.78%, 35.9 per drop], LMD [180]
+DV-6, 1.064: Polyester Pack [97.03%, 21.64 per drop], LMD [252]
+DV-7, 1.099: Loxic Kohl [91.99%, 22.83 per drop], LMD [252]
+DV-8, 1.096: Incandescent Alloy [83.25%, 25.23 per drop], LMD [252]
+LE-4, 0.814: Oriron [88.62%, 13.54 per drop], Sugar [55.2%, 21.74 per drop], LMD [144]
+LE-5, 1.090: Sugar Pack [83.31%, 21.61 per drop], LMD [216]
+LE-6, 1.031: Grindstone [67.61%, 31.06 per drop], LMD [252]
+LE-7, 1.036: Semi-Synthetic Solvent [69.9%, 30.04 per drop], LMD [252]
+SN-4, 0.815: Polyester [110.53%, 10.86 per drop], Device [32.89%, 36.49 per drop], LMD [144]
+SN-5, 0.812: Oriron [88.52%, 13.56 per drop], Polyketon [45.32%, 26.48 per drop], LMD [144]
+SN-7, 0.817: Device [83.55%, 17.95 per drop], Oriron [54.94%, 27.3 per drop], LMD [180]
+SN-8, 1.051: Oriron Cluster [77.66%, 27.04 per drop], LMD [252]
+SN-9, 1.083: Manganese Ore [77.75%, 27.01 per drop], LMD [252]
+SN-10, 1.061: Compound Cutting Fluid [70.01%, 30 per drop], LMD [252]
+GA-5, 0.809: Oriron [88.07%, 13.63 per drop], Sugar [54.82%, 21.89 per drop], LMD [144]
+GA-6, 1.092: Sugar Pack [83.49%, 21.56 per drop], LMD [216]
 GA-7, 1.100: Loxic Kohl [92.06%, 22.81 per drop], LMD [252]
-GA-8, 1.054: Coagulating Gel [69.78%, 30.09 per drop], LMD [252]
-TB-7, 0.992: Polyester Pack [64.55%, 32.53 per drop], Device [14.56%, 144.22 per drop], Orirock Cube [35.47%, 59.2 per drop], LMD [252]
-TB-8, 0.919: Crystalline Component [58.26%, 36.04 per drop], Oriron [16.15%, 130.04 per drop], Sugar [19.37%, 108.42 per drop], LMD [252]
-IW-5, 0.800: Polyester [106.9%, 11.23 per drop], Sugar [55.17%, 21.75 per drop], LMD [144]
-IW-6, 1.073: Integrated Device [49.67%, 36.24 per drop], LMD [216]
-IW-7, 0.860: Orirock Cluster [109.92%, 19.1 per drop], LMD [252]
-IW-8, 1.051: RMA70-12 [57.96%, 36.23 per drop], LMD [252]
-BI-6, 1.065: Incandescent Alloy [58.08%, 25.83 per drop], LMD [180]
-BI-7, 1.080: Polyester Pack [84.05%, 21.42 per drop], LMD [216]
-BI-8, 1.003: Grindstone [56.68%, 31.76 per drop], LMD [216]
-NL-5, 0.866: Polyketon [90.7%, 13.23 per drop], Sugar [64.12%, 18.72 per drop], LMD [144]
-NL-7, 0.885: Device [89.39%, 16.78 per drop], Oriron [61.63%, 24.34 per drop], LMD [180]
-NL-8, 1.047: Sugar Pack [81.9%, 21.98 per drop], LMD [216]
-NL-9, 0.937: Crystalline Component [74.44%, 24.18 per drop], LMD [216]
-NL-10, 1.091: Loxic Kohl [78.21%, 23.02 per drop], LMD [216]
-PS-5, 0.858: Crystalline Component [41.4%, 36.24 per drop], Sugar [13.01%, 115.31 per drop], LMD [180], Polyketon [9.89%, 151.64 per drop]
-PS-6, 0.990: Oriron Cluster [46.54%, 38.68 per drop], Oriron [15.64%, 115.09 per drop], Sugar [18.58%, 96.9 per drop], LMD [216]
+GA-8, 1.050: Coagulating Gel [69.78%, 30.09 per drop], LMD [252]
+TB-7, 0.988: Polyester Pack [64.55%, 32.53 per drop], Device [14.56%, 144.22 per drop], Orirock Cube [35.47%, 59.2 per drop], LMD [252]
+TB-8, 0.917: Crystalline Component [58.26%, 36.04 per drop], Oriron [16.15%, 130.04 per drop], Sugar [19.37%, 108.42 per drop], LMD [252]
+IW-5, 0.804: Polyester [106.9%, 11.23 per drop], Sugar [55.17%, 21.75 per drop], LMD [144]
+IW-6, 1.070: Integrated Device [49.67%, 36.24 per drop], LMD [216]
+IW-7, 0.859: Orirock Cluster [109.92%, 19.1 per drop], LMD [252]
+IW-8, 1.054: RMA70-12 [57.96%, 36.23 per drop], LMD [252]
+BI-6, 1.072: Incandescent Alloy [58.08%, 25.83 per drop], LMD [180]
+BI-7, 1.075: Polyester Pack [84.05%, 21.42 per drop], LMD [216]
+BI-8, 1.009: Grindstone [56.68%, 31.76 per drop], LMD [216]
+NL-5, 0.872: Polyketon [90.7%, 13.23 per drop], Sugar [64.12%, 18.72 per drop], LMD [144]
+NL-7, 0.884: Device [89.39%, 16.78 per drop], Oriron [61.63%, 24.34 per drop], LMD [180]
+NL-8, 1.072: Sugar Pack [81.9%, 21.98 per drop], LMD [216]
+NL-9, 0.930: Crystalline Component [74.44%, 24.18 per drop], LMD [216]
+NL-10, 1.090: Loxic Kohl [78.21%, 23.02 per drop], LMD [216]
+PS-5, 0.855: Crystalline Component [41.4%, 36.24 per drop], Sugar [13.01%, 115.31 per drop], LMD [180], Polyketon [9.89%, 151.64 per drop]
+PS-6, 0.996: Oriron Cluster [46.54%, 38.68 per drop], Oriron [15.64%, 115.09 per drop], Sugar [18.58%, 96.9 per drop], LMD [216]
 DH-1, 1.000: Dossoles Holiday 9 cost sticker [100%, 9 per drop], Dossoles Holiday 20 cost sticker [25.27%, 35.61 per drop], Dossoles Holiday 40 cost sticker [6.66%, 135.18 per drop], Dossoles Holiday 150 cost sticker [1.77%, 509.54 per drop]
 DH-2, 0.985: Dossoles Holiday 9 cost sticker [100%, 9 per drop], Dossoles Holiday 20 cost sticker [24.49%, 36.76 per drop], Dossoles Holiday 40 cost sticker [7.51%, 119.84 per drop], Dossoles Holiday 150 cost sticker [1.44%, 624.86 per drop]
 DH-3, 0.966: Dossoles Holiday 9 cost sticker [100%, 9 per drop], Dossoles Holiday 20 cost sticker [26.25%, 34.29 per drop], Dossoles Holiday 40 cost sticker [5.61%, 160.51 per drop], Dossoles Holiday 150 cost sticker [1.08%, 832.04 per drop]
@@ -198,69 +196,70 @@ DH-6, 0.970: Dossoles Holiday 12 cost sticker [100%, 12 per drop], Dossoles Holi
 DH-7, 0.980: Dossoles Holiday 18 cost sticker [100%, 18 per drop], Dossoles Holiday 20 cost sticker [51.25%, 35.12 per drop], Dossoles Holiday 40 cost sticker [13.14%, 136.94 per drop], Dossoles Holiday 150 cost sticker [2.94%, 612.34 per drop]
 DH-8, 0.956: Dossoles Holiday 18 cost sticker [100%, 18 per drop], Dossoles Holiday 20 cost sticker [49.43%, 36.41 per drop], Dossoles Holiday 40 cost sticker [14.99%, 120.06 per drop], Dossoles Holiday 150 cost sticker [2.03%, 887.27 per drop]
 DH-9, 0.948: Dossoles Holiday 18 cost sticker [100%, 18 per drop], Dossoles Holiday 20 cost sticker [51.68%, 34.83 per drop], Dossoles Holiday 40 cost sticker [10.87%, 165.65 per drop], Dossoles Holiday 150 cost sticker [1.87%, 960.23 per drop]
-VI-6, 0.879: Crystalline Component [43.12%, 34.79 per drop], Sugar [13.41%, 111.88 per drop], LMD [180], Oriron [10.36%, 144.78 per drop]
-VI-7, 1.035: Loxic Kohl [54.14%, 33.25 per drop], Sugar [19.73%, 91.22 per drop], Oriron [15.53%, 115.93 per drop], LMD [216]
-PL-4, 0.807: Orirock Cluster [53.16%, 28.22 per drop], Polyketon [10.83%, 138.55 per drop], LMD [180], Sugar [12.02%, 124.76 per drop]
-PL-5, 1.009: RMA70-12 [34.9%, 51.58 per drop], Oriron [15.64%, 115.08 per drop], Sugar [15.92%, 113.04 per drop], LMD [216]
-SV-5, 0.847: Polyester [112.83%, 10.64 per drop], Sugar [59.18%, 20.28 per drop], LMD [144]
+VI-6, 0.876: Crystalline Component [43.12%, 34.79 per drop], Sugar [13.41%, 111.88 per drop], LMD [180], Oriron [10.36%, 144.78 per drop]
+VI-7, 1.037: Loxic Kohl [54.14%, 33.25 per drop], Sugar [19.73%, 91.22 per drop], Oriron [15.53%, 115.93 per drop], LMD [216]
+PL-4, 0.808: Orirock Cluster [53.16%, 28.22 per drop], Polyketon [10.83%, 138.55 per drop], LMD [180], Sugar [12.02%, 124.76 per drop]
+PL-5, 1.014: RMA70-12 [34.9%, 51.58 per drop], Oriron [15.64%, 115.08 per drop], Sugar [15.92%, 113.04 per drop], LMD [216]
+SV-5, 0.851: Polyester [112.83%, 10.64 per drop], Sugar [59.18%, 20.28 per drop], LMD [144]
 SV-7, 0.854: Orirock Cluster [78.02%, 19.23 per drop], LMD [180]
-SV-8, 0.932: Crystalline Component [73.98%, 24.33 per drop], LMD [216]
-SV-9, 1.078: Integrated Device [49.89%, 36.08 per drop], LMD [216]
-WD-3, 0.880: Polyketon [92.86%, 12.92 per drop], Sugar [64.29%, 18.67 per drop], LMD [144]
-WD-5, 0.927: Device [74.68%, 16.07 per drop], Sugar [64.38%, 18.64 per drop], LMD [144]
-WD-6, 1.058: Polyester Pack [68.51%, 21.89 per drop], LMD [180]
-WD-7, 1.057: Aketon [66.28%, 27.16 per drop], LMD [216]
-WD-8, 1.050: RMA70-12 [49.64%, 36.26 per drop], LMD [216]
-OD-5, 0.869: Polyester [114.29%, 10.5 per drop], Sugar [62.5%, 19.2 per drop], LMD [144]
-OD-7, 1.093: Manganese Ore [67.02%, 26.86 per drop], LMD [216]
-OD-8, 1.028: Grindstone [58.14%, 30.96 per drop], LMD [216]
-WR-5, 0.851: Polyketon [93.68%, 12.81 per drop], Device [33.91%, 35.39 per drop], LMD [144]
-WR-7, 0.821: Oriron [89.69%, 13.38 per drop], Sugar [57.22%, 20.97 per drop], LMD [144]
-WR-8, 1.091: Incandescent Alloy [59.56%, 25.18 per drop], LMD [180]
-WR-9, 1.063: Polyester Pack [82.65%, 21.78 per drop], LMD [216]
+SV-8, 0.924: Crystalline Component [73.98%, 24.33 per drop], LMD [216]
+SV-9, 1.075: Integrated Device [49.89%, 36.08 per drop], LMD [216]
+WD-3, 0.886: Polyketon [92.86%, 12.92 per drop], Sugar [64.29%, 18.67 per drop], LMD [144]
+WD-5, 0.933: Device [74.68%, 16.07 per drop], Sugar [64.38%, 18.64 per drop], LMD [144]
+WD-6, 1.053: Polyester Pack [68.51%, 21.89 per drop], LMD [180]
+WD-7, 1.054: Aketon [66.28%, 27.16 per drop], LMD [216]
+WD-8, 1.053: RMA70-12 [49.64%, 36.26 per drop], LMD [216]
+OD-5, 0.873: Polyester [114.29%, 10.5 per drop], Sugar [62.5%, 19.2 per drop], LMD [144]
+OD-7, 1.088: Manganese Ore [67.02%, 26.86 per drop], LMD [216]
+OD-8, 1.034: Grindstone [58.14%, 30.96 per drop], LMD [216]
+WR-5, 0.849: Polyketon [93.68%, 12.81 per drop], Device [33.91%, 35.39 per drop], LMD [144]
+WR-7, 0.830: Oriron [89.69%, 13.38 per drop], Sugar [57.22%, 20.97 per drop], LMD [144]
+WR-8, 1.098: Incandescent Alloy [59.56%, 25.18 per drop], LMD [180]
+WR-9, 1.058: Polyester Pack [82.65%, 21.78 per drop], LMD [216]
 WR-10, 0.850: Orirock Cluster [93.13%, 19.33 per drop], LMD [216]
-BH-6, 0.907: Loxic Kohl [35.04%, 34.25 per drop], LMD [144], Ester [27.05%, 44.36 per drop], Damaged Device [15.81%, 75.88 per drop]
-BH-7, 0.906: Polyester Pack [44.5%, 33.71 per drop], LMD [180], Sugar [11.96%, 125.4 per drop], Oriron [9.57%, 156.75 per drop]
-BH-8, 0.992: RMA70-12 [33.84%, 53.19 per drop], Oriron [15.91%, 113.11 per drop], Sugar [18.89%, 95.31 per drop], LMD [216]
-MB-5, 0.818: Polyketon [108.13%, 13.87 per drop], Device [43.75%, 34.29 per drop], LMD [180]
-MB-6, 1.074: Sugar Pack [70.1%, 21.4 per drop], LMD [180]
-MB-7, 1.071: Aketon [67.22%, 26.78 per drop], LMD [216]
-MB-8, 1.057: Oriron Cluster [67.26%, 26.76 per drop], LMD [216]
-MN-4, 0.848: Sugar [108.51%, 11.06 per drop], Device [38.3%, 31.33 per drop], LMD [144]
-MN-6, 1.047: Coagulating Gel [49.5%, 30.3 per drop], LMD [180]
-MN-7, 1.072: Polyester Pack [83.38%, 21.59 per drop], LMD [216]
-MN-8, 1.098: Manganese Ore [67.35%, 26.73 per drop], LMD [216]
-FA-6, 0.911: Loxic Kohl [35.13%, 34.16 per drop], LMD [144], Damaged Device [16.48%, 72.82 per drop], Ester [26.41%, 45.44 per drop]
-FA-7, 0.958: Aketon [37.78%, 39.71 per drop], Polyketon [10.68%, 140.47 per drop], Sugar [13.03%, 115.13 per drop], LMD [180]
-FA-8, 0.995: Oriron Cluster [47.03%, 38.27 per drop], Sugar [18.94%, 95.05 per drop], Oriron [15.4%, 116.9 per drop], LMD [216]
-RI-6, 0.849: Orirock Cluster [77.48%, 19.36 per drop], LMD [180]
-RI-7, 1.060: Sugar Pack [82.94%, 21.7 per drop], LMD [216]
-RI-8, 1.062: RMA70-12 [50.26%, 35.81 per drop], LMD [216]
-TW-5, 0.819: Polyketon [110.17%, 13.62 per drop], Device [42.37%, 35.4 per drop], LMD [180]
-TW-6, 1.084: Incandescent Alloy [59.15%, 25.36 per drop], LMD [180]
-TW-7, 1.074: Aketon [67.4%, 26.71 per drop], LMD [216]
-TW-8, 1.024: Grindstone [57.91%, 31.08 per drop], LMD [216]
-SV-3, 0.824: Polyketon [88.43%, 10.18 per drop], LMD [108], Diketon [9.09%, 99 per drop], Orirock [18.18%, 49.5 per drop]
-SV-4, 0.846: Oriron [114.81%, 10.45 per drop], LMD [144], Damaged Device [17.28%, 69.43 per drop], Orirock [40.74%, 29.45 per drop]
-SV-5, 0.952: Polyester Pack [46.74%, 32.1 per drop], Polyketon [10.79%, 139.08 per drop], LMD [180], Sugar [12.58%, 119.21 per drop]
-SV-6, 0.953: Oriron Cluster [37.88%, 39.6 per drop], Oriron [11.59%, 129.42 per drop], Polyketon [10.69%, 140.35 per drop], LMD [180]
+BH-6, 0.906: Loxic Kohl [35.04%, 34.25 per drop], LMD [144], Ester [27.05%, 44.36 per drop], Damaged Device [15.81%, 75.88 per drop]
+BH-7, 0.904: Polyester Pack [44.5%, 33.71 per drop], LMD [180], Sugar [11.96%, 125.4 per drop], Oriron [9.57%, 156.75 per drop]
+BH-8, 0.996: RMA70-12 [33.84%, 53.19 per drop], Oriron [15.91%, 113.11 per drop], Sugar [18.89%, 95.31 per drop], LMD [216]
+MB-5, 0.816: Polyketon [108.13%, 13.87 per drop], Device [43.75%, 34.29 per drop], LMD [180]
+MB-6, 1.100: Sugar Pack [70.1%, 21.4 per drop], LMD [180]
+MB-7, 1.069: Aketon [67.22%, 26.78 per drop], LMD [216]
+MB-8, 1.061: Oriron Cluster [67.26%, 26.76 per drop], LMD [216]
+MN-4, 0.859: Sugar [108.51%, 11.06 per drop], Device [38.3%, 31.33 per drop], LMD [144]
+MN-6, 1.043: Coagulating Gel [49.5%, 30.3 per drop], LMD [180]
+MN-7, 1.067: Polyester Pack [83.38%, 21.59 per drop], LMD [216]
+MN-8, 1.094: Manganese Ore [67.35%, 26.73 per drop], LMD [216]
+FA-6, 0.910: Loxic Kohl [35.13%, 34.16 per drop], LMD [144], Damaged Device [16.48%, 72.82 per drop], Ester [26.41%, 45.44 per drop]
+FA-7, 0.958: Aketon [37.78%, 39.71 per drop], Sugar [13.03%, 115.13 per drop], Polyketon [10.68%, 140.47 per drop], LMD [180]
+FA-8, 1.000: Oriron Cluster [47.03%, 38.27 per drop], Sugar [18.94%, 95.05 per drop], Oriron [15.4%, 116.9 per drop], LMD [216]
+RI-6, 0.848: Orirock Cluster [77.48%, 19.36 per drop], LMD [180]
+RI-7, 1.085: Sugar Pack [82.94%, 21.7 per drop], LMD [216]
+RI-8, 1.066: RMA70-12 [50.26%, 35.81 per drop], LMD [216]
+TW-5, 0.817: Polyketon [110.17%, 13.62 per drop], Device [42.37%, 35.4 per drop], LMD [180]
+TW-6, 1.091: Incandescent Alloy [59.15%, 25.36 per drop], LMD [180]
+TW-7, 1.072: Aketon [67.4%, 26.71 per drop], LMD [216]
+TW-8, 1.030: Grindstone [57.91%, 31.08 per drop], LMD [216]
+SV-3, 0.822: Polyketon [88.43%, 10.18 per drop], LMD [108], Diketon [9.09%, 99 per drop], Orirock [18.18%, 49.5 per drop]
+SV-4, 0.848: Oriron [114.81%, 10.45 per drop], LMD [144], Damaged Device [17.28%, 69.43 per drop], Orirock [40.74%, 29.45 per drop]
+SV-5, 0.950: Polyester Pack [46.74%, 32.1 per drop], Polyketon [10.79%, 139.08 per drop], LMD [180], Sugar [12.58%, 119.21 per drop]
+SV-6, 0.958: Oriron Cluster [37.88%, 39.6 per drop], Oriron [11.59%, 129.42 per drop], Polyketon [10.69%, 140.35 per drop], Sugar [12.69%, 118.16 per drop]
 SV-7, 0.981: Coagulating Gel [39.88%, 45.13 per drop], Sugar [19.84%, 90.72 per drop], Oriron [15.44%, 116.59 per drop], LMD [216]
-DM-6, 1.064: Sugar Pack [69.35%, 21.63 per drop], LMD [180]
-DM-7, 1.097: Loxic Kohl [78.65%, 22.89 per drop], LMD [216]
-DM-8, 1.049: Oriron Cluster [66.73%, 26.98 per drop], LMD [216]
-SA-5, 1.027: Loxic Kohl [52.84%, 34.07 per drop], Sugar [20.1%, 89.57 per drop], Oriron [15.99%, 112.54 per drop], LMD [216]
-SA-6, 1.020: Incandescent Alloy [50.05%, 35.96 per drop], Sugar [19.46%, 92.52 per drop], Oriron [15.24%, 118.07 per drop], LMD [216]
-AF-6, 0.909: Aketon [34.59%, 43.36 per drop], Polyketon [13.17%, 113.88 per drop], LMD [180], Oriron [10.1%, 148.48 per drop]
-AF-7, 0.978: Loxic Kohl [44.2%, 33.94 per drop], Polyketon [10.73%, 139.85 per drop], Oriron [10.65%, 140.85 per drop], LMD [180]
-AF-8, 0.966: Grindstone [38.23%, 47.09 per drop], Sugar [20.12%, 89.46 per drop], Oriron [16.09%, 111.89 per drop], LMD [216]
-SW-EV-5, 0.981: Polyester Pack [55.73%, 32.3 per drop], Device [12.41%, 145.08 per drop], Orirock Cube [31.51%, 57.12 per drop], LMD [216]
-GT-3, 0.859: Oriron [94.01%, 12.76 per drop], Sugar [60.18%, 19.94 per drop], LMD [144]
-GT-4, 0.847: Polyketon [93.1%, 12.89 per drop], Polyester [56.54%, 21.22 per drop], LMD [144]
-GT-5, 1.106: Loxic Kohl [66.11%, 22.69 per drop], LMD [180]
-GT-6, 1.037: Grindstone [48.91%, 30.67 per drop], LMD [180]
-Dossoles Holiday store: 1 Oriron Cluster for 50 stickers, 1.221: Oriron Cluster [100%]
-Dossoles Holiday store: 1 Manganese Ore for 50 stickers, 1.269: Manganese Ore [100%]
-Dossoles Holiday store: 1 Orirock_Cluster for 35 stickers, 1.001: Orirock Cluster [100%]
+DM-5, 0.810: Sugar [134.34%, 11.17 per drop], Device [40.75%, 36.81 per drop], LMD [180]
+DM-6, 1.089: Sugar Pack [69.35%, 21.63 per drop], LMD [180]
+DM-7, 1.096: Loxic Kohl [78.65%, 22.89 per drop], LMD [216]
+DM-8, 1.053: Oriron Cluster [66.73%, 26.98 per drop], LMD [216]
+SA-5, 1.029: Loxic Kohl [52.84%, 34.07 per drop], Sugar [20.1%, 89.57 per drop], Oriron [15.99%, 112.54 per drop], LMD [216]
+SA-6, 1.027: Incandescent Alloy [50.05%, 35.96 per drop], Sugar [19.46%, 92.52 per drop], Oriron [15.24%, 118.07 per drop], LMD [216]
+AF-6, 0.910: Aketon [34.59%, 43.36 per drop], Polyketon [13.17%, 113.88 per drop], LMD [180], Sugar [12.15%, 123.47 per drop]
+AF-7, 0.979: Loxic Kohl [44.2%, 33.94 per drop], Polyketon [10.73%, 139.85 per drop], Oriron [10.65%, 140.85 per drop], LMD [180]
+AF-8, 0.973: Grindstone [38.23%, 47.09 per drop], Sugar [20.12%, 89.46 per drop], Oriron [16.09%, 111.89 per drop], LMD [216]
+SW-EV-5, 0.977: Polyester Pack [55.73%, 32.3 per drop], Device [12.41%, 145.08 per drop], Orirock Cube [31.51%, 57.12 per drop], LMD [216]
+GT-3, 0.868: Oriron [94.01%, 12.76 per drop], Sugar [60.18%, 19.94 per drop], LMD [144]
+GT-4, 0.844: Polyketon [93.1%, 12.89 per drop], Polyester [56.54%, 21.22 per drop], LMD [144]
+GT-5, 1.105: Loxic Kohl [66.11%, 22.69 per drop], LMD [180]
+GT-6, 1.043: Grindstone [48.91%, 30.67 per drop], LMD [180]
+Dossoles Holiday store: 1 Oriron Cluster for 50 stickers, 1.226: Oriron Cluster [100%]
+Dossoles Holiday store: 1 Manganese Ore for 50 stickers, 1.263: Manganese Ore [100%]
+Dossoles Holiday store: 1 Orirock_Cluster for 35 stickers, 1.000: Orirock Cluster [100%]
 ------------------------------------------------------------
 Event stages' code names info:
 It's Been a While: BW-*
@@ -299,136 +298,136 @@ Operational Intelligence: SW-EV-*
 Grani and the Knights' Treasure: GT-*
 ------------------------------------------------------------
 Calculated best Credit Store buys:
-25 Furniture Part(s) for 50 credit (75% discount) (0.361579 sanity per credit)
-20 Furniture Part(s) for 40 credit (75% discount) (0.361579 sanity per credit)
-3 Carbon Brick(s) for 50 credit (75% discount) (0.326903 sanity per credit)
+20 Furniture Part(s) for 40 credit (75% discount) (0.361539 sanity per credit)
+25 Furniture Part(s) for 50 credit (75% discount) (0.361539 sanity per credit)
+3 Carbon Brick(s) for 50 credit (75% discount) (0.32686 sanity per credit)
 6 Pure Gold(s) for 40 credit (75% discount) (0.3 sanity per credit)
 1800 LMD(s) for 25 credit (75% discount) (0.288 sanity per credit)
 3600 LMD(s) for 50 credit (75% discount) (0.288 sanity per credit)
-5 Carbon Stick(s) for 40 credit (75% discount) (0.285879 sanity per credit)
+5 Carbon Stick(s) for 40 credit (75% discount) (0.285835 sanity per credit)
 9 Frontline Battle Record(s) for 50 credit (75% discount) (0.277881 sanity per credit)
 9 Drill Battle Record(s) for 25 credit (75% discount) (0.277881 sanity per credit)
-3 Skill Summary - 2(s) for 50 credit (75% discount) (0.238856 sanity per credit)
-1 Device(s) for 40 credit (75% discount) (0.233683 sanity per credit)
-2 Polyketon(s) for 60 credit (75% discount) (0.23022 sanity per credit)
-2 Oriron(s) for 60 credit (75% discount) (0.226906 sanity per credit)
-2 Polyester(s) for 50 credit (75% discount) (0.22334 sanity per credit)
-2 Sugar(s) for 50 credit (75% discount) (0.221898 sanity per credit)
-5 Skill Summary - 1(s) for 40 credit (75% discount) (0.195729 sanity per credit)
-3 Orirock Cube(s) for 50 credit (75% discount) (0.188734 sanity per credit)
-25 Furniture Part(s) for 100 credit (50% discount) (0.18079 sanity per credit)
-20 Furniture Part(s) for 80 credit (50% discount) (0.18079 sanity per credit)
-3 Carbon Brick(s) for 100 credit (50% discount) (0.163452 sanity per credit)
-1 Damaged Device(s) for 20 credit (75% discount) (0.154749 sanity per credit)
-2 Diketon(s) for 30 credit (75% discount) (0.152093 sanity per credit)
+3 Skill Summary - 2(s) for 50 credit (75% discount) (0.238847 sanity per credit)
+1 Device(s) for 40 credit (75% discount) (0.232964 sanity per credit)
+2 Polyketon(s) for 60 credit (75% discount) (0.229669 sanity per credit)
+2 Oriron(s) for 60 credit (75% discount) (0.227807 sanity per credit)
+2 Sugar(s) for 50 credit (75% discount) (0.22736 sanity per credit)
+2 Polyester(s) for 50 credit (75% discount) (0.222239 sanity per credit)
+5 Skill Summary - 1(s) for 40 credit (75% discount) (0.195721 sanity per credit)
+3 Orirock Cube(s) for 50 credit (75% discount) (0.188623 sanity per credit)
+20 Furniture Part(s) for 80 credit (50% discount) (0.180769 sanity per credit)
+25 Furniture Part(s) for 100 credit (50% discount) (0.180769 sanity per credit)
+3 Carbon Brick(s) for 100 credit (50% discount) (0.16343 sanity per credit)
+1 Damaged Device(s) for 20 credit (75% discount) (0.154288 sanity per credit)
+2 Diketon(s) for 30 credit (75% discount) (0.151751 sanity per credit)
+2 Oriron Shard(s) for 30 credit (75% discount) (0.150509 sanity per credit)
 6 Pure Gold(s) for 80 credit (50% discount) (0.15 sanity per credit)
-2 Oriron Shard(s) for 30 credit (75% discount) (0.149884 sanity per credit)
-2 Ester(s) for 25 credit (75% discount) (0.14723 sanity per credit)
-2 Sugar Substitute(s) for 25 credit (75% discount) (0.146268 sanity per credit)
+2 Sugar Substitute(s) for 25 credit (75% discount) (0.149939 sanity per credit)
+2 Ester(s) for 25 credit (75% discount) (0.146524 sanity per credit)
 1800 LMD(s) for 50 credit (50% discount) (0.144 sanity per credit)
 3600 LMD(s) for 100 credit (50% discount) (0.144 sanity per credit)
-5 Carbon Stick(s) for 80 credit (50% discount) (0.14294 sanity per credit)
+5 Carbon Stick(s) for 80 credit (50% discount) (0.142917 sanity per credit)
 9 Frontline Battle Record(s) for 100 credit (50% discount) (0.138941 sanity per credit)
 9 Drill Battle Record(s) for 50 credit (50% discount) (0.138941 sanity per credit)
-3 Skill Summary - 2(s) for 100 credit (50% discount) (0.119428 sanity per credit)
-1 Device(s) for 80 credit (50% discount) (0.116841 sanity per credit)
-2 Polyketon(s) for 120 credit (50% discount) (0.11511 sanity per credit)
-2 Oriron(s) for 120 credit (50% discount) (0.113453 sanity per credit)
-2 Polyester(s) for 100 credit (50% discount) (0.11167 sanity per credit)
-2 Sugar(s) for 100 credit (50% discount) (0.110949 sanity per credit)
-2 Orirock(s) for 20 credit (75% discount) (0.102773 sanity per credit)
-5 Skill Summary - 1(s) for 80 credit (50% discount) (0.0978646 sanity per credit)
-3 Orirock Cube(s) for 100 credit (50% discount) (0.0943672 sanity per credit)
-25 Furniture Part(s) for 200 credit (no discount) (0.0903949 sanity per credit)
-20 Furniture Part(s) for 160 credit (no discount) (0.0903949 sanity per credit)
-3 Carbon Brick(s) for 200 credit (no discount) (0.0817258 sanity per credit)
-1 Damaged Device(s) for 40 credit (50% discount) (0.0773743 sanity per credit)
-2 Diketon(s) for 60 credit (50% discount) (0.0760467 sanity per credit)
+3 Skill Summary - 2(s) for 100 credit (50% discount) (0.119423 sanity per credit)
+1 Device(s) for 80 credit (50% discount) (0.116482 sanity per credit)
+2 Polyketon(s) for 120 credit (50% discount) (0.114835 sanity per credit)
+2 Oriron(s) for 120 credit (50% discount) (0.113904 sanity per credit)
+2 Sugar(s) for 100 credit (50% discount) (0.11368 sanity per credit)
+2 Polyester(s) for 100 credit (50% discount) (0.111119 sanity per credit)
+2 Orirock(s) for 20 credit (75% discount) (0.102747 sanity per credit)
+5 Skill Summary - 1(s) for 80 credit (50% discount) (0.0978607 sanity per credit)
+3 Orirock Cube(s) for 100 credit (50% discount) (0.0943113 sanity per credit)
+20 Furniture Part(s) for 160 credit (no discount) (0.0903847 sanity per credit)
+25 Furniture Part(s) for 200 credit (no discount) (0.0903847 sanity per credit)
+3 Carbon Brick(s) for 200 credit (no discount) (0.0817151 sanity per credit)
+1 Damaged Device(s) for 40 credit (50% discount) (0.077144 sanity per credit)
+2 Diketon(s) for 60 credit (50% discount) (0.0758753 sanity per credit)
+2 Oriron Shard(s) for 60 credit (50% discount) (0.0752546 sanity per credit)
 6 Pure Gold(s) for 160 credit (no discount) (0.075 sanity per credit)
-2 Oriron Shard(s) for 60 credit (50% discount) (0.0749421 sanity per credit)
-2 Ester(s) for 50 credit (50% discount) (0.0736148 sanity per credit)
-2 Sugar Substitute(s) for 50 credit (50% discount) (0.0731342 sanity per credit)
+2 Sugar Substitute(s) for 50 credit (50% discount) (0.0749694 sanity per credit)
+2 Ester(s) for 50 credit (50% discount) (0.0732622 sanity per credit)
 1800 LMD(s) for 100 credit (no discount) (0.072 sanity per credit)
 3600 LMD(s) for 200 credit (no discount) (0.072 sanity per credit)
-5 Carbon Stick(s) for 160 credit (no discount) (0.0714698 sanity per credit)
+5 Carbon Stick(s) for 160 credit (no discount) (0.0714587 sanity per credit)
 9 Frontline Battle Record(s) for 200 credit (no discount) (0.0694703 sanity per credit)
 9 Drill Battle Record(s) for 100 credit (no discount) (0.0694703 sanity per credit)
-3 Skill Summary - 2(s) for 200 credit (no discount) (0.059714 sanity per credit)
-1 Device(s) for 160 credit (no discount) (0.0584206 sanity per credit)
-2 Polyketon(s) for 240 credit (no discount) (0.0575549 sanity per credit)
-2 Oriron(s) for 240 credit (no discount) (0.0567265 sanity per credit)
-2 Polyester(s) for 200 credit (no discount) (0.055835 sanity per credit)
-2 Sugar(s) for 200 credit (no discount) (0.0554745 sanity per credit)
-2 Orirock(s) for 40 credit (50% discount) (0.0513864 sanity per credit)
-5 Skill Summary - 1(s) for 160 credit (no discount) (0.0489323 sanity per credit)
-3 Orirock Cube(s) for 200 credit (no discount) (0.0471836 sanity per credit)
-1 Damaged Device(s) for 80 credit (no discount) (0.0386871 sanity per credit)
-2 Diketon(s) for 120 credit (no discount) (0.0380234 sanity per credit)
-2 Oriron Shard(s) for 120 credit (no discount) (0.0374711 sanity per credit)
-2 Ester(s) for 100 credit (no discount) (0.0368074 sanity per credit)
-2 Sugar Substitute(s) for 100 credit (no discount) (0.0365671 sanity per credit)
-2 Orirock(s) for 80 credit (no discount) (0.0256932 sanity per credit)
+3 Skill Summary - 2(s) for 200 credit (no discount) (0.0597116 sanity per credit)
+1 Device(s) for 160 credit (no discount) (0.0582411 sanity per credit)
+2 Polyketon(s) for 240 credit (no discount) (0.0574173 sanity per credit)
+2 Oriron(s) for 240 credit (no discount) (0.0569518 sanity per credit)
+2 Sugar(s) for 200 credit (no discount) (0.0568401 sanity per credit)
+2 Polyester(s) for 200 credit (no discount) (0.0555596 sanity per credit)
+2 Orirock(s) for 40 credit (50% discount) (0.0513736 sanity per credit)
+5 Skill Summary - 1(s) for 160 credit (no discount) (0.0489304 sanity per credit)
+3 Orirock Cube(s) for 200 credit (no discount) (0.0471557 sanity per credit)
+1 Damaged Device(s) for 80 credit (no discount) (0.038572 sanity per credit)
+2 Diketon(s) for 120 credit (no discount) (0.0379377 sanity per credit)
+2 Oriron Shard(s) for 120 credit (no discount) (0.0376273 sanity per credit)
+2 Sugar Substitute(s) for 100 credit (no discount) (0.0374847 sanity per credit)
+2 Ester(s) for 100 credit (no discount) (0.0366311 sanity per credit)
+2 Orirock(s) for 80 credit (no discount) (0.0256868 sanity per credit)
 ------------------------------------------------------------
 Calculated best Commendations Certificate(green certs) Store buys:
-Integrated Device for 45 Commendation Certificates(green certs) (0.825892 sanity per CC)
-RMA70-12 for 45 Commendation Certificates(green certs) (0.807371 sanity per CC)
-Manganese Ore for 35 Commendation Certificates(green certs) (0.80188 sanity per CC)
-Loxic Kohl for 30 Commendation Certificates(green certs) (0.800275 sanity per CC)
-Aketon for 35 Commendation Certificates(green certs) (0.782923 sanity per CC)
-Oriron Cluster for 35 Commendation Certificates(green certs) (0.771561 sanity per CC)
-Grindstone for 40 Commendation Certificates(green certs) (0.758159 sanity per CC)
-Coagulating Gel for 40 Commendation Certificates(green certs) (0.757048 sanity per CC)
-Incandescent Alloy for 35 Commendation Certificates(green certs) (0.750428 sanity per CC)
-Semi-Synthetic Solvent for 40 Commendation Certificates(green certs) (0.7489 sanity per CC)
-Compound Cutting Fluid for 40 Commendation Certificates(green certs) (0.743087 sanity per CC)
-Polyester Pack for 30 Commendation Certificates(green certs) (0.736998 sanity per CC)
-Sugar Pack for 30 Commendation Certificates(green certs) (0.732191 sanity per CC)
-Crystalline Component for 30 Commendation Certificates(green certs) (0.716788 sanity per CC)
-Orirock Cluster for 25 Commendation Certificates(green certs) (0.620152 sanity per CC)
+Integrated Device for 45 Commendation Certificates(green certs) (0.82327 sanity per CC)
+RMA70-12 for 45 Commendation Certificates(green certs) (0.809825 sanity per CC)
+Loxic Kohl for 30 Commendation Certificates(green certs) (0.799595 sanity per CC)
+Manganese Ore for 35 Commendation Certificates(green certs) (0.798374 sanity per CC)
+Aketon for 35 Commendation Certificates(green certs) (0.780948 sanity per CC)
+Oriron Cluster for 35 Commendation Certificates(green certs) (0.774563 sanity per CC)
+Grindstone for 40 Commendation Certificates(green certs) (0.763145 sanity per CC)
+Compound Cutting Fluid for 40 Commendation Certificates(green certs) (0.759766 sanity per CC)
+Incandescent Alloy for 35 Commendation Certificates(green certs) (0.755429 sanity per CC)
+Coagulating Gel for 40 Commendation Certificates(green certs) (0.753594 sanity per CC)
+Sugar Pack for 30 Commendation Certificates(green certs) (0.750296 sanity per CC)
+Semi-Synthetic Solvent for 40 Commendation Certificates(green certs) (0.742385 sanity per CC)
+Polyester Pack for 30 Commendation Certificates(green certs) (0.733224 sanity per CC)
+Crystalline Component for 30 Commendation Certificates(green certs) (0.710808 sanity per CC)
+Orirock Cluster for 25 Commendation Certificates(green certs) (0.619657 sanity per CC)
 ------------------------------------------------------------
 Calculated best Headhunting Parametric Models shop buys:
-2 Incandescent Alloy(s) for 40 Headhunting Parametric Models (1.31325 sanity per model)
-1 Sugar Lump(s) for 75 Headhunting Parametric Models (1.27313 sanity per model)
-2 Polyester Pack(s) for 35 Headhunting Parametric Models (1.26343 sanity per model)
-2 Sugar Pack(s) for 35 Headhunting Parametric Models (1.25519 sanity per model)
-2 Manganese Ore(s) for 45 Headhunting Parametric Models (1.24737 sanity per model)
-2 Integrated Device(s) for 60 Headhunting Parametric Models (1.23884 sanity per model)
-1 Refined Solvent(s) for 70 Headhunting Parametric Models (1.23492 sanity per model)
-1 Manganese Trihydrate(s) for 80 Headhunting Parametric Models (1.23416 sanity per model)
-1 Polymerized Gel(s) for 65 Headhunting Parametric Models (1.2313 sanity per model)
-1 Oriron Block(s) for 90 Headhunting Parametric Models (1.21964 sanity per model)
-2 Aketon(s) for 45 Headhunting Parametric Models (1.21788 sanity per model)
-1 Grindstone Pentahydrate(s) for 75 Headhunting Parametric Models (1.21306 sanity per model)
-2 Grindstone(s) for 50 Headhunting Parametric Models (1.21305 sanity per model)
-1 White Horse Kohl(s) for 65 Headhunting Parametric Models (1.21213 sanity per model)
-2 Coagulating Gel(s) for 50 Headhunting Parametric Models (1.21128 sanity per model)
-2 RMA70-12(s) for 60 Headhunting Parametric Models (1.21106 sanity per model)
-1 Incandescent Alloy Block(s) for 75 Headhunting Parametric Models (1.20319 sanity per model)
-1 Cutting Fluid Solution(s) for 70 Headhunting Parametric Models (1.2006 sanity per model)
-2 Loxic Kohl(s) for 40 Headhunting Parametric Models (1.20041 sanity per model)
-2 Oriron Cluster(s) for 45 Headhunting Parametric Models (1.20021 sanity per model)
-2 Semi-Synthetic Solvent(s) for 50 Headhunting Parametric Models (1.19824 sanity per model)
-1 Keton Colloid(s) for 85 Headhunting Parametric Models (1.19199 sanity per model)
-2 Compound Cutting Fluid(s) for 50 Headhunting Parametric Models (1.18894 sanity per model)
-1 Polyester Lump(s) for 80 Headhunting Parametric Models (1.15142 sanity per model)
-1 RMA70-24(s) for 80 Headhunting Parametric Models (1.14031 sanity per model)
-1 Optimized Device(s) for 85 Headhunting Parametric Models (1.11744 sanity per model)
-2 Crystalline Component(s) for 40 Headhunting Parametric Models (1.07518 sanity per model)
-1 Crystalline Circuit(s) for 90 Headhunting Parametric Models (1.06708 sanity per model)
-2 Orirock Cluster(s) for 30 Headhunting Parametric Models (1.03359 sanity per model)
-1 Orirock Concentration(s) for 60 Headhunting Parametric Models (0.97497 sanity per model)
-4 Device(s) for 40 Headhunting Parametric Models (0.93473 sanity per model)
-4 Polyketon(s) for 30 Headhunting Parametric Models (0.920879 sanity per model)
-4 Oriron(s) for 30 Headhunting Parametric Models (0.907624 sanity per model)
-4 Polyester(s) for 25 Headhunting Parametric Models (0.89336 sanity per model)
-4 Sugar(s) for 25 Headhunting Parametric Models (0.887592 sanity per model)
-4 Orirock Cube(s) for 15 Headhunting Parametric Models (0.83882 sanity per model)
-8 Damaged Device(s) for 40 Headhunting Parametric Models (0.618994 sanity per model)
-8 Diketon(s) for 30 Headhunting Parametric Models (0.608374 sanity per model)
-8 Oriron Shard(s) for 30 Headhunting Parametric Models (0.599537 sanity per model)
-8 Ester(s) for 25 Headhunting Parametric Models (0.588919 sanity per model)
-8 Sugar Substitute(s) for 25 Headhunting Parametric Models (0.585073 sanity per model)
-8 Orirock(s) for 15 Headhunting Parametric Models (0.548122 sanity per model)
+2 Incandescent Alloy(s) for 40 Headhunting Parametric Models (1.322 sanity per model)
+1 Sugar Lump(s) for 75 Headhunting Parametric Models (1.28725 sanity per model)
+2 Sugar Pack(s) for 35 Headhunting Parametric Models (1.28622 sanity per model)
+2 Polyester Pack(s) for 35 Headhunting Parametric Models (1.25696 sanity per model)
+2 Manganese Ore(s) for 45 Headhunting Parametric Models (1.24192 sanity per model)
+1 Refined Solvent(s) for 70 Headhunting Parametric Models (1.23861 sanity per model)
+2 Integrated Device(s) for 60 Headhunting Parametric Models (1.2349 sanity per model)
+1 Polymerized Gel(s) for 65 Headhunting Parametric Models (1.23333 sanity per model)
+1 Manganese Trihydrate(s) for 80 Headhunting Parametric Models (1.2293 sanity per model)
+1 White Horse Kohl(s) for 65 Headhunting Parametric Models (1.22172 sanity per model)
+2 Grindstone(s) for 50 Headhunting Parametric Models (1.22103 sanity per model)
+1 Oriron Block(s) for 90 Headhunting Parametric Models (1.2193 sanity per model)
+2 Compound Cutting Fluid(s) for 50 Headhunting Parametric Models (1.21562 sanity per model)
+1 Grindstone Pentahydrate(s) for 75 Headhunting Parametric Models (1.21541 sanity per model)
+2 Aketon(s) for 45 Headhunting Parametric Models (1.21481 sanity per model)
+2 RMA70-12(s) for 60 Headhunting Parametric Models (1.21474 sanity per model)
+1 Cutting Fluid Solution(s) for 70 Headhunting Parametric Models (1.209 sanity per model)
+1 Incandescent Alloy Block(s) for 75 Headhunting Parametric Models (1.20648 sanity per model)
+2 Coagulating Gel(s) for 50 Headhunting Parametric Models (1.20575 sanity per model)
+2 Oriron Cluster(s) for 45 Headhunting Parametric Models (1.20488 sanity per model)
+2 Loxic Kohl(s) for 40 Headhunting Parametric Models (1.19939 sanity per model)
+1 Keton Colloid(s) for 85 Headhunting Parametric Models (1.1952 sanity per model)
+2 Semi-Synthetic Solvent(s) for 50 Headhunting Parametric Models (1.18782 sanity per model)
+1 Polyester Lump(s) for 80 Headhunting Parametric Models (1.14735 sanity per model)
+1 RMA70-24(s) for 80 Headhunting Parametric Models (1.14039 sanity per model)
+1 Optimized Device(s) for 85 Headhunting Parametric Models (1.11799 sanity per model)
+2 Crystalline Component(s) for 40 Headhunting Parametric Models (1.06621 sanity per model)
+1 Crystalline Circuit(s) for 90 Headhunting Parametric Models (1.06339 sanity per model)
+2 Orirock Cluster(s) for 30 Headhunting Parametric Models (1.03276 sanity per model)
+1 Orirock Concentration(s) for 60 Headhunting Parametric Models (0.973982 sanity per model)
+4 Device(s) for 40 Headhunting Parametric Models (0.931857 sanity per model)
+4 Polyketon(s) for 30 Headhunting Parametric Models (0.918677 sanity per model)
+4 Oriron(s) for 30 Headhunting Parametric Models (0.911229 sanity per model)
+4 Sugar(s) for 25 Headhunting Parametric Models (0.909441 sanity per model)
+4 Polyester(s) for 25 Headhunting Parametric Models (0.888954 sanity per model)
+4 Orirock Cube(s) for 15 Headhunting Parametric Models (0.838323 sanity per model)
+8 Damaged Device(s) for 40 Headhunting Parametric Models (0.617152 sanity per model)
+8 Diketon(s) for 30 Headhunting Parametric Models (0.607003 sanity per model)
+8 Oriron Shard(s) for 30 Headhunting Parametric Models (0.602037 sanity per model)
+8 Sugar Substitute(s) for 25 Headhunting Parametric Models (0.599755 sanity per model)
+8 Ester(s) for 25 Headhunting Parametric Models (0.586098 sanity per model)
+8 Orirock(s) for 15 Headhunting Parametric Models (0.547985 sanity per model)
 ------------------------------------------------------------
 Calculated sanity values of items:
 Item | Sanity Value 
@@ -439,62 +438,62 @@ Drill Battle Record 0.771892
 Frontline Battle Record 1.543784
 Tactical Battle Record 3.859459
 Strategic Battle Record 7.718919
-Skill Summary - 1 1.565833
-Skill Summary - 2 3.980931
-Skill Summary - 3 10.121011
-Orirock 1.027728
-Orirock Cube 3.145574
-Orirock Cluster 15.503804
-Orirock Concentration 58.498180
-Damaged Device 3.094972
-Device 9.347303
-Integrated Device 37.165149
-Optimized Device 94.982082
-Ester 1.840371
-Polyester 5.583502
-Polyester Pack 22.109943
-Polyester Lump 92.113418
-Sugar Substitute 1.828354
-Sugar 5.547451
-Sugar Pack 21.965741
-Sugar Lump 95.484901
-Oriron Shard 2.248264
-Oriron 6.807179
-Oriron Cluster 27.004651
-Oriron Block 109.767358
-Diketon 2.281401
-Polyketon 6.906593
-Aketon 27.402306
-Keton Colloid 101.319121
-Loxic Kohl 24.008262
-White Horse Kohl 78.788661
-Manganese Ore 28.065804
-Manganese Trihydrate 98.732776
-Grindstone 30.326361
-Grindstone Pentahydrate 90.979125
-RMA70-12 36.331693
-RMA70-24 91.224572
-Polymerization Preparation 255.236443
-Bipolar Nanoflake 238.211186
-D32 Steel 266.588257
-Coagulating Gel 30.281935
-Polymerized Gel 80.034541
-Incandescent Alloy 26.264991
-Incandescent Alloy Block 90.239465
-Crystalline Component 21.503648
-Crystalline Circuit 96.037187
-Crystalline Electronic Unit 331.997518
-Semi-Synthetic Solvent 29.955989
-Refined Solvent 86.444375
-Compound Cutting Fluid 29.723486
-Cutting Fluid Solution 84.041792
-Furniture Part 0.723159
-Light Building Material 7.385271
-Concrete Building Material 19.570542
-Reinforced Building Material 44.555813
-Carbon Stick 2.287033
-Carbon Brick 5.448384
-Carbon Pack 8.609734
+Skill Summary - 1 1.565772
+Skill Summary - 2 3.980775
+Skill Summary - 3 10.120615
+Orirock 1.027471
+Orirock Cube 3.143711
+Orirock Cluster 15.491413
+Orirock Concentration 58.438922
+Damaged Device 3.085758
+Device 9.318572
+Integrated Device 37.047148
+Optimized Device 95.029028
+Ester 1.831556
+Polyester 5.555964
+Polyester Pack 21.996717
+Polyester Lump 91.787718
+Sugar Substitute 1.874236
+Sugar 5.684005
+Sugar Pack 22.508881
+Sugar Lump 96.543854
+Oriron Shard 2.257639
+Oriron 6.834215
+Oriron Cluster 27.109720
+Oriron Block 109.736574
+Diketon 2.276260
+Polyketon 6.890078
+Aketon 27.333170
+Keton Colloid 101.591593
+Loxic Kohl 23.987844
+White Horse Kohl 79.412102
+Manganese Ore 27.943102
+Manganese Trihydrate 98.344035
+Grindstone 30.525785
+Grindstone Pentahydrate 91.155922
+RMA70-12 36.442108
+RMA70-24 91.231374
+Polymerization Preparation 255.390285
+Bipolar Nanoflake 239.476428
+D32 Steel 266.354526
+Coagulating Gel 30.143749
+Polymerized Gel 80.166760
+Incandescent Alloy 26.440022
+Incandescent Alloy Block 90.486223
+Crystalline Component 21.324250
+Crystalline Circuit 95.705540
+Crystalline Electronic Unit 332.148477
+Semi-Synthetic Solvent 29.695385
+Refined Solvent 86.703024
+Compound Cutting Fluid 30.390621
+Cutting Fluid Solution 84.630249
+Furniture Part 0.723077
+Light Building Material 7.384619
+Concrete Building Material 19.569239
+Reinforced Building Material 44.553858
+Carbon Stick 2.286677
+Carbon Brick 5.447672
+Carbon Pack 8.608666
 Adeptus Sprawiedliwi Prestige 0.000000
 General Chamber of Commerce Prestige 0.000000
 Armorless Union Prestige 0.000000
@@ -508,154 +507,154 @@ Dossoles Holiday 9 cost sticker 3.981650
 ------------------------------------------------------------
 Calculated revenue values of activities(stages + crafts):
 Activitiy | Revenue 
-0-1 -2.026392
+0-1 -2.026989
 0-2 -5.712000
 0-3 -5.712000
 0-4 -5.712000
 0-5 -5.712000
 0-6 -5.712000
-0-7 -2.316777
+0-7 -2.277846
 0-8 -5.712000
-0-9 -2.649076
+0-9 -2.648198
 0-10 -5.712000
-0-11 -2.309375
-1-1 -1.929882
-1-3 -2.337200
+0-11 -2.292164
+1-1 -1.922183
+1-3 -2.327057
 1-4 -5.712000
-1-5 -2.252756
-1-6 -2.369997
+1-5 -2.262873
+1-6 -2.382494
 1-7 -0.000000
-1-8 -1.922723
-1-9 -2.128381
-1-10 -3.500439
-1-12 -1.942184
-2-1 -2.165459
-S2-1 -1.953532
-2-2 -2.022323
-S2-2 -3.003885
-S2-3 -2.780531
+1-8 -1.940022
+1-9 -2.127810
+1-10 -3.508957
+1-12 -1.956699
+2-1 -2.135420
+S2-1 -1.972455
+2-2 -1.901254
+S2-2 -4.920000
+S2-3 -2.778199
 S2-4 -8.568000
-2-3 -4.547292
-2-4 -2.009741
-S2-5 -5.252049
-S2-6 -4.421362
-S2-7 -4.415470
-2-5 -0.414394
-2-6 -0.496060
-2-7 -2.982038
-S2-8 -4.504164
-S2-9 -4.449768
-2-8 -2.500732
-2-9 -2.278353
-S2-10 -2.349110
+2-3 -4.552585
+2-4 -2.016698
+S2-5 -5.258756
+S2-6 -4.298655
+S2-7 -4.443655
+2-5 -0.191588
+2-6 -0.540521
+2-7 -2.978197
+S2-8 -4.472225
+S2-9 -4.441234
+2-8 -2.486652
+2-9 -2.286650
+S2-10 -2.362605
 S2-11 -11.424000
-S2-12 -4.501424
-2-10 -0.908596
-3-1 -0.883024
-3-2 -0.682036
-3-3 -1.360809
-3-4 -0.877947
+S2-12 -4.512478
+2-10 -0.860829
+3-1 -0.886186
+3-2 -0.736740
+3-3 -1.313661
+3-4 -0.922334
 3-5 -14.280000
-3-6 -3.514992
-3-7 -3.234436
-3-8 -0.992808
-S3-1 -3.313366
-S3-2 -3.310309
-S3-3 -3.392809
-S3-4 -3.294044
+3-6 -3.463558
+3-7 -3.224205
+3-8 -1.012500
+S3-1 -3.098808
+S3-2 -3.347732
+S3-3 -3.345521
+S3-4 -3.330369
 S3-5 -14.280000
-S3-6 -0.657467
-S3-7 -4.633756
-4-1 -1.254772
-4-2 -0.308285
-4-3 -1.585079
-4-4 -0.014708
-4-5 -0.680366
-4-6 -2.809186
-4-7 -0.259934
-4-8 -0.000000
+S3-6 -0.600294
+S3-7 -4.656082
+4-1 -1.264965
+4-2 -0.021153
+4-3 -1.617958
+4-4 -0.002408
+4-5 -0.701246
+4-6 -2.845675
+4-7 -0.348286
+4-8 0.000000
 4-9 0.000000
-4-10 -1.108317
-5-1 -5.977333
-5-2 -0.888027
-5-3 -1.566090
-5-4 -4.581104
-5-5 -0.710034
-5-6 -4.124538
-5-7 -2.363429
-5-8 -1.131588
-5-9 -4.519174
-5-10 -2.404682
+4-10 -1.161900
+5-1 -5.976853
+5-2 -0.641102
+5-3 -1.506854
+5-4 -4.578494
+5-5 -0.758802
+5-6 -4.104882
+5-7 -2.268189
+5-8 -1.140479
+5-9 -4.456338
+5-10 -2.436923
 6-1 -13.136000
-6-2 -0.901167
-6-3 -4.316591
-6-4 -0.796802
-6-5 -3.746887
-6-8 -4.336417
-6-9 -7.104910
-6-10 -4.947884
-6-11 -1.091236
-6-12 -0.986928
-6-14 -4.569404
-6-15 -3.160833
-6-16 -1.418627
-7-2 -3.359091
+6-2 -0.993655
+6-3 -4.121500
+6-4 -1.045934
+6-5 -3.773530
+6-8 -4.278696
+6-9 -7.141830
+6-10 -5.061235
+6-11 -1.117939
+6-12 -0.777722
+6-14 -4.573234
+6-15 -3.104673
+6-16 -1.480167
+7-2 -3.426139
 7-3 -17.136000
 7-4 0.000000
-7-5 -0.604609
-7-6 -3.776187
-7-8 -1.065577
-7-9 -1.372867
-7-10 -0.447658
+7-5 -0.580457
+7-6 -3.681882
+7-8 -1.133515
+7-9 -1.424682
+7-10 -0.432470
 7-11 -17.136000
-7-12 -2.027666
+7-12 -1.810906
 7-13 -17.136000
-7-14 -4.287968
-7-15 -0.001047
-7-16 -1.667009
-7-17 -0.189899
-7-18 -2.305995
+7-14 -4.309896
+7-15 0.000000
+7-16 -1.722616
+7-17 -0.100482
+7-18 -2.280158
 R8-1 -17.136000
-R8-2 -0.431575
-R8-3 -3.094081
+R8-2 -0.358056
+R8-3 -3.139155
 M8-2 -17.136000
 R8-4 -17.136000
 R8-5 -17.136000
 M8-4 -17.136000
 R8-6 -17.136000
-R8-7 -0.539832
-R8-8 -1.789177
+R8-7 -0.415483
+R8-8 -1.871021
 M8-6 -17.136000
-R8-9 -0.599599
-R8-10 -0.896891
-M8-7 -1.780718
+R8-9 -0.549944
+R8-10 -0.928226
+M8-7 -1.484894
 R8-11 0.000000
-M8-8 -1.030607
-JT8-2 -0.337949
-JT8-3 -0.000000
-S4-1 -0.581602
+M8-8 -1.066363
+JT8-2 -0.401971
+JT8-3 0.000000
+S4-1 -0.514862
 S4-2 -17.136000
 S4-3 -17.136000
 S4-4 -17.136000
 S4-5 -17.136000
-S4-6 -1.201019
+S4-6 -1.157843
 S4-7 -17.136000
 S4-8 -17.136000
 S4-9 -19.992000
-S4-10 -4.247464
-S5-1 -8.033345
-S5-2 -2.247447
+S4-10 -4.306346
+S5-1 -8.033210
+S5-2 -2.198816
 S5-3 -13.136000
 S5-4 -17.136000
 S5-5 -17.136000
-S5-6 -1.510615
-S5-7 -1.473210
-S5-8 -0.693575
-S5-9 -1.447996
+S5-6 -1.458062
+S5-7 -1.499789
+S5-8 -0.647311
+S5-9 -1.454506
 S6-1 -17.136000
-S6-2 -11.976936
+S6-2 -11.987042
 S6-3 -17.136000
-S6-4 -1.974467
+S6-4 -1.978338
 S7-1 -7.200000
 S7-2 -17.136000
 H5-1 -9.520000
@@ -674,54 +673,54 @@ H8-1 -9.520000
 H8-2 -9.520000
 H8-3 -9.520000
 H8-4 -9.520000
-9-2 -10.888319
-9-3 -7.777475
-9-4 -0.067216
-9-5 -0.294819
-9-6 -0.816558
-9-7 -1.602201
-9-9 -1.276906
-9-10 0.000000
+9-2 -10.985555
+9-3 -7.807063
+9-4 -0.101937
+9-5 0.000000
+9-6 -0.629221
+9-7 -1.893113
+9-9 -1.209469
+9-10 -0.003561
 9-11 -17.136000
-9-12 -0.908079
-9-13 -3.197876
-9-14 -3.282448
-9-15 -1.317515
-9-16 -2.030556
-9-17 -1.559898
+9-12 -0.832668
+9-13 -3.220610
+9-14 -3.328032
+9-15 -1.366358
+9-16 -1.931440
+9-17 -1.555970
 9-18 -0.000000
-9-19 -0.556761
+9-19 -0.508241
 10-2 -19.992000
 10-2 -19.992000
-10-3 -0.423752
+10-3 -0.371510
 10-3 -0.000000
-10-4 -0.617419
-10-4 -0.707255
-10-5 -0.778385
-10-5 -1.174630
-10-6 -3.189481
-10-6 -3.171256
-10-7 -0.015123
-10-7 -0.097104
-10-8 -13.999469
+10-4 -0.678376
+10-4 -0.756136
+10-5 -0.744451
+10-5 -1.182639
+10-6 -3.208243
+10-6 -3.216419
+10-7 -0.172476
+10-7 -0.204110
 10-8 -19.992000
-10-9 -3.730084
+10-8 -19.992000
+10-9 -3.656330
 10-9 -19.992000
-10-10 -0.856657
-10-10 -0.000000
-10-11 -0.312637
+10-10 -19.992000
+10-10 -19.992000
+10-11 -0.297069
 10-11 0.000000
-10-12 -0.603388
-10-12 -0.497915
-10-14 -0.172384
-10-14 0.000000
-10-15 -0.121341
-10-15 0.000000
-10-16 -0.321682
-10-16 -0.387196
+10-12 -0.512799
+10-12 -0.403921
+10-14 -0.108915
+10-14 -0.000000
+10-15 -0.039544
+10-15 -0.000000
+10-16 -0.379692
+10-16 -0.470448
 10-17 0.000000
-10-17 -1.174486
-S9-1 -0.955782
+10-17 -0.697733
+S9-1 -0.990409
 H9-1 -9.520000
 H9-2 -9.520000
 H9-3 -9.520000
@@ -733,15 +732,15 @@ CE-2 -3.800000
 CE-3 -3.600000
 CE-4 -2.200000
 CE-5 0.000000
-SK-1 -4.945933
+SK-1 -4.946645
 SK-2 -14.280000
-SK-3 -3.832215
-SK-4 -2.226308
+SK-3 -3.834041
+SK-4 -2.216105
 SK-5 0.000000
-LS-1 -3.335420
-LS-2 -3.480886
-LS-3 -3.212155
-LS-4 -2.202170
+LS-1 -3.336298
+LS-2 -3.483337
+LS-3 -3.210545
+LS-4 -2.198622
 LS-5 0.000000
 AP-1 -9.520000
 AP-2 -14.280000
@@ -750,9 +749,9 @@ AP-4 -23.800000
 AP-5 -28.560000
 CA-1 -9.520000
 CA-2 -14.280000
-CA-3 -5.531375
-CA-4 -1.996799
-CA-5 -0.000000
+CA-3 -5.531903
+CA-4 -2.089457
+CA-5 0.000000
 PR-A-1 -17.136000
 PR-A-2 -34.272000
 PR-B-1 -17.136000
@@ -854,7 +853,7 @@ VI-4 -8.568000
 VI-5 -11.424000
 VI-6 -14.280000
 VI-7 -17.136000
-DH-1 -0.000000
+DH-1 0.000000
 DH-2 -0.134987
 DH-3 -0.301951
 DH-4 -1.028795
@@ -891,9 +890,9 @@ SV-3 -11.424000
 SV-4 -11.424000
 SV-5 -11.424000
 SV-6 -11.424000
-SV-7 -2.947740
-SV-8 -0.697968
-SV-9 -1.772183
+SV-7 -2.935612
+SV-8 -0.784103
+SV-9 -1.775999
 SV-EX-1 -9.520000
 SV-EX-2 -9.520000
 SV-EX-3 -14.280000
@@ -907,9 +906,9 @@ WD-2 -11.424000
 WD-3 -11.424000
 WD-4 -11.424000
 WD-5 -11.424000
-WD-6 -0.745570
-WD-7 -0.443031
-WD-8 -0.836477
+WD-6 -0.807260
+WD-7 -0.655058
+WD-8 -0.739115
 WD-EX-1 -9.520000
 WD-EX-2 -9.520000
 WD-EX-3 -14.280000
@@ -941,9 +940,9 @@ WR-4 -11.424000
 WR-5 -11.424000
 WR-6 -11.424000
 WR-7 -11.424000
-WR-8 -14.280000
+WR-8 -0.566336
 WR-9 -17.136000
-WR-10 -3.498829
+WR-10 -3.484376
 WR-EX-1 -9.520000
 WR-EX-2 -9.520000
 WR-EX-3 -14.280000
@@ -962,12 +961,12 @@ BH-7 -14.280000
 BH-8 -17.136000
 MB-1 -8.568000
 MB-2 -8.568000
-MB-3 -5.391482
+MB-3 -5.402876
 MB-4 -11.424000
 MB-5 -14.280000
-MB-6 -0.661985
+MB-6 -0.381364
 MB-7 -17.136000
-MB-8 -1.762676
+MB-8 -1.667447
 MB-EX-1 -9.520000
 MB-EX-2 -9.520000
 MB-EX-3 -9.520000
@@ -981,9 +980,9 @@ MN-2 -8.568000
 MN-3 -11.424000
 MN-4 -11.424000
 MN-5 -14.280000
-MN-6 -0.045719
+MN-6 -0.185221
 MN-7 -17.136000
-MN-8 -2.296954
+MN-8 -2.224695
 MN-EX-1 -9.520000
 MN-EX-2 -9.520000
 MN-EX-3 -9.520000
@@ -1005,9 +1004,9 @@ RI-2 -8.568000
 RI-3 -11.424000
 RI-4 -11.424000
 RI-5 -14.280000
-RI-6 -3.067863
-RI-7 -1.900139
-RI-8 -0.795645
+RI-6 -3.048481
+RI-7 -17.136000
+RI-8 -0.770012
 RI-9 -17.136000
 RI-EX-1 -9.520000
 RI-EX-2 -9.520000
@@ -1022,9 +1021,9 @@ DM-2 -8.568000
 DM-3 -11.424000
 DM-4 -11.424000
 DM-5 -14.280000
-DM-6 -0.738974
-DM-7 -1.925657
-DM-8 -0.793092
+DM-6 -0.457151
+DM-7 -1.891901
+DM-8 -0.593537
 DM-EX-1 -9.520000
 DM-EX-2 -9.520000
 DM-EX-3 -14.280000
@@ -1037,9 +1036,9 @@ TW-2 -8.568000
 TW-3 -11.424000
 TW-4 -11.424000
 TW-5 -14.280000
-TW-6 -0.824518
-TW-7 -1.886392
-TW-8 -1.879771
+TW-6 -0.736818
+TW-7 -1.953779
+TW-8 -1.761456
 TW-S-1 -14.280000
 TW-S-2 -14.280000
 TW-EX-1 -9.520000
@@ -1100,7 +1099,7 @@ OF-7 -28.560000
 OF-8 -28.560000
 OF-F1 -8.568000
 OF-F2 -11.424000
-OF-F3 -0.546865
+OF-F3 -0.299670
 OF-F4 -0.000000
 OF-EX1 -9.520000
 OF-EX2 -9.520000
@@ -1117,55 +1116,55 @@ GT-1 -8.568000
 GT-2 -8.568000
 GT-3 -11.424000
 GT-4 -11.424000
-GT-5 -0.480872
-GT-6 -1.145321
+GT-5 -0.504702
+GT-6 -1.040892
 GT-EX-1 -14.280000
 GT-EX-2 -14.280000
 GT-EX-3 -14.280000
 GT-HX-1 -14.280000
 GT-HX-2 -14.280000
 GT-HX-3 -14.280000
-Craft: Light Building Material 0.000000
-Craft: Concrete Building Material 0.000000
+Craft: Light Building Material -0.000000
+Craft: Concrete Building Material -0.000000
 Craft: Reinforced Building Material -0.000000
-Craft: Carbon Brick -0.486491
-Craft: Carbon Pack -6.271762
+Craft: Carbon Brick -0.486256
+Craft: Carbon Pack -6.270876
 Craft: Furniture Part(s) from Carbon Stick(s) -0.000000
 Craft: Furniture Part(s) from Carbon Brick(s) -0.000000
-Craft: Furniture Part(s) from Carbon Pack(s) -0.000000
-Craft: Furniture Part(s) from Light Building Material(s) -1.405602
-Craft: Furniture Part(s) from Concrete Building Material(s) -7.536887
-Craft: Furniture Part(s) from Reinforced Building Material(s) -26.468173
+Craft: Furniture Part(s) from Carbon Pack(s) 0.000000
+Craft: Furniture Part(s) from Light Building Material(s) -1.405632
+Craft: Furniture Part(s) from Concrete Building Material(s) -7.536948
+Craft: Furniture Part(s) from Reinforced Building Material(s) -26.468263
 Craft: Crystalline Electronic Unit -0.000000
-Craft: D32 Steel 0.000000
+Craft: D32 Steel -0.000000
 Craft: Bipolar Nanoflake -0.000000
 Craft: Polymerization Preparation 0.000000
-Craft: Refined Solvent -0.000000
-Craft: Cutting Fluid Solution -0.000000
-Craft: Crystalline Circuit -0.000000
+Craft: Refined Solvent 0.000000
+Craft: Cutting Fluid Solution 0.000000
+Craft: Crystalline Circuit 0.000000
 Craft: Incandescent Alloy Block -0.000000
 Craft: Polymerized Gel -0.000000
-Craft: RMA70-24 0.000000
+Craft: RMA70-24 -0.000000
 Craft: Grindstone Pentahydrate -0.000000
-Craft: Manganese Trihydrate 0.000000
+Craft: Manganese Trihydrate -0.000000
 Craft: White Horse Kohl 0.000000
 Craft: Device -0.000000
-Craft: Integrated Device -0.000000
+Craft: Integrated Device 0.000000
 Craft: Optimized Device -0.000000
-Craft: Polyketon 0.000000
+Craft: Polyketon -0.000000
 Craft: Aketon -0.000000
 Craft: Keton Colloid -0.000000
 Craft: Oriron -0.000000
 Craft: Oriron Cluster 0.000000
-Craft: Oriron Block -0.000000
+Craft: Oriron Block 0.000000
 Craft: Polyester 0.000000
-Craft: Polyester Pack -0.000000
-Craft: Polyester Lump 0.000000
+Craft: Polyester Pack 0.000000
+Craft: Polyester Lump -0.000000
 Craft: Sugar -0.000000
-Craft: Sugar Pack 0.000000
+Craft: Sugar Pack -0.000000
 Craft: Sugar Lump 0.000000
-Craft: Orirock Cube 0.000000
-Craft: Orirock Cluster -0.000000
+Craft: Orirock Cube -0.000000
+Craft: Orirock Cluster 0.000000
 Craft: Orirock Concentration -0.000000
-Craft: Skill Summary - 2 0.000000
+Craft: Skill Summary - 2 -0.000000
 Craft: Skill Summary - 3 -0.000000
